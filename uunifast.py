@@ -9,8 +9,6 @@ def uunifast(num_tasks, total_utilization):
     for i in range(1, num_tasks):
         next_sum_u = sum_u * (random.random() ** (1 / (num_tasks - i)))
         ui = sum_u - next_sum_u
-
-        # اگر مقدار بیشتر از 1 شد، آن را محدود کن
         if ui > 1:
             ui = 1
             next_sum_u = sum_u - ui
@@ -18,27 +16,17 @@ def uunifast(num_tasks, total_utilization):
         utilizations.append(ui)
         sum_u = next_sum_u
 
-    # آخرین مقدار را هم اضافه می‌کنیم
     last = sum_u
     if last > 1:
         last = 1
     utilizations.append(last)
 
-    # نرمال‌سازی در صورت نیاز: اگر مجموع واقعی کمتر از مقدار خواسته‌شده شد
     total_current = sum(utilizations)
-    if total_current < total_utilization:
-        diff = total_utilization - total_current
-        # تلاش برای توزیع اختلاف به عناصر کمتر از 1
-        for i in range(len(utilizations)):
-            gap = 1 - utilizations[i]
-            add = min(gap, diff)
-            utilizations[i] += add
-            diff -= add
-            if diff <= 0:
-                break
+    print(total_current)
 
-    # نهایی: گرد کردن
-    utilizations = [round(u, 3) for u in utilizations]
+
+    utilizations = [max(round(u, 3),.001) for u in utilizations]
+
     return utilizations
 
 

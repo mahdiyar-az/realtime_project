@@ -1,11 +1,6 @@
 from core import core
 from uunifast import generate_tasks
 from mapper import wfd_mapping
-from tbs_server import TBSServer
-import random
-
-
-
 
 
 ALL_CORES = [8, 16, 32]
@@ -20,20 +15,9 @@ for all_core in ALL_CORES:
         cores = wfd_mapping(tasks, cores)
 
         for idx, c in enumerate(cores):
-            # print('-----------------------------------------------------------------------')
-            # for idy,a in enumerate(c.tasks):
-            #     print(a.period,a.wcet)
-            print("core ",idx+1)
             c.calculate_hyperperiod()
             c.generate_jobs()
             c.edf_schedule()
-            # if idx>0:
-            #     continue
-            # for idy,b in enumerate(c.schedule):
-            #
-            #     print(b)
-
-
 
 
 
