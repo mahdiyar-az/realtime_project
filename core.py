@@ -1,84 +1,128 @@
-from itertools import chain
-from math import gcd
-from functools import reduce
-
-from job import Job
-import heapq
-from itertools import count
-
 class core:
     def __init__(self):
+        self.tasks = []          # Hard tasks
+        self.soft_tasks = []     # Soft tasks
+        self.schedule = []       # (start_time, end_time, task)
         self.hyperperiod = 0
-        self.tasks = []
-        self.schedule = []
+
+    def add_task(self, task):
+        self.tasks.append(task)
 
     def calculate_hyperperiod(self):
+        from math import gcd
+        from functools import reduce
+
         def lcm(a, b):
             return a * b // gcd(a, b)
+
         periods = [task.period for task in self.tasks]
-        if len(periods) != 0:
-            self.hyperperiod = reduce(lcm, periods)
+        exec = [task.execution for task in self.tasks]
+
+        self.hyperperiod = reduce(lcm, periods) if periods else 0
 
     def generate_jobs(self):
         self.jobs = []
-        self.jobs = list(chain.from_iterable(
-            [
-                Job(
-                    task_id=task.id,
-                    release_time=task.period * i,
-                    deadline=task.period * i + task.deadline,
-                    wcet=task.wcet
-                )
-                for i in range(self.hyperperiod // task.period)
-            ]
-            for task in self.tasks if task.period > 0
-        ))
+        for task in self.tasks:
+            for t in range(0, self.hyperperiod, task.period):
+                # print(self.hyperperiod,task.period,t)
+                self.jobs.append({
+                    'release': t,
+                    'deadline': t + task.deadline,
+                    'execution': task.execution,
+                    'task': task
+                })
+
+    # def edf_schedule(self):
+    #     time = 0
+    #     sort_job = self.jobs.sort(key=lambda job: job['deadline'])
+    #     for job in self.jobs:
+    #         if time < job['release']:
+    #             time = job['release']
+    #         end = time + job['execution']
+    #         self.schedule.append((time, end, job['task']))
+    #         time = end
 
     def edf_schedule(self):
-        jobs = self.jobs
-        jobs.sort(key=lambda j: j.release_time)
-        event_queue = jobs[:]
-
-        ready_queue = []
-        self.schedule = []
-
         time = 0
+        self.schedule = []
+        ready_jobs = []
+        remaining = {}  # زمان باقی مانده برای هر job
+
+        self.jobs = sorted(self.jobs, key=lambda j: j['release'])
+        job_idx = 0
         current_job = None
-        next_release_index = 0
-        counter = count()  # شمارنده یکتا برای heapq
+        current_start = None
 
-        while time < self.hyperperiod or current_job or ready_queue:
-            while next_release_index < len(jobs) and jobs[next_release_index].release_time <= time:
-                job = jobs[next_release_index]
-                heapq.heappush(ready_queue, (job.deadline, next(counter), job))
-                next_release_index += 1
+        while job_idx < len(self.jobs) or ready_jobs or current_job:
+            # print(job_idx,len(self.jobs),ready_jobs,current_job)
+            # اضافه کردن job هایی که release شدن
+            while job_idx < len(self.jobs) and self.jobs[job_idx]['release'] <= time:
+                job = self.jobs[job_idx]
+                ready_jobs.append(job)
+                remaining[job['task']] = job['execution']
+                job_idx += 1
 
-            if current_job and ready_queue:
-                next_deadline, _, peek_job = ready_queue[0]
-                if peek_job.deadline < current_job.deadline:
-                    heapq.heappush(ready_queue, (current_job.deadline, next(counter), current_job))
-                    current_job = None
-
-            if not current_job and ready_queue:
-                _, _, current_job = heapq.heappop(ready_queue)
-
-            if current_job:
-                next_event_time = min(
-                    jobs[next_release_index].release_time if next_release_index < len(jobs) else self.hyperperiod,
-                    time + current_job.remaining_time
-                )
-
-                duration = next_event_time - time
-                self.schedule.append((time, current_job.task_id, duration))
-                current_job.remaining_time -= duration
-                time = next_event_time
-                if current_job.remaining_time == 0:
-                    current_job.finished = True
-                    current_job = None
+            # مرتب سازی بر اساس ددلاین
+            if ready_jobs:
+                ready_jobs.sort(key=lambda j: j['deadline'])
+                next_job = ready_jobs[0]
             else:
-                if next_release_index < len(jobs):
-                    idle_until = jobs[next_release_index].release_time
-                    self.schedule.append((time, "IDLE", idle_until - time))
-                    time = idle_until
+                next_job = None
+
+            if current_job != next_job:
+                # اگر job فعلی عوض شد، رکورد قبلی رو ذخیره کن
+                if current_job is not None:
+                    self.schedule.append((current_start, time, current_job['task']))
+                current_job = next_job
+                current_start = time
+
+            if current_job is None:
+                # هیچ job آماده نیست، زمان رو می‌بریم جلو به زمان release بعدی
+                if job_idx < len(self.jobs):
+                    time = self.jobs[job_idx]['release']
                 else:
                     break
+            else:
+                # پیش‌بینی زمانی که job فعلی می‌تونه اجرا بشه تا:
+                # 1. تکمیلش
+                time_to_finish = remaining[current_job['task']]
+                # 2. یا release شدن job جدید (اگه هست)
+                if job_idx < len(self.jobs):
+                    time_to_next_release = self.jobs[job_idx]['release'] - time
+                else:
+                    time_to_next_release = float('inf')
+
+                delta = min(time_to_finish, time_to_next_release)
+                time += delta
+                remaining[current_job['task']] -= delta
+
+                if remaining[current_job['task']] == 0:
+                    # job تموم شده، حذفش از ready_jobs
+                    ready_jobs.remove(current_job)
+                    self.schedule.append((current_start, time, current_job['task']))
+                    current_job = None
+                    current_start = None
+
+
+
+    def get_slack_intervals(self):
+        slack = []
+        if not self.schedule:
+            slack.append((0, self.hyperperiod))
+            return slack
+
+        self.schedule.sort()
+        prev_end = 0
+        for start, end, _ in self.schedule:
+            if start > prev_end:
+                slack.append((prev_end, start))
+            prev_end = max(prev_end, end)
+        if prev_end < self.hyperperiod:
+            slack.append((prev_end, self.hyperperiod))
+        return slack
+
+    def schedule_soft_task(self, task, interval):
+        start, end = interval
+        self.soft_tasks.append(task)
+        self.schedule.append((start, start + task.execution, task))
+        self.schedule.sort()
