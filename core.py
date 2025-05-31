@@ -1,8 +1,8 @@
 class core:
     def __init__(self):
-        self.tasks = []          # Hard tasks
-        self.soft_tasks = []     # Soft tasks
-        self.schedule = []       # (start_time, end_time, task)
+        self.tasks = []
+        self.soft_tasks = []
+        self.schedule = []
         self.hyperperiod = 0
 
     def add_task(self, task):
@@ -55,7 +55,7 @@ class core:
 
         while job_idx < len(self.jobs) or ready_jobs or current_job:
             # print(job_idx,len(self.jobs),ready_jobs,current_job)
-            # اضافه کردن job هایی که release شدن
+
             while job_idx < len(self.jobs) and self.jobs[job_idx]['release'] <= time:
                 job = self.jobs[job_idx]
                 ready_jobs.append(job)

@@ -12,7 +12,6 @@ for all_core in ALL_CORES:
         print(f"\n=== {all_core} CORES | Efficiency {efficiency} ===")
         cores = [core() for _ in range(all_core)]
 
-        # Generate hard tasks and assign
         tasks = generate_tasks(30, all_core, efficiency)
         cores = wfd_mapping(tasks, cores)
 
@@ -21,16 +20,12 @@ for all_core in ALL_CORES:
             c.generate_jobs()
             c.edf_schedule()
 
-        # Generate soft tasks
         soft_tasks = generate_tasks(20, all_core, efficiency, soft=True)
 
-        # Run SBTI Improved
         sbti_schedule(soft_tasks, cores)
 
-        # Collect all unique tasks as strings
         all_task_strs = list({str(t) for t in tasks + soft_tasks})
         sum_task = sum({t.execution/t.period for t in tasks})
-        # Create JSON output
         output = {
             "config": {
                 "total_cores": all_core,
@@ -59,7 +54,6 @@ for all_core in ALL_CORES:
             }
             output["cores"].append(core_info)
 
-        # Save to file
         filename = f"scheduling_output_{all_core}cores_{int(efficiency*100)}.json"
         with open(filename, "w") as f:
             json.dump(output, f, indent=2)
