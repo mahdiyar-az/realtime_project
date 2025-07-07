@@ -1,0 +1,14 @@
+{
+  "cores": [
+    {
+      "core_id": 0,
+      "sum_util_task": 0.13827083333333332,
+      "tasks": [
+        "HardTask(exec=207, period=16000, util=0.0129375)",
+        "HardTask(exec=188, period=1500, util=0.12533333333333332)"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 188,
+          "task": 

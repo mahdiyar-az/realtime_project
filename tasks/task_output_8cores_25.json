@@ -1,0 +1,354 @@
+{
+  "tasks": [
+    {
+      "util": 0.039,
+      "execution": 39,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "soft"
+    },
+    {
+      "util": 0.065,
+      "execution": 65,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "soft"
+    },
+    {
+      "util": 0.04871428571428572,
+      "execution": 341,
+      "period": 7000,
+      "deadline": 7000,
+      "type": "hard"
+    },
+    {
+      "util": 0.005,
+      "execution": 15,
+      "period": 3000,
+      "deadline": 3000,
+      "type": "hard"
+    },
+    {
+      "util": 0.023,
+      "execution": 23,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "hard"
+    },
+    {
+      "util": 0.078,
+      "execution": 117,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "soft"
+    },
+    {
+      "util": 0.02,
+      "execution": 160,
+      "period": 8000,
+      "deadline": 8000,
+      "type": "soft"
+    },
+    {
+      "util": 0.044222222222222225,
+      "execution": 199,
+      "period": 4500,
+      "deadline": 4500,
+      "type": "hard"
+    },
+    {
+      "util": 0.011631578947368422,
+      "execution": 221,
+      "period": 19000,
+      "deadline": 19000,
+      "type": "hard"
+    },
+    {
+      "util": 0.05333333333333334,
+      "execution": 160,
+      "period": 3000,
+      "deadline": 3000,
+      "type": "hard"
+    },
+    {
+      "util": 0.07114285714285715,
+      "execution": 249,
+      "period": 3500,
+      "deadline": 3500,
+      "type": "soft"
+    },
+    {
+      "util": 0.0208,
+      "execution": 52,
+      "period": 2500,
+      "deadline": 2500,
+      "type": "soft"
+    },
+    {
+      "util": 0.037,
+      "execution": 74,
+      "period": 2000,
+      "deadline": 2000,
+      "type": "hard"
+    },
+    {
+      "util": 0.010926829268292682,
+      "execution": 224,
+      "period": 20500,
+      "deadline": 20500,
+      "type": "hard"
+    },
+    {
+      "util": 0.10114285714285715,
+      "execution": 354,
+      "period": 3500,
+      "deadline": 3500,
+      "type": "hard"
+    },
+    {
+      "util": 0.042444444444444444,
+      "execution": 191,
+      "period": 4500,
+      "deadline": 4500,
+      "type": "soft"
+    },
+    {
+      "util": 0.003203703703703704,
+      "execution": 173,
+      "period": 54000,
+      "deadline": 54000,
+      "type": "soft"
+    },
+    {
+      "util": 0.016933333333333335,
+      "execution": 127,
+      "period": 7500,
+      "deadline": 7500,
+      "type": "hard"
+    },
+    {
+      "util": 0.0628,
+      "execution": 314,
+      "period": 5000,
+      "deadline": 5000,
+      "type": "hard"
+    },
+    {
+      "util": 0.010666666666666666,
+      "execution": 16,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "hard"
+    },
+    {
+      "util": 0.06733333333333333,
+      "execution": 101,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "soft"
+    },
+    {
+      "util": 0.003595959595959596,
+      "execution": 178,
+      "period": 49500,
+      "deadline": 49500,
+      "type": "soft"
+    },
+    {
+      "util": 0.00975,
+      "execution": 78,
+      "period": 8000,
+      "deadline": 8000,
+      "type": "hard"
+    },
+    {
+      "util": 0.005119402985074627,
+      "execution": 343,
+      "period": 67000,
+      "deadline": 67000,
+      "type": "hard"
+    },
+    {
+      "util": 0.001303776683087028,
+      "execution": 397,
+      "period": 304500,
+      "deadline": 304500,
+      "type": "hard"
+    },
+    {
+      "util": 0.0452,
+      "execution": 113,
+      "period": 2500,
+      "deadline": 2500,
+      "type": "soft"
+    },
+    {
+      "util": 0.0116,
+      "execution": 87,
+      "period": 7500,
+      "deadline": 7500,
+      "type": "soft"
+    },
+    {
+      "util": 0.005377049180327869,
+      "execution": 328,
+      "period": 61000,
+      "deadline": 61000,
+      "type": "hard"
+    },
+    {
+      "util": 0.0092,
+      "execution": 184,
+      "period": 20000,
+      "deadline": 20000,
+      "type": "hard"
+    },
+    {
+      "util": 0.01162962962962963,
+      "execution": 157,
+      "period": 13500,
+      "deadline": 13500,
+      "type": "hard"
+    },
+    {
+      "util": 0.03241666666666667,
+      "execution": 389,
+      "period": 12000,
+      "deadline": 12000,
+      "type": "soft"
+    },
+    {
+      "util": 0.005322033898305085,
+      "execution": 157,
+      "period": 29500,
+      "deadline": 29500,
+      "type": "soft"
+    },
+    {
+      "util": 0.0635,
+      "execution": 127,
+      "period": 2000,
+      "deadline": 2000,
+      "type": "hard"
+    },
+    {
+      "util": 0.007027027027027027,
+      "execution": 130,
+      "period": 18500,
+      "deadline": 18500,
+      "type": "hard"
+    },
+    {
+      "util": 0.027090909090909093,
+      "execution": 149,
+      "period": 5500,
+      "deadline": 5500,
+      "type": "hard"
+    },
+    {
+      "util": 0.08571428571428572,
+      "execution": 300,
+      "period": 3500,
+      "deadline": 3500,
+      "type": "soft"
+    },
+    {
+      "util": 0.1456,
+      "execution": 364,
+      "period": 2500,
+      "deadline": 2500,
+      "type": "soft"
+    },
+    {
+      "util": 0.09,
+      "execution": 90,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "hard"
+    },
+    {
+      "util": 0.0558,
+      "execution": 279,
+      "period": 5000,
+      "deadline": 5000,
+      "type": "hard"
+    },
+    {
+      "util": 0.052,
+      "execution": 130,
+      "period": 2500,
+      "deadline": 2500,
+      "type": "hard"
+    },
+    {
+      "util": 0.064,
+      "execution": 32,
+      "period": 500,
+      "deadline": 500,
+      "type": "soft"
+    },
+    {
+      "util": 0.023454545454545454,
+      "execution": 258,
+      "period": 11000,
+      "deadline": 11000,
+      "type": "soft"
+    },
+    {
+      "util": 0.0545,
+      "execution": 327,
+      "period": 6000,
+      "deadline": 6000,
+      "type": "hard"
+    },
+    {
+      "util": 0.136,
+      "execution": 136,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "hard"
+    },
+    {
+      "util": 0.014260869565217391,
+      "execution": 164,
+      "period": 11500,
+      "deadline": 11500,
+      "type": "hard"
+    },
+    {
+      "util": 0.05,
+      "execution": 75,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "soft"
+    },
+    {
+      "util": 0.0476,
+      "execution": 119,
+      "period": 2500,
+      "deadline": 2500,
+      "type": "soft"
+    },
+    {
+      "util": 0.078,
+      "execution": 117,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "hard"
+    },
+    {
+      "util": 0.00935483870967742,
+      "execution": 290,
+      "period": 31000,
+      "deadline": 31000,
+      "type": "hard"
+    },
+    {
+      "util": 0.013727272727272727,
+      "execution": 302,
+      "period": 22000,
+      "deadline": 22000,
+      "type": "hard"
+    }
+  ]
+}

@@ -4,10 +4,13 @@ class core:
         self.soft_tasks = []
         self.schedule = []
         self.hyperperiod = 0
+        self.slack = []
 
     def add_task(self, task):
         self.tasks.append(task)
-
+    def total_load(self):
+        print(len(self.schedule))
+        return sum(t.execution for t, _ in self.schedule)
     def calculate_hyperperiod(self):
         from math import gcd
         from functools import reduce
@@ -32,16 +35,24 @@ class core:
                     'task': task
                 })
 
-    # def edf_schedule(self):
-    #     time = 0
-    #     sort_job = self.jobs.sort(key=lambda job: job['deadline'])
-    #     for job in self.jobs:
-    #         if time < job['release']:
-    #             time = job['release']
-    #         end = time + job['execution']
-    #         self.schedule.append((time, end, job['task']))
-    #         time = end
+    def get_slack(self):
+        current_time = 0
 
+        for task2 in self.schedule:
+            if current_time<task2["start"]:
+                self.slack.append({
+                    "start":current_time,
+                    "end":task2["start"]
+                })
+                current_time=task2["end"]
+            elif current_time<task2["end"]:
+                current_time=task2["end"]
+        if current_time < self.hyperperiod:
+            self.slack.append({
+                "start": current_time,
+                "end": self.hyperperiod
+            })
+        return current_time
     def edf_schedule(self):
         time = 0
         self.schedule = []
@@ -62,7 +73,6 @@ class core:
                 remaining[job['task']] = job['execution']
                 job_idx += 1
 
-            # مرتب سازی بر اساس ددلاین
             if ready_jobs:
                 ready_jobs.sort(key=lambda j: j['deadline'])
                 next_job = ready_jobs[0]
@@ -70,9 +80,8 @@ class core:
                 next_job = None
 
             if current_job != next_job:
-                # اگر job فعلی عوض شد، رکورد قبلی رو ذخیره کن
                 if current_job is not None:
-                    self.schedule.append((current_start, time, current_job['task']))
+                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start,'task': current_job['task']})
                 current_job = next_job
                 current_start = time
 
@@ -99,10 +108,19 @@ class core:
                 if remaining[current_job['task']] == 0:
                     # job تموم شده، حذفش از ready_jobs
                     ready_jobs.remove(current_job)
-                    self.schedule.append((current_start, time, current_job['task']))
+                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start,'task': current_job['task']})
+
+                    # self.schedule.append((current_start, time, current_job['task']))
                     current_job = None
                     current_start = None
 
+    def get_earliest_start_time(self, task):
+        self.get_slack()
+        # فرض: لیستی از jobهای زمان‌بندی شده داریم (jobs)
+        for task2 in self.slack:
+            print(task)
+            if task.execution <= task2['end'] - task2["start"]:
+                return task2["start"]
 
 
     def get_slack_intervals(self):
@@ -124,5 +142,7 @@ class core:
     def schedule_soft_task(self, task, interval):
         start, end = interval
         self.soft_tasks.append(task)
-        self.schedule.append((start, start + task.execution, task))
+        # self.schedule.append((start, start + task.execution, task))
+        self.schedule.append({"start": start, "end": start + task.execution,"exec":task.execution, 'task': task})
+
         self.schedule.sort()
