@@ -14,264 +14,1336 @@
     },
     {
       "core_id": 2,
-      "sum_util_task": 0.0284,
-      "tasks": [
-        "HardTask(exec=213, period=7500, util=0.0284)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 213,
-          "task": "HardTask(exec=213, period=7500, util=0.0284)"
-        }
-      ]
+      "sum_util_task": 0,
+      "tasks": [],
+      "schedule": []
     },
     {
       "core_id": 3,
-      "sum_util_task": 0.18533333333333332,
+      "sum_util_task": 0.4008333333333334,
       "tasks": [
-        "HardTask(exec=122, period=1500, util=0.08133333333333333)",
-        "HardTask(exec=52, period=500, util=0.104)"
+        "{'id': 13, 'execution': 64, 'duration': 64, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
+        "{'id': 33, 'execution': 154, 'duration': 154, 'period': 11000, 'deadline': 11000, 'type': 'Hard'}",
+        "{'id': 44, 'execution': 203, 'duration': 203, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+        "{'id': 47, 'execution': 132, 'duration': 132, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 52,
-          "task": "HardTask(exec=52, period=500, util=0.104)"
+          "end": 132,
+          "exec": 132
         },
         {
-          "start": 52,
-          "end": 174,
-          "task": "HardTask(exec=122, period=1500, util=0.08133333333333333)"
+          "start": 132,
+          "end": 335,
+          "exec": 203
+        },
+        {
+          "start": 335,
+          "end": 399,
+          "exec": 64
+        },
+        {
+          "start": 399,
+          "end": 500,
+          "exec": 101
         },
         {
           "start": 500,
-          "end": 552,
-          "task": "HardTask(exec=52, period=500, util=0.104)"
+          "end": 632,
+          "exec": 132
+        },
+        {
+          "start": 632,
+          "end": 685,
+          "exec": 53
         },
         {
           "start": 1000,
-          "end": 1052,
-          "task": "HardTask(exec=52, period=500, util=0.104)"
+          "end": 1132,
+          "exec": 132
+        },
+        {
+          "start": 1500,
+          "end": 1632,
+          "exec": 132
+        },
+        {
+          "start": 2000,
+          "end": 2132,
+          "exec": 132
+        },
+        {
+          "start": 2132,
+          "end": 2335,
+          "exec": 203
+        },
+        {
+          "start": 2500,
+          "end": 2632,
+          "exec": 132
+        },
+        {
+          "start": 3000,
+          "end": 3132,
+          "exec": 132
+        },
+        {
+          "start": 3132,
+          "end": 3196,
+          "exec": 64
+        },
+        {
+          "start": 3500,
+          "end": 3632,
+          "exec": 132
+        },
+        {
+          "start": 4000,
+          "end": 4132,
+          "exec": 132
+        },
+        {
+          "start": 4132,
+          "end": 4335,
+          "exec": 203
+        },
+        {
+          "start": 4500,
+          "end": 4632,
+          "exec": 132
+        },
+        {
+          "start": 5000,
+          "end": 5132,
+          "exec": 132
+        },
+        {
+          "start": 5500,
+          "end": 5632,
+          "exec": 132
+        },
+        {
+          "start": 6000,
+          "end": 6132,
+          "exec": 132
+        },
+        {
+          "start": 6132,
+          "end": 6335,
+          "exec": 203
+        },
+        {
+          "start": 6335,
+          "end": 6399,
+          "exec": 64
+        },
+        {
+          "start": 6500,
+          "end": 6632,
+          "exec": 132
+        },
+        {
+          "start": 7000,
+          "end": 7132,
+          "exec": 132
+        },
+        {
+          "start": 7500,
+          "end": 7632,
+          "exec": 132
+        },
+        {
+          "start": 8000,
+          "end": 8132,
+          "exec": 132
+        },
+        {
+          "start": 8132,
+          "end": 8335,
+          "exec": 203
+        },
+        {
+          "start": 8500,
+          "end": 8632,
+          "exec": 132
+        },
+        {
+          "start": 9000,
+          "end": 9132,
+          "exec": 132
+        },
+        {
+          "start": 9132,
+          "end": 9196,
+          "exec": 64
+        },
+        {
+          "start": 9500,
+          "end": 9632,
+          "exec": 132
+        },
+        {
+          "start": 10000,
+          "end": 10132,
+          "exec": 132
+        },
+        {
+          "start": 10132,
+          "end": 10335,
+          "exec": 203
+        },
+        {
+          "start": 10500,
+          "end": 10632,
+          "exec": 132
+        },
+        {
+          "start": 11000,
+          "end": 11132,
+          "exec": 132
+        },
+        {
+          "start": 11132,
+          "end": 11286,
+          "exec": 154
+        },
+        {
+          "start": 11500,
+          "end": 11632,
+          "exec": 132
+        },
+        {
+          "start": 12000,
+          "end": 12132,
+          "exec": 132
+        },
+        {
+          "start": 12132,
+          "end": 12335,
+          "exec": 203
+        },
+        {
+          "start": 12335,
+          "end": 12399,
+          "exec": 64
+        },
+        {
+          "start": 12500,
+          "end": 12632,
+          "exec": 132
+        },
+        {
+          "start": 13000,
+          "end": 13132,
+          "exec": 132
+        },
+        {
+          "start": 13500,
+          "end": 13632,
+          "exec": 132
+        },
+        {
+          "start": 14000,
+          "end": 14132,
+          "exec": 132
+        },
+        {
+          "start": 14132,
+          "end": 14335,
+          "exec": 203
+        },
+        {
+          "start": 14500,
+          "end": 14632,
+          "exec": 132
+        },
+        {
+          "start": 15000,
+          "end": 15132,
+          "exec": 132
+        },
+        {
+          "start": 15132,
+          "end": 15196,
+          "exec": 64
+        },
+        {
+          "start": 15500,
+          "end": 15632,
+          "exec": 132
+        },
+        {
+          "start": 16000,
+          "end": 16132,
+          "exec": 132
+        },
+        {
+          "start": 16132,
+          "end": 16335,
+          "exec": 203
+        },
+        {
+          "start": 16500,
+          "end": 16632,
+          "exec": 132
+        },
+        {
+          "start": 17000,
+          "end": 17132,
+          "exec": 132
+        },
+        {
+          "start": 17500,
+          "end": 17632,
+          "exec": 132
+        },
+        {
+          "start": 18000,
+          "end": 18132,
+          "exec": 132
+        },
+        {
+          "start": 18132,
+          "end": 18335,
+          "exec": 203
+        },
+        {
+          "start": 18335,
+          "end": 18399,
+          "exec": 64
+        },
+        {
+          "start": 18500,
+          "end": 18632,
+          "exec": 132
+        },
+        {
+          "start": 19000,
+          "end": 19132,
+          "exec": 132
+        },
+        {
+          "start": 19500,
+          "end": 19632,
+          "exec": 132
+        },
+        {
+          "start": 20000,
+          "end": 20132,
+          "exec": 132
+        },
+        {
+          "start": 20132,
+          "end": 20335,
+          "exec": 203
+        },
+        {
+          "start": 20500,
+          "end": 20632,
+          "exec": 132
+        },
+        {
+          "start": 21000,
+          "end": 21132,
+          "exec": 132
+        },
+        {
+          "start": 21132,
+          "end": 21196,
+          "exec": 64
+        },
+        {
+          "start": 21500,
+          "end": 21632,
+          "exec": 132
+        },
+        {
+          "start": 22000,
+          "end": 22132,
+          "exec": 132
+        },
+        {
+          "start": 22132,
+          "end": 22335,
+          "exec": 203
+        },
+        {
+          "start": 22335,
+          "end": 22489,
+          "exec": 154
+        },
+        {
+          "start": 22500,
+          "end": 22632,
+          "exec": 132
+        },
+        {
+          "start": 23000,
+          "end": 23132,
+          "exec": 132
+        },
+        {
+          "start": 23500,
+          "end": 23632,
+          "exec": 132
+        },
+        {
+          "start": 24000,
+          "end": 24132,
+          "exec": 132
+        },
+        {
+          "start": 24132,
+          "end": 24335,
+          "exec": 203
+        },
+        {
+          "start": 24335,
+          "end": 24399,
+          "exec": 64
+        },
+        {
+          "start": 24500,
+          "end": 24632,
+          "exec": 132
+        },
+        {
+          "start": 25000,
+          "end": 25132,
+          "exec": 132
+        },
+        {
+          "start": 25500,
+          "end": 25632,
+          "exec": 132
+        },
+        {
+          "start": 26000,
+          "end": 26132,
+          "exec": 132
+        },
+        {
+          "start": 26132,
+          "end": 26335,
+          "exec": 203
+        },
+        {
+          "start": 26500,
+          "end": 26632,
+          "exec": 132
+        },
+        {
+          "start": 27000,
+          "end": 27132,
+          "exec": 132
+        },
+        {
+          "start": 27132,
+          "end": 27196,
+          "exec": 64
+        },
+        {
+          "start": 27500,
+          "end": 27632,
+          "exec": 132
+        },
+        {
+          "start": 28000,
+          "end": 28132,
+          "exec": 132
+        },
+        {
+          "start": 28132,
+          "end": 28335,
+          "exec": 203
+        },
+        {
+          "start": 28500,
+          "end": 28632,
+          "exec": 132
+        },
+        {
+          "start": 29000,
+          "end": 29132,
+          "exec": 132
+        },
+        {
+          "start": 29500,
+          "end": 29632,
+          "exec": 132
+        },
+        {
+          "start": 30000,
+          "end": 30132,
+          "exec": 132
+        },
+        {
+          "start": 30132,
+          "end": 30335,
+          "exec": 203
+        },
+        {
+          "start": 30335,
+          "end": 30399,
+          "exec": 64
+        },
+        {
+          "start": 30500,
+          "end": 30632,
+          "exec": 132
+        },
+        {
+          "start": 31000,
+          "end": 31132,
+          "exec": 132
+        },
+        {
+          "start": 31500,
+          "end": 31632,
+          "exec": 132
+        },
+        {
+          "start": 32000,
+          "end": 32132,
+          "exec": 132
+        },
+        {
+          "start": 32132,
+          "end": 32335,
+          "exec": 203
+        },
+        {
+          "start": 32500,
+          "end": 32632,
+          "exec": 132
+        },
+        {
+          "start": 33000,
+          "end": 33132,
+          "exec": 132
+        },
+        {
+          "start": 33132,
+          "end": 33196,
+          "exec": 64
+        },
+        {
+          "start": 33196,
+          "end": 33350,
+          "exec": 154
+        },
+        {
+          "start": 33500,
+          "end": 33632,
+          "exec": 132
+        },
+        {
+          "start": 34000,
+          "end": 34132,
+          "exec": 132
+        },
+        {
+          "start": 34132,
+          "end": 34335,
+          "exec": 203
+        },
+        {
+          "start": 34500,
+          "end": 34632,
+          "exec": 132
+        },
+        {
+          "start": 35000,
+          "end": 35132,
+          "exec": 132
+        },
+        {
+          "start": 35500,
+          "end": 35632,
+          "exec": 132
+        },
+        {
+          "start": 36000,
+          "end": 36132,
+          "exec": 132
+        },
+        {
+          "start": 36132,
+          "end": 36335,
+          "exec": 203
+        },
+        {
+          "start": 36335,
+          "end": 36399,
+          "exec": 64
+        },
+        {
+          "start": 36500,
+          "end": 36632,
+          "exec": 132
+        },
+        {
+          "start": 37000,
+          "end": 37132,
+          "exec": 132
+        },
+        {
+          "start": 37500,
+          "end": 37632,
+          "exec": 132
+        },
+        {
+          "start": 38000,
+          "end": 38132,
+          "exec": 132
+        },
+        {
+          "start": 38132,
+          "end": 38335,
+          "exec": 203
+        },
+        {
+          "start": 38500,
+          "end": 38632,
+          "exec": 132
+        },
+        {
+          "start": 39000,
+          "end": 39132,
+          "exec": 132
+        },
+        {
+          "start": 39132,
+          "end": 39196,
+          "exec": 64
+        },
+        {
+          "start": 39500,
+          "end": 39632,
+          "exec": 132
+        },
+        {
+          "start": 40000,
+          "end": 40132,
+          "exec": 132
+        },
+        {
+          "start": 40132,
+          "end": 40335,
+          "exec": 203
+        },
+        {
+          "start": 40500,
+          "end": 40632,
+          "exec": 132
+        },
+        {
+          "start": 41000,
+          "end": 41132,
+          "exec": 132
+        },
+        {
+          "start": 41500,
+          "end": 41632,
+          "exec": 132
+        },
+        {
+          "start": 42000,
+          "end": 42132,
+          "exec": 132
+        },
+        {
+          "start": 42132,
+          "end": 42335,
+          "exec": 203
+        },
+        {
+          "start": 42335,
+          "end": 42399,
+          "exec": 64
+        },
+        {
+          "start": 42500,
+          "end": 42632,
+          "exec": 132
+        },
+        {
+          "start": 43000,
+          "end": 43132,
+          "exec": 132
+        },
+        {
+          "start": 43500,
+          "end": 43632,
+          "exec": 132
+        },
+        {
+          "start": 44000,
+          "end": 44132,
+          "exec": 132
+        },
+        {
+          "start": 44132,
+          "end": 44335,
+          "exec": 203
+        },
+        {
+          "start": 44335,
+          "end": 44489,
+          "exec": 154
+        },
+        {
+          "start": 44500,
+          "end": 44632,
+          "exec": 132
+        },
+        {
+          "start": 45000,
+          "end": 45132,
+          "exec": 132
+        },
+        {
+          "start": 45132,
+          "end": 45196,
+          "exec": 64
+        },
+        {
+          "start": 45500,
+          "end": 45632,
+          "exec": 132
+        },
+        {
+          "start": 46000,
+          "end": 46132,
+          "exec": 132
+        },
+        {
+          "start": 46132,
+          "end": 46335,
+          "exec": 203
+        },
+        {
+          "start": 46500,
+          "end": 46632,
+          "exec": 132
+        },
+        {
+          "start": 47000,
+          "end": 47132,
+          "exec": 132
+        },
+        {
+          "start": 47500,
+          "end": 47632,
+          "exec": 132
+        },
+        {
+          "start": 48000,
+          "end": 48132,
+          "exec": 132
+        },
+        {
+          "start": 48132,
+          "end": 48335,
+          "exec": 203
+        },
+        {
+          "start": 48335,
+          "end": 48399,
+          "exec": 64
+        },
+        {
+          "start": 48500,
+          "end": 48632,
+          "exec": 132
+        },
+        {
+          "start": 49000,
+          "end": 49132,
+          "exec": 132
+        },
+        {
+          "start": 49500,
+          "end": 49632,
+          "exec": 132
+        },
+        {
+          "start": 50000,
+          "end": 50132,
+          "exec": 132
+        },
+        {
+          "start": 50132,
+          "end": 50335,
+          "exec": 203
+        },
+        {
+          "start": 50500,
+          "end": 50632,
+          "exec": 132
+        },
+        {
+          "start": 51000,
+          "end": 51132,
+          "exec": 132
+        },
+        {
+          "start": 51132,
+          "end": 51196,
+          "exec": 64
+        },
+        {
+          "start": 51500,
+          "end": 51632,
+          "exec": 132
+        },
+        {
+          "start": 52000,
+          "end": 52132,
+          "exec": 132
+        },
+        {
+          "start": 52132,
+          "end": 52335,
+          "exec": 203
+        },
+        {
+          "start": 52500,
+          "end": 52632,
+          "exec": 132
+        },
+        {
+          "start": 53000,
+          "end": 53132,
+          "exec": 132
+        },
+        {
+          "start": 53500,
+          "end": 53632,
+          "exec": 132
+        },
+        {
+          "start": 54000,
+          "end": 54132,
+          "exec": 132
+        },
+        {
+          "start": 54132,
+          "end": 54335,
+          "exec": 203
+        },
+        {
+          "start": 54335,
+          "end": 54399,
+          "exec": 64
+        },
+        {
+          "start": 54500,
+          "end": 54632,
+          "exec": 132
+        },
+        {
+          "start": 55000,
+          "end": 55132,
+          "exec": 132
+        },
+        {
+          "start": 55132,
+          "end": 55286,
+          "exec": 154
+        },
+        {
+          "start": 55500,
+          "end": 55632,
+          "exec": 132
+        },
+        {
+          "start": 56000,
+          "end": 56132,
+          "exec": 132
+        },
+        {
+          "start": 56132,
+          "end": 56335,
+          "exec": 203
+        },
+        {
+          "start": 56500,
+          "end": 56632,
+          "exec": 132
+        },
+        {
+          "start": 57000,
+          "end": 57132,
+          "exec": 132
+        },
+        {
+          "start": 57132,
+          "end": 57196,
+          "exec": 64
+        },
+        {
+          "start": 57500,
+          "end": 57632,
+          "exec": 132
+        },
+        {
+          "start": 58000,
+          "end": 58132,
+          "exec": 132
+        },
+        {
+          "start": 58132,
+          "end": 58335,
+          "exec": 203
+        },
+        {
+          "start": 58500,
+          "end": 58632,
+          "exec": 132
+        },
+        {
+          "start": 59000,
+          "end": 59132,
+          "exec": 132
+        },
+        {
+          "start": 59500,
+          "end": 59632,
+          "exec": 132
+        },
+        {
+          "start": 60000,
+          "end": 60132,
+          "exec": 132
+        },
+        {
+          "start": 60132,
+          "end": 60335,
+          "exec": 203
+        },
+        {
+          "start": 60335,
+          "end": 60399,
+          "exec": 64
+        },
+        {
+          "start": 60500,
+          "end": 60632,
+          "exec": 132
+        },
+        {
+          "start": 61000,
+          "end": 61132,
+          "exec": 132
+        },
+        {
+          "start": 61500,
+          "end": 61632,
+          "exec": 132
+        },
+        {
+          "start": 62000,
+          "end": 62132,
+          "exec": 132
+        },
+        {
+          "start": 62132,
+          "end": 62335,
+          "exec": 203
+        },
+        {
+          "start": 62500,
+          "end": 62632,
+          "exec": 132
+        },
+        {
+          "start": 63000,
+          "end": 63132,
+          "exec": 132
+        },
+        {
+          "start": 63132,
+          "end": 63196,
+          "exec": 64
+        },
+        {
+          "start": 63500,
+          "end": 63632,
+          "exec": 132
+        },
+        {
+          "start": 64000,
+          "end": 64132,
+          "exec": 132
+        },
+        {
+          "start": 64132,
+          "end": 64335,
+          "exec": 203
+        },
+        {
+          "start": 64500,
+          "end": 64632,
+          "exec": 132
+        },
+        {
+          "start": 65000,
+          "end": 65132,
+          "exec": 132
+        },
+        {
+          "start": 65500,
+          "end": 65632,
+          "exec": 132
         }
       ]
     },
     {
       "core_id": 4,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
-    },
-    {
-      "core_id": 5,
-      "sum_util_task": 0.359,
+      "sum_util_task": 0.26666666666666666,
       "tasks": [
-        "HardTask(exec=239, period=1000, util=0.239)",
-        "HardTask(exec=240, period=2000, util=0.12)"
+        "{'id': 43, 'execution': 400, 'duration': 400, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 239,
-          "task": "HardTask(exec=239, period=1000, util=0.239)"
-        },
+          "end": 400,
+          "exec": 400
+        }
+      ]
+    },
+    {
+      "core_id": 5,
+      "sum_util_task": 0.313,
+      "tasks": [
+        "{'id': 39, 'execution': 313, 'duration': 313, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+      ],
+      "schedule": [
         {
-          "start": 239,
-          "end": 479,
-          "task": "HardTask(exec=240, period=2000, util=0.12)"
-        },
-        {
-          "start": 1000,
-          "end": 1239,
-          "task": "HardTask(exec=239, period=1000, util=0.239)"
+          "start": 0,
+          "end": 313,
+          "exec": 313
         }
       ]
     },
     {
       "core_id": 6,
-      "sum_util_task": 0.248,
-      "tasks": [
-        "HardTask(exec=124, period=500, util=0.248)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 124,
-          "task": "HardTask(exec=124, period=500, util=0.248)"
-        }
-      ]
-    },
-    {
-      "core_id": 7,
       "sum_util_task": 0,
       "tasks": [],
       "schedule": []
     },
     {
-      "core_id": 8,
-      "sum_util_task": 0.3924,
+      "core_id": 7,
+      "sum_util_task": 0.032,
       "tasks": [
-        "HardTask(exec=126, period=500, util=0.252)",
-        "HardTask(exec=120, period=1500, util=0.08)",
-        "HardTask(exec=151, period=2500, util=0.0604)"
+        "{'id': 19, 'execution': 32, 'duration': 32, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
+          "end": 32,
+          "exec": 32
+        }
+      ]
+    },
+    {
+      "core_id": 8,
+      "sum_util_task": 0.271,
+      "tasks": [
+        "{'id': 48, 'execution': 271, 'duration': 271, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+      ],
+      "schedule": [
         {
-          "start": 126,
-          "end": 246,
-          "task": "HardTask(exec=120, period=1500, util=0.08)"
-        },
-        {
-          "start": 246,
-          "end": 397,
-          "task": "HardTask(exec=151, period=2500, util=0.0604)"
-        },
-        {
-          "start": 500,
-          "end": 626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 1000,
-          "end": 1126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 1500,
-          "end": 1626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 1626,
-          "end": 1746,
-          "task": "HardTask(exec=120, period=1500, util=0.08)"
-        },
-        {
-          "start": 2000,
-          "end": 2126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 2500,
-          "end": 2626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 2626,
-          "end": 2777,
-          "task": "HardTask(exec=151, period=2500, util=0.0604)"
-        },
-        {
-          "start": 3000,
-          "end": 3126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 3126,
-          "end": 3246,
-          "task": "HardTask(exec=120, period=1500, util=0.08)"
-        },
-        {
-          "start": 3500,
-          "end": 3626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 4000,
-          "end": 4126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 4500,
-          "end": 4626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 4626,
-          "end": 4746,
-          "task": "HardTask(exec=120, period=1500, util=0.08)"
-        },
-        {
-          "start": 5000,
-          "end": 5126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 5126,
-          "end": 5277,
-          "task": "HardTask(exec=151, period=2500, util=0.0604)"
-        },
-        {
-          "start": 5500,
-          "end": 5626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 6000,
-          "end": 6126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 6126,
-          "end": 6246,
-          "task": "HardTask(exec=120, period=1500, util=0.08)"
-        },
-        {
-          "start": 6500,
-          "end": 6626,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
-        },
-        {
-          "start": 7000,
-          "end": 7126,
-          "task": "HardTask(exec=126, period=500, util=0.252)"
+          "start": 0,
+          "end": 271,
+          "exec": 271
         }
       ]
     },
     {
       "core_id": 9,
-      "sum_util_task": 0.028095238095238097,
+      "sum_util_task": 0.03509090909090909,
       "tasks": [
-        "HardTask(exec=295, period=10500, util=0.028095238095238097)"
+        "{'id': 32, 'execution': 386, 'duration': 386, 'period': 11000, 'deadline': 11000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 295,
-          "task": "HardTask(exec=295, period=10500, util=0.028095238095238097)"
+          "end": 386,
+          "exec": 386
         }
       ]
     },
     {
       "core_id": 10,
-      "sum_util_task": 0.279,
+      "sum_util_task": 0.05,
       "tasks": [
-        "HardTask(exec=279, period=1000, util=0.279)"
+        "{'id': 17, 'execution': 50, 'duration': 50, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 279,
-          "task": "HardTask(exec=279, period=1000, util=0.279)"
+          "end": 50,
+          "exec": 50
         }
       ]
     },
     {
       "core_id": 11,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
+      "sum_util_task": 0.06409090909090909,
+      "tasks": [
+        "{'id': 7, 'execution': 105, 'duration': 105, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}",
+        "{'id': 28, 'execution': 237, 'duration': 237, 'period': 5500, 'deadline': 5500, 'type': 'Hard'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 105,
+          "exec": 105
+        },
+        {
+          "start": 105,
+          "end": 342,
+          "exec": 237
+        },
+        {
+          "start": 5000,
+          "end": 5105,
+          "exec": 105
+        },
+        {
+          "start": 5500,
+          "end": 5737,
+          "exec": 237
+        },
+        {
+          "start": 10000,
+          "end": 10105,
+          "exec": 105
+        },
+        {
+          "start": 11000,
+          "end": 11237,
+          "exec": 237
+        },
+        {
+          "start": 15000,
+          "end": 15105,
+          "exec": 105
+        },
+        {
+          "start": 16500,
+          "end": 16737,
+          "exec": 237
+        },
+        {
+          "start": 20000,
+          "end": 20105,
+          "exec": 105
+        },
+        {
+          "start": 22000,
+          "end": 22237,
+          "exec": 237
+        },
+        {
+          "start": 25000,
+          "end": 25105,
+          "exec": 105
+        },
+        {
+          "start": 27500,
+          "end": 27737,
+          "exec": 237
+        },
+        {
+          "start": 30000,
+          "end": 30105,
+          "exec": 105
+        },
+        {
+          "start": 33000,
+          "end": 33237,
+          "exec": 237
+        },
+        {
+          "start": 35000,
+          "end": 35105,
+          "exec": 105
+        },
+        {
+          "start": 38500,
+          "end": 38737,
+          "exec": 237
+        },
+        {
+          "start": 40000,
+          "end": 40105,
+          "exec": 105
+        },
+        {
+          "start": 44000,
+          "end": 44237,
+          "exec": 237
+        },
+        {
+          "start": 45000,
+          "end": 45105,
+          "exec": 105
+        },
+        {
+          "start": 49500,
+          "end": 49737,
+          "exec": 237
+        },
+        {
+          "start": 50000,
+          "end": 50105,
+          "exec": 105
+        }
+      ]
     },
     {
       "core_id": 12,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
+      "sum_util_task": 0.09112418300653595,
+      "tasks": [
+        "{'id': 8, 'execution': 308, 'duration': 308, 'period': 8500, 'deadline': 8500, 'type': 'Hard'}",
+        "{'id': 14, 'execution': 247, 'duration': 247, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 247,
+          "exec": 247
+        },
+        {
+          "start": 247,
+          "end": 555,
+          "exec": 308
+        },
+        {
+          "start": 4500,
+          "end": 4747,
+          "exec": 247
+        },
+        {
+          "start": 8500,
+          "end": 8808,
+          "exec": 308
+        },
+        {
+          "start": 9000,
+          "end": 9247,
+          "exec": 247
+        },
+        {
+          "start": 13500,
+          "end": 13747,
+          "exec": 247
+        },
+        {
+          "start": 17000,
+          "end": 17308,
+          "exec": 308
+        },
+        {
+          "start": 18000,
+          "end": 18247,
+          "exec": 247
+        },
+        {
+          "start": 22500,
+          "end": 22747,
+          "exec": 247
+        },
+        {
+          "start": 25500,
+          "end": 25808,
+          "exec": 308
+        },
+        {
+          "start": 27000,
+          "end": 27247,
+          "exec": 247
+        },
+        {
+          "start": 31500,
+          "end": 31747,
+          "exec": 247
+        },
+        {
+          "start": 34000,
+          "end": 34308,
+          "exec": 308
+        },
+        {
+          "start": 36000,
+          "end": 36247,
+          "exec": 247
+        },
+        {
+          "start": 40500,
+          "end": 40747,
+          "exec": 247
+        },
+        {
+          "start": 42500,
+          "end": 42808,
+          "exec": 308
+        },
+        {
+          "start": 45000,
+          "end": 45247,
+          "exec": 247
+        },
+        {
+          "start": 49500,
+          "end": 49747,
+          "exec": 247
+        },
+        {
+          "start": 51000,
+          "end": 51308,
+          "exec": 308
+        },
+        {
+          "start": 54000,
+          "end": 54247,
+          "exec": 247
+        },
+        {
+          "start": 58500,
+          "end": 58747,
+          "exec": 247
+        },
+        {
+          "start": 59500,
+          "end": 59808,
+          "exec": 308
+        },
+        {
+          "start": 63000,
+          "end": 63247,
+          "exec": 247
+        },
+        {
+          "start": 67500,
+          "end": 67747,
+          "exec": 247
+        },
+        {
+          "start": 68000,
+          "end": 68308,
+          "exec": 308
+        },
+        {
+          "start": 72000,
+          "end": 72247,
+          "exec": 247
+        }
+      ]
     },
     {
       "core_id": 13,
@@ -281,225 +1353,182 @@
     },
     {
       "core_id": 14,
-      "sum_util_task": 0.5418666666666667,
+      "sum_util_task": 0.041846153846153845,
       "tasks": [
-        "HardTask(exec=103, period=1500, util=0.06866666666666667)",
-        "HardTask(exec=111, period=5000, util=0.0222)",
-        "HardTask(exec=451, period=1000, util=0.451)"
+        "{'id': 23, 'execution': 272, 'duration': 272, 'period': 6500, 'deadline': 6500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 451,
-          "end": 554,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 554,
-          "end": 665,
-          "task": "HardTask(exec=111, period=5000, util=0.0222)"
-        },
-        {
-          "start": 1000,
-          "end": 1451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 1500,
-          "end": 1603,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 2000,
-          "end": 2451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 3000,
-          "end": 3451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 3451,
-          "end": 3554,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 4000,
-          "end": 4451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 4500,
-          "end": 4603,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 5000,
-          "end": 5451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 5451,
-          "end": 5562,
-          "task": "HardTask(exec=111, period=5000, util=0.0222)"
-        },
-        {
-          "start": 6000,
-          "end": 6451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 6451,
-          "end": 6554,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 7000,
-          "end": 7451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 7500,
-          "end": 7603,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 8000,
-          "end": 8451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 9000,
-          "end": 9451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 9451,
-          "end": 9554,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 10000,
-          "end": 10451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 10451,
-          "end": 10500,
-          "task": "HardTask(exec=111, period=5000, util=0.0222)"
-        },
-        {
-          "start": 10500,
-          "end": 10603,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 10603,
-          "end": 10665,
-          "task": "HardTask(exec=111, period=5000, util=0.0222)"
-        },
-        {
-          "start": 11000,
-          "end": 11451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 12000,
-          "end": 12451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 12451,
-          "end": 12554,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 13000,
-          "end": 13451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
-        },
-        {
-          "start": 13500,
-          "end": 13603,
-          "task": "HardTask(exec=103, period=1500, util=0.06866666666666667)"
-        },
-        {
-          "start": 14000,
-          "end": 14451,
-          "task": "HardTask(exec=451, period=1000, util=0.451)"
+          "end": 272,
+          "exec": 272
         }
       ]
     },
     {
       "core_id": 15,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
-    },
-    {
-      "core_id": 16,
-      "sum_util_task": 0.1,
+      "sum_util_task": 0.56,
       "tasks": [
-        "HardTask(exec=100, period=1000, util=0.1)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 100,
-          "task": "HardTask(exec=100, period=1000, util=0.1)"
-        }
-      ]
-    },
-    {
-      "core_id": 17,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
-    },
-    {
-      "core_id": 18,
-      "sum_util_task": 0.14,
-      "tasks": [
-        "HardTask(exec=280, period=2000, util=0.14)"
+        "{'id': 18, 'execution': 280, 'duration': 280, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
           "end": 280,
-          "task": "HardTask(exec=280, period=2000, util=0.14)"
+          "exec": 280
         }
       ]
     },
     {
-      "core_id": 19,
-      "sum_util_task": 0.1595,
+      "core_id": 16,
+      "sum_util_task": 0.118,
       "tasks": [
-        "HardTask(exec=319, period=2000, util=0.1595)"
+        "{'id': 49, 'execution': 59, 'duration': 59, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 319,
-          "task": "HardTask(exec=319, period=2000, util=0.1595)"
+          "end": 59,
+          "exec": 59
+        }
+      ]
+    },
+    {
+      "core_id": 17,
+      "sum_util_task": 0.0384,
+      "tasks": [
+        "{'id': 34, 'execution': 192, 'duration': 192, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 192,
+          "exec": 192
+        }
+      ]
+    },
+    {
+      "core_id": 18,
+      "sum_util_task": 0,
+      "tasks": [],
+      "schedule": []
+    },
+    {
+      "core_id": 19,
+      "sum_util_task": 0.262,
+      "tasks": [
+        "{'id': 29, 'execution': 131, 'duration': 131, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 131,
+          "exec": 131
         }
       ]
     },
     {
       "core_id": 20,
-      "sum_util_task": 0.24866666666666667,
+      "sum_util_task": 0.12211764705882353,
       "tasks": [
-        "HardTask(exec=373, period=1500, util=0.24866666666666667)"
+        "{'id': 2, 'execution': 103, 'duration': 103, 'period': 8500, 'deadline': 8500, 'type': 'Hard'}",
+        "{'id': 27, 'execution': 110, 'duration': 110, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 373,
-          "task": "HardTask(exec=373, period=1500, util=0.24866666666666667)"
+          "end": 110,
+          "exec": 110
+        },
+        {
+          "start": 110,
+          "end": 213,
+          "exec": 103
+        },
+        {
+          "start": 1000,
+          "end": 1110,
+          "exec": 110
+        },
+        {
+          "start": 2000,
+          "end": 2110,
+          "exec": 110
+        },
+        {
+          "start": 3000,
+          "end": 3110,
+          "exec": 110
+        },
+        {
+          "start": 4000,
+          "end": 4110,
+          "exec": 110
+        },
+        {
+          "start": 5000,
+          "end": 5110,
+          "exec": 110
+        },
+        {
+          "start": 6000,
+          "end": 6110,
+          "exec": 110
+        },
+        {
+          "start": 7000,
+          "end": 7110,
+          "exec": 110
+        },
+        {
+          "start": 8000,
+          "end": 8110,
+          "exec": 110
+        },
+        {
+          "start": 8500,
+          "end": 8603,
+          "exec": 103
+        },
+        {
+          "start": 9000,
+          "end": 9110,
+          "exec": 110
+        },
+        {
+          "start": 10000,
+          "end": 10110,
+          "exec": 110
+        },
+        {
+          "start": 11000,
+          "end": 11110,
+          "exec": 110
+        },
+        {
+          "start": 12000,
+          "end": 12110,
+          "exec": 110
+        },
+        {
+          "start": 13000,
+          "end": 13110,
+          "exec": 110
+        },
+        {
+          "start": 14000,
+          "end": 14110,
+          "exec": 110
+        },
+        {
+          "start": 15000,
+          "end": 15110,
+          "exec": 110
+        },
+        {
+          "start": 16000,
+          "end": 16110,
+          "exec": 110
         }
       ]
     },
@@ -511,326 +1540,219 @@
     },
     {
       "core_id": 22,
-      "sum_util_task": 0.684,
+      "sum_util_task": 0.12733333333333333,
       "tasks": [
-        "HardTask(exec=342, period=500, util=0.684)"
+        "{'id': 3, 'execution': 191, 'duration': 191, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 342,
-          "task": "HardTask(exec=342, period=500, util=0.684)"
+          "end": 191,
+          "exec": 191
         }
       ]
     },
     {
       "core_id": 23,
+      "sum_util_task": 0.352,
+      "tasks": [
+        "{'id': 42, 'execution': 176, 'duration': 176, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 176,
+          "exec": 176
+        }
+      ]
+    },
+    {
+      "core_id": 24,
       "sum_util_task": 0,
       "tasks": [],
       "schedule": []
     },
     {
-      "core_id": 24,
-      "sum_util_task": 0.0737037037037037,
+      "core_id": 25,
+      "sum_util_task": 0.1453818181818182,
       "tasks": [
-        "HardTask(exec=185, period=13500, util=0.013703703703703704)",
-        "HardTask(exec=150, period=2500, util=0.06)"
+        "{'id': 12, 'execution': 276, 'duration': 276, 'period': 5500, 'deadline': 5500, 'type': 'Hard'}",
+        "{'id': 38, 'execution': 238, 'duration': 238, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 238,
+          "exec": 238
         },
         {
-          "start": 150,
-          "end": 335,
-          "task": "HardTask(exec=185, period=13500, util=0.013703703703703704)"
+          "start": 238,
+          "end": 514,
+          "exec": 276
         },
         {
           "start": 2500,
-          "end": 2650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 2738,
+          "exec": 238
         },
         {
           "start": 5000,
-          "end": 5150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 5238,
+          "exec": 238
+        },
+        {
+          "start": 5500,
+          "end": 5776,
+          "exec": 276
         },
         {
           "start": 7500,
-          "end": 7650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 7738,
+          "exec": 238
         },
         {
           "start": 10000,
-          "end": 10150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 10238,
+          "exec": 238
+        },
+        {
+          "start": 11000,
+          "end": 11276,
+          "exec": 276
         },
         {
           "start": 12500,
-          "end": 12650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 13500,
-          "end": 13685,
-          "task": "HardTask(exec=185, period=13500, util=0.013703703703703704)"
+          "end": 12738,
+          "exec": 238
         },
         {
           "start": 15000,
-          "end": 15150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 15238,
+          "exec": 238
+        },
+        {
+          "start": 16500,
+          "end": 16776,
+          "exec": 276
         },
         {
           "start": 17500,
-          "end": 17650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 17738,
+          "exec": 238
         },
         {
           "start": 20000,
-          "end": 20150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 20238,
+          "exec": 238
+        },
+        {
+          "start": 22000,
+          "end": 22276,
+          "exec": 276
         },
         {
           "start": 22500,
-          "end": 22650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
+          "end": 22738,
+          "exec": 238
         },
         {
           "start": 25000,
-          "end": 25150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 27000,
-          "end": 27185,
-          "task": "HardTask(exec=185, period=13500, util=0.013703703703703704)"
-        },
-        {
-          "start": 27500,
-          "end": 27650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 30000,
-          "end": 30150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 32500,
-          "end": 32650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 35000,
-          "end": 35150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 37500,
-          "end": 37650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 40000,
-          "end": 40150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 40500,
-          "end": 40685,
-          "task": "HardTask(exec=185, period=13500, util=0.013703703703703704)"
-        },
-        {
-          "start": 42500,
-          "end": 42650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 45000,
-          "end": 45150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 47500,
-          "end": 47650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 50000,
-          "end": 50150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 52500,
-          "end": 52650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 54000,
-          "end": 54185,
-          "task": "HardTask(exec=185, period=13500, util=0.013703703703703704)"
-        },
-        {
-          "start": 55000,
-          "end": 55150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 57500,
-          "end": 57650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 60000,
-          "end": 60150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 62500,
-          "end": 62650,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        },
-        {
-          "start": 65000,
-          "end": 65150,
-          "task": "HardTask(exec=150, period=2500, util=0.06)"
-        }
-      ]
-    },
-    {
-      "core_id": 25,
-      "sum_util_task": 0.11571428571428571,
-      "tasks": [
-        "HardTask(exec=405, period=3500, util=0.11571428571428571)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 405,
-          "task": "HardTask(exec=405, period=3500, util=0.11571428571428571)"
+          "end": 25238,
+          "exec": 238
         }
       ]
     },
     {
       "core_id": 26,
-      "sum_util_task": 0.1716,
-      "tasks": [
-        "HardTask(exec=429, period=2500, util=0.1716)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 429,
-          "task": "HardTask(exec=429, period=2500, util=0.1716)"
-        }
-      ]
+      "sum_util_task": 0,
+      "tasks": [],
+      "schedule": []
     },
     {
       "core_id": 27,
-      "sum_util_task": 0.355,
+      "sum_util_task": 0.45,
       "tasks": [
-        "HardTask(exec=64, period=500, util=0.128)",
-        "HardTask(exec=227, period=1000, util=0.227)"
+        "{'id': 9, 'execution': 189, 'duration': 189, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 22, 'execution': 324, 'duration': 324, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 64,
-          "task": "HardTask(exec=64, period=500, util=0.128)"
+          "end": 324,
+          "exec": 324
         },
         {
-          "start": 64,
-          "end": 291,
-          "task": "HardTask(exec=227, period=1000, util=0.227)"
+          "start": 324,
+          "end": 513,
+          "exec": 189
         },
         {
-          "start": 500,
-          "end": 564,
-          "task": "HardTask(exec=64, period=500, util=0.128)"
+          "start": 1000,
+          "end": 1324,
+          "exec": 324
+        },
+        {
+          "start": 1500,
+          "end": 1689,
+          "exec": 189
+        },
+        {
+          "start": 2000,
+          "end": 2324,
+          "exec": 324
         }
       ]
     },
     {
       "core_id": 28,
-      "sum_util_task": 0.6806666666666668,
-      "tasks": [
-        "HardTask(exec=182, period=500, util=0.364)",
-        "HardTask(exec=96, period=500, util=0.192)",
-        "HardTask(exec=187, period=1500, util=0.12466666666666666)"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 182,
-          "task": "HardTask(exec=182, period=500, util=0.364)"
-        },
-        {
-          "start": 182,
-          "end": 278,
-          "task": "HardTask(exec=96, period=500, util=0.192)"
-        },
-        {
-          "start": 278,
-          "end": 465,
-          "task": "HardTask(exec=187, period=1500, util=0.12466666666666666)"
-        },
-        {
-          "start": 500,
-          "end": 682,
-          "task": "HardTask(exec=182, period=500, util=0.364)"
-        },
-        {
-          "start": 682,
-          "end": 778,
-          "task": "HardTask(exec=96, period=500, util=0.192)"
-        },
-        {
-          "start": 1000,
-          "end": 1182,
-          "task": "HardTask(exec=182, period=500, util=0.364)"
-        },
-        {
-          "start": 1182,
-          "end": 1278,
-          "task": "HardTask(exec=96, period=500, util=0.192)"
-        }
-      ]
+      "sum_util_task": 0,
+      "tasks": [],
+      "schedule": []
     },
     {
       "core_id": 29,
-      "sum_util_task": 0.285,
+      "sum_util_task": 0.367,
       "tasks": [
-        "HardTask(exec=285, period=1000, util=0.285)"
+        "{'id': 4, 'execution': 160, 'duration': 160, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 24, 'execution': 47, 'duration': 47, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 285,
-          "task": "HardTask(exec=285, period=1000, util=0.285)"
+          "end": 160,
+          "exec": 160
+        },
+        {
+          "start": 160,
+          "end": 207,
+          "exec": 47
+        },
+        {
+          "start": 500,
+          "end": 660,
+          "exec": 160
         }
       ]
     },
     {
       "core_id": 30,
-      "sum_util_task": 0.04033333333333333,
+      "sum_util_task": 0,
+      "tasks": [],
+      "schedule": []
+    },
+    {
+      "core_id": 31,
+      "sum_util_task": 0.351,
       "tasks": [
-        "HardTask(exec=121, period=3000, util=0.04033333333333333)"
+        "{'id': 37, 'execution': 351, 'duration': 351, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 121,
-          "task": "HardTask(exec=121, period=3000, util=0.04033333333333333)"
+          "end": 351,
+          "exec": 351
         }
       ]
-    },
-    {
-      "core_id": 31,
-      "sum_util_task": 0,
-      "tasks": [],
-      "schedule": []
     }
   ]
 }

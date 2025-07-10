@@ -1,5 +1,6 @@
 class Task:
-    def __init__(self, execution, period, deadline, soft=False):
+    def __init__(self,id, execution, period, deadline, soft=False):
+        self.id=id
         self.execution = execution
         self.duration = execution
         self.period = period
@@ -11,4 +12,15 @@ class Task:
     def utilization(self):
         return self.execution/self.period
     def __repr__(self):
-        return f"{'Soft' if self.soft else 'Hard'}Task(exec={self.execution}, period={self.period}, util={self.execution/self.period})"
+        # return f"{'Soft' if self.soft else 'Hard'}Task(exec={self.execution}, period={self.period}, util={self.execution/self.period})"
+        return str(
+            {
+                "id":self.id,
+                "execution": self.execution,
+                "duration": self.duration,
+                "period": self.period,
+                "deadline": self.deadline,
+                "type": 'Soft' if self.soft else 'Hard'
+
+            }
+        )

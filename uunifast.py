@@ -63,7 +63,7 @@ def generate_tasks(n, m, u_total):
         exec_time = int(u * period)
         if exec_time == 0:
             exec_time = 1
-        task = Task(exec_time, period, period, len(tasks)%5<2)
+        task = Task(len(tasks), exec_time, period, period, len(tasks)%5<2)
         tasks.append(task)
     return tasks
 

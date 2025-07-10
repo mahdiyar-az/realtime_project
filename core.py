@@ -9,7 +9,7 @@ class core:
     def add_task(self, task):
         self.tasks.append(task)
     def total_load(self):
-        print(len(self.schedule))
+        # print(len(self.schedule))
         return sum(t.execution for t, _ in self.schedule)
     def calculate_hyperperiod(self):
         from math import gcd
@@ -81,7 +81,7 @@ class core:
 
             if current_job != next_job:
                 if current_job is not None:
-                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start,'task': current_job['task']})
+                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start})
                 current_job = next_job
                 current_start = time
 
@@ -108,7 +108,7 @@ class core:
                 if remaining[current_job['task']] == 0:
                     # job تموم شده، حذفش از ready_jobs
                     ready_jobs.remove(current_job)
-                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start,'task': current_job['task']})
+                    self.schedule.append({"start":current_start,"end": time,"exec":time-current_start})
 
                     # self.schedule.append((current_start, time, current_job['task']))
                     current_job = None
@@ -129,12 +129,14 @@ class core:
             slack.append((0, self.hyperperiod))
             return slack
 
-        self.schedule.sort()
+        # self.schedule.sort()
         prev_end = 0
-        for start, end, _ in self.schedule:
-            if start > prev_end:
-                slack.append((prev_end, start))
-            prev_end = max(prev_end, end)
+        #print(self.schedule[0])
+        for item in self.schedule:
+            # print(item["start"],prev_end)
+            if item["start"] > prev_end:
+                slack.append((prev_end, item["start"]))
+            prev_end = max(prev_end, item["end"])
         if prev_end < self.hyperperiod:
             slack.append((prev_end, self.hyperperiod))
         return slack
@@ -143,6 +145,7 @@ class core:
         start, end = interval
         self.soft_tasks.append(task)
         # self.schedule.append((start, start + task.execution, task))
-        self.schedule.append({"start": start, "end": start + task.execution,"exec":task.execution, 'task': task})
+        self.schedule.append({"start": start, "end": start + task.execution,"exec":task.execution})
 
-        self.schedule.sort()
+        # self.schedule.sort()
+        self.schedule = sorted(self.schedule,key =lambda x:x["start"])
