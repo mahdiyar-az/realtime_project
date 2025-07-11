@@ -24,3 +24,13 @@ class Task:
 
             }
         )
+    def to_dict(self):
+        return {
+                "id":self.id,
+                "execution": self.execution,
+                "duration": self.duration,
+                "period": self.period,
+                "deadline": self.deadline,
+                "type": 'Soft' if self.soft else 'Hard'
+
+        }

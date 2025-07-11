@@ -7,8 +7,8 @@ from uunifast import generate_tasks
 from mapper import wfd_mapping,sfla
 from sbti import sbti_schedule
 
-ALL_CORES = [8, 16, 32]
-EFFICIENCYS = [0.25, 0.5, 0.75, 1]
+ALL_CORES = [8,16]
+EFFICIENCYS = [1]
 
 def runner_generate_task():
 
@@ -17,6 +17,7 @@ def runner_generate_task():
         for efficiency in EFFICIENCYS:
             tasks = generate_tasks(50, all_core, efficiency)
             output = {
+                "sum_util":sum({t.execution/t.period for t in tasks}),
                 "tasks":[{'id':t.id,'util':t.execution/t.period,'execution':t.execution,'period':t.period,'deadline':t.deadline,'type':'soft' if t.soft else 'hard'} for t in tasks]
             }
             filename = f"./tasks/task_output_{all_core}cores_{int(efficiency * 100)}.json"
@@ -119,18 +120,23 @@ def phase2_hardtask():
             # for task_id, core_id in enumerate(best_soft_assignment):
             #     cores[core_id].add_task(soft_tasks[task_id])
             output = {
+                "soft_task":[t.to_dict() for t in soft_tasks],
+                "sum_util":0,
                 "cores":[]
             }
-
+            a = sum({t.execution/t.period for t in soft_tasks})
             for i, c in enumerate(cores):
+                a= a+sum({t.execution/t.period for t in c.tasks})
                 core_info = {
                     "core_id": i,
                     "sum_util_task": sum({t.execution/t.period for t in c.tasks}),
-                    "tasks": [str(t) for t in c.tasks],
+                    "tasks": [t.to_dict() for t in c.tasks],
                     "schedule": c.schedule
 
                 }
+                output["sum_util"]=a
                 output["cores"].append(core_info)
+
                 filename = f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json"
                 with open(filename, "w") as f:
                     json.dump(output, f, indent=2)

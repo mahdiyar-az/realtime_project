@@ -20,13 +20,14 @@ class core:
 
         periods = [task.period for task in self.tasks]
         exec = [task.execution for task in self.tasks]
-
+        print(periods)
         self.hyperperiod = reduce(lcm, periods) if periods else 0
 
     def generate_jobs(self):
         self.jobs = []
         for task in self.tasks:
             for t in range(0, self.hyperperiod, task.period):
+                # print(t,self.hyperperiod,task.period)
                 # print(self.hyperperiod,task.period,t)
                 self.jobs.append({
                     'release': t,

@@ -3,38 +3,14 @@ from time import sleep
 
 from task import Task
 
-def normalize_array(arr, max_val=0.99):
-    arr = list(arr)  # کپی برای جلوگیری از تغییر آرایه اصلی
-    total = sum(arr)
+def normalize_array(arr):
+    b = arr.copy()  # کپی برای جلوگیری از تغییر آرایه اصلی
+    b.sort()
+    print(b)
+    b[0]=(b[0]+b[len(b)-1])/3
+    b[len(b)-1]=b[0]*2
 
-    # پیدا کردن اندیس عددهای بزرگ‌تر از ۱
-    indices_above_1 = [i for i, x in enumerate(arr) if x > 1]
-
-    # مقدار اضافه‌ای که باید جبران کنیم
-    surplus = 0
-    for i in indices_above_1:
-        surplus += arr[i] - max_val
-        arr[i] = max_val
-
-    # حالا surplus رو بین عددهای کوچکتر از ۱ پخش می‌کنیم
-    indices_below_1 = [i for i, x in enumerate(arr) if x < 1]
-
-    total_below = sum(arr[i] for i in indices_below_1)
-
-    for i in indices_below_1:
-        if total_below == 0:
-            break
-        ratio = arr[i] / total_below
-        arr[i] += surplus * ratio
-        # اگر عدد از 1 بیشتر شد، دوباره محدودش کن (اختیاری)
-        if arr[i] > 1:
-            arr[i] = max_val
-
-    # نرمال‌سازی نهایی برای حفظ مجموع
-    scale = total / sum(arr)
-    arr = [x * scale for x in arr]
-
-    return arr
+    return b
 def uunifast(n, u_total):
 
     utilizations = []
@@ -44,7 +20,6 @@ def uunifast(n, u_total):
         utilizations.append(sum_u-next_u)
         sum_u = next_u
     utilizations.append(sum_u)
-
     while max(utilizations)>=1 :
         utilizations = normalize_array(utilizations)
 
