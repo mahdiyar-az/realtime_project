@@ -1,15 +1,15 @@
 import json
 from core import core
 from cuckoo2 import cuckoo
-from output_generator import failer, last_exec
+from output_generator import last_exec, power
 
 from task import Task
 from uunifast import generate_tasks
 from mapper import wfd_mapping,sfla
 from sbti import sbti_schedule
 
-ALL_CORES = [8]
-EFFICIENCYS = [1/4]
+ALL_CORES = [8,16,32]
+EFFICIENCYS = [1/4,2/4,3/4,4/4]
 
 def runner_generate_task():
 
@@ -57,24 +57,25 @@ def phase1():
             sbti_schedule(soft_tasks, cores)
 
             all_task_strs = list({str(t) for t in hard_task + soft_tasks})
-            sum_task = sum({t.execution / t.period for t in hard_task})
+            sum_task = sum({t.execution / t.period for t in hard_task+soft_tasks})
             output = {
+                "soft_task":[t.to_dict() for t in soft_tasks],
                 "config": {
                     "total_cores": all_core,
                     "efficiency": efficiency
                 },
                 "sum_util_task": sum_task,
+                "sum_util": sum_task,
+
                 "tasks": all_task_strs,
                 "cores": []
             }
-
             for i, c in enumerate(cores):
-
                 core_info = {
                     "core_id": i,
                     "sum_util_task": sum({t.execution / t.period for t in c.tasks}),
-                    "tasks": [str(t) for t in c.tasks],
-                    "soft_tasks": [str(t) for t in c.soft_tasks],
+                    "tasks": [t.to_dict() for t in c.tasks],
+                    "soft_tasks": [t.to_dict() for t in c.soft_tasks],
                     "schedule":c.schedule
 
                 }
@@ -168,6 +169,7 @@ def phase2_softask():
 def create_output():
     # failer()
     last_exec()
+    power()
 
 # runner_generate_task()
 # phase1()

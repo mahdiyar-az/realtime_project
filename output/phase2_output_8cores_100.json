@@ -1,0 +1,261 @@
+{
+  "power_metrics": {
+    "total_power": 9.197568767420814,
+    "cores": [
+      {
+        "core_id": 0,
+        "total_power": 1.2444960000000003,
+        "dynamic_power": 1.1244960000000002,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.65075
+      },
+      {
+        "core_id": 1,
+        "total_power": 1.3719359999999998,
+        "dynamic_power": 1.251936,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.7244999999999999
+      },
+      {
+        "core_id": 2,
+        "total_power": 0.984,
+        "dynamic_power": 0.864,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.5
+      },
+      {
+        "core_id": 3,
+        "total_power": 0.7551039999999999,
+        "dynamic_power": 0.6351039999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.367537037037037
+      },
+      {
+        "core_id": 4,
+        "total_power": 1.350336,
+        "dynamic_power": 1.2303359999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.712
+      },
+      {
+        "core_id": 5,
+        "total_power": 0.8218895058823528,
+        "dynamic_power": 0.7018895058823528,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.4061860566448801
+      },
+      {
+        "core_id": 6,
+        "total_power": 1.3896280615384615,
+        "dynamic_power": 1.2696280615384616,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.7347384615384616
+      },
+      {
+        "core_id": 7,
+        "total_power": 1.2801792,
+        "dynamic_power": 1.1601792,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.6714
+      }
+    ],
+    "sum_utilization": 7.9772236764325
+  },
+  "qos_metrics": {
+    "average_system_qos": 0.9845,
+    "cores": {
+      "0": {
+        "37": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 3000,
+          "deadline": 3000
+        },
+        "39": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 500,
+          "deadline": 500
+        },
+        "41": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 2500,
+          "deadline": 2500
+        }
+      },
+      "1": {
+        "30": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 4000,
+          "deadline": 4000
+        },
+        "36": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1500,
+          "deadline": 1500
+        },
+        "42": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1500,
+          "deadline": 1500
+        }
+      },
+      "2": {
+        "47": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 5000,
+          "deadline": 5000
+        }
+      },
+      "3": {
+        "33": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 500,
+          "deadline": 500
+        },
+        "43": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1000,
+          "deadline": 1000
+        },
+        "46": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 2000,
+          "deadline": 2000
+        }
+      },
+      "4": {
+        "31": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1000,
+          "deadline": 1000
+        }
+      },
+      "5": {
+        "34": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 0.968,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 500,
+          "deadline": 500
+        },
+        "35": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 3000,
+          "deadline": 3000
+        },
+        "48": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 16500,
+          "deadline": 16500
+        }
+      },
+      "6": {
+        "45": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 2500,
+          "deadline": 2500
+        },
+        "49": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1000,
+          "deadline": 1000
+        }
+      },
+      "7": {
+        "32": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 3000,
+          "deadline": 3000
+        },
+        "38": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 500,
+          "deadline": 500
+        },
+        "40": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 0.722,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 500,
+          "deadline": 500
+        },
+        "44": {
+          "deadline_miss_rate": 0.0,
+          "average_utility": 1.0,
+          "total_instances": 2,
+          "missed_instances": 0,
+          "period": 1500,
+          "deadline": 1500
+        }
+      }
+    }
+  }
+}

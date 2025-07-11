@@ -1,0 +1,93 @@
+{
+  "power_metrics": {
+    "total_power": 3.4896503481236856,
+    "cores": [
+      {
+        "core_id": 0,
+        "total_power": 0.4357188923076923,
+        "dynamic_power": 0.3157188923076923,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1827076923076923
+      },
+      {
+        "core_id": 1,
+        "total_power": 0.43377163636363636,
+        "dynamic_power": 0.31377163636363636,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1815808080808081
+      },
+      {
+        "core_id": 2,
+        "total_power": 0.4345645714285714,
+        "dynamic_power": 0.3145645714285714,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.18203968253968253
+      },
+      {
+        "core_id": 3,
+        "total_power": 0.436464,
+        "dynamic_power": 0.316464,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1831388888888889
+      },
+      {
+        "core_id": 4,
+        "total_power": 0.43646117647058824,
+        "dynamic_power": 0.31646117647058825,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.18313725490196078
+      },
+      {
+        "core_id": 5,
+        "total_power": 0.4368411428571429,
+        "dynamic_power": 0.3168411428571429,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.18335714285714286
+      },
+      {
+        "core_id": 6,
+        "total_power": 0.43452096945812807,
+        "dynamic_power": 0.3145209694581281,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1820144499178982
+      },
+      {
+        "core_id": 7,
+        "total_power": 0.44130795923792643,
+        "dynamic_power": 0.32130795923792643,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.18594210604046668
+      }
+    ],
+    "sum_utilization": 1.8078000324545276
+  },
+  "qos_metrics": {
+    "average_system_qos": 0,
+    "cores": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {}
+    }
+  }
+}

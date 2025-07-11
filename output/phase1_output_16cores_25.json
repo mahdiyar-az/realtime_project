@@ -1,0 +1,173 @@
+{
+  "power_metrics": {
+    "total_power": 6.149010607545603,
+    "cores": [
+      {
+        "core_id": 0,
+        "total_power": 0.58656,
+        "dynamic_power": 0.46656000000000003,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.27
+      },
+      {
+        "core_id": 1,
+        "total_power": 0.552,
+        "dynamic_power": 0.432,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.25
+      },
+      {
+        "core_id": 2,
+        "total_power": 0.482016,
+        "dynamic_power": 0.362016,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.2095
+      },
+      {
+        "core_id": 3,
+        "total_power": 0.42412799999999995,
+        "dynamic_power": 0.30412799999999995,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.176
+      },
+      {
+        "core_id": 4,
+        "total_power": 0.38956799999999997,
+        "dynamic_power": 0.269568,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.156
+      },
+      {
+        "core_id": 5,
+        "total_power": 0.36796799999999996,
+        "dynamic_power": 0.24796799999999997,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1435
+      },
+      {
+        "core_id": 6,
+        "total_power": 0.3612288,
+        "dynamic_power": 0.2412288,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1396
+      },
+      {
+        "core_id": 7,
+        "total_power": 0.349824,
+        "dynamic_power": 0.229824,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.133
+      },
+      {
+        "core_id": 8,
+        "total_power": 0.340032,
+        "dynamic_power": 0.22003199999999998,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.12733333333333333
+      },
+      {
+        "core_id": 9,
+        "total_power": 0.32736,
+        "dynamic_power": 0.20736,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.12
+      },
+      {
+        "core_id": 10,
+        "total_power": 0.32966399999999996,
+        "dynamic_power": 0.209664,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.12133333333333332
+      },
+      {
+        "core_id": 11,
+        "total_power": 0.32854285714285714,
+        "dynamic_power": 0.2085428571428571,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1206845238095238
+      },
+      {
+        "core_id": 12,
+        "total_power": 0.3272818876281613,
+        "dynamic_power": 0.2072818876281613,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.11995479608111187
+      },
+      {
+        "core_id": 13,
+        "total_power": 0.3245784355179704,
+        "dynamic_power": 0.20457843551797042,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.1183902983321588
+      },
+      {
+        "core_id": 14,
+        "total_power": 0.3288402797202797,
+        "dynamic_power": 0.2088402797202797,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.12085664335664334
+      },
+      {
+        "core_id": 15,
+        "total_power": 0.3294183475363346,
+        "dynamic_power": 0.20941834753633462,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.12119117334278624
+      }
+    ],
+    "sum_utilization": 3.9890632058411626
+  },
+  "qos_metrics": {
+    "average_system_qos": 0,
+    "cores": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    }
+  }
+}

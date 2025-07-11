@@ -1,0 +1,333 @@
+{
+  "power_metrics": {
+    "total_power": 28.349952000000005,
+    "cores": [
+      {
+        "core_id": 0,
+        "total_power": 1.3745279999999998,
+        "dynamic_power": 1.2545279999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.726
+      },
+      {
+        "core_id": 1,
+        "total_power": 1.19136,
+        "dynamic_power": 1.07136,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.62
+      },
+      {
+        "core_id": 2,
+        "total_power": 1.1809919999999998,
+        "dynamic_power": 1.060992,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.614
+      },
+      {
+        "core_id": 3,
+        "total_power": 1.1222400000000001,
+        "dynamic_power": 1.00224,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.58
+      },
+      {
+        "core_id": 4,
+        "total_power": 1.0876800000000002,
+        "dynamic_power": 0.9676800000000001,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.56
+      },
+      {
+        "core_id": 5,
+        "total_power": 1.077312,
+        "dynamic_power": 0.957312,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.554
+      },
+      {
+        "core_id": 6,
+        "total_power": 1.046208,
+        "dynamic_power": 0.926208,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.536
+      },
+      {
+        "core_id": 7,
+        "total_power": 1.039296,
+        "dynamic_power": 0.919296,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.532
+      },
+      {
+        "core_id": 8,
+        "total_power": 1.0358399999999999,
+        "dynamic_power": 0.91584,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.53
+      },
+      {
+        "core_id": 9,
+        "total_power": 1.0358399999999999,
+        "dynamic_power": 0.91584,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.53
+      },
+      {
+        "core_id": 10,
+        "total_power": 0.956352,
+        "dynamic_power": 0.836352,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.484
+      },
+      {
+        "core_id": 11,
+        "total_power": 0.94944,
+        "dynamic_power": 0.82944,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.48
+      },
+      {
+        "core_id": 12,
+        "total_power": 0.9390719999999999,
+        "dynamic_power": 0.8190719999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.474
+      },
+      {
+        "core_id": 13,
+        "total_power": 0.9356159999999999,
+        "dynamic_power": 0.8156159999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.472
+      },
+      {
+        "core_id": 14,
+        "total_power": 0.918336,
+        "dynamic_power": 0.798336,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.462
+      },
+      {
+        "core_id": 15,
+        "total_power": 0.907968,
+        "dynamic_power": 0.787968,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.456
+      },
+      {
+        "core_id": 16,
+        "total_power": 0.907968,
+        "dynamic_power": 0.787968,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.456
+      },
+      {
+        "core_id": 17,
+        "total_power": 0.901056,
+        "dynamic_power": 0.781056,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.452
+      },
+      {
+        "core_id": 18,
+        "total_power": 0.8976,
+        "dynamic_power": 0.7776,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.45
+      },
+      {
+        "core_id": 19,
+        "total_power": 0.8976,
+        "dynamic_power": 0.7776,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.45
+      },
+      {
+        "core_id": 20,
+        "total_power": 0.890688,
+        "dynamic_power": 0.770688,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.446
+      },
+      {
+        "core_id": 21,
+        "total_power": 0.887232,
+        "dynamic_power": 0.767232,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.444
+      },
+      {
+        "core_id": 22,
+        "total_power": 0.873408,
+        "dynamic_power": 0.753408,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.436
+      },
+      {
+        "core_id": 23,
+        "total_power": 0.873408,
+        "dynamic_power": 0.753408,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.436
+      },
+      {
+        "core_id": 24,
+        "total_power": 0.7351679999999999,
+        "dynamic_power": 0.6151679999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.356
+      },
+      {
+        "core_id": 25,
+        "total_power": 0.7282559999999999,
+        "dynamic_power": 0.6082559999999999,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.352
+      },
+      {
+        "core_id": 26,
+        "total_power": 0.714432,
+        "dynamic_power": 0.594432,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.344
+      },
+      {
+        "core_id": 27,
+        "total_power": 0.678144,
+        "dynamic_power": 0.558144,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.323
+      },
+      {
+        "core_id": 28,
+        "total_power": 0.667776,
+        "dynamic_power": 0.547776,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.317
+      },
+      {
+        "core_id": 29,
+        "total_power": 0.6591359999999999,
+        "dynamic_power": 0.539136,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0.312
+      },
+      {
+        "core_id": 30,
+        "total_power": 0.12,
+        "dynamic_power": 0.0,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0
+      },
+      {
+        "core_id": 31,
+        "total_power": 0.12,
+        "dynamic_power": 0.0,
+        "static_power": 0.12,
+        "voltage": 1.2,
+        "frequency": 2.4,
+        "utilization": 0
+      }
+    ],
+    "sum_utilization": 29.165999999999993
+  },
+  "qos_metrics": {
+    "average_system_qos": 0,
+    "cores": {
+      "0": {},
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {},
+      "16": {},
+      "17": {},
+      "18": {},
+      "19": {},
+      "20": {},
+      "21": {},
+      "22": {},
+      "23": {},
+      "24": {},
+      "25": {},
+      "26": {},
+      "27": {},
+      "28": {},
+      "29": {},
+      "30": {},
+      "31": {}
+    }
+  }
+}

@@ -1,72 +1,263 @@
 {
+  "soft_task": [
+    {
+      "id": 30,
+      "execution": 387,
+      "duration": 387,
+      "period": 3000,
+      "deadline": 3000,
+      "type": "Soft"
+    },
+    {
+      "id": 31,
+      "execution": 259,
+      "duration": 259,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 32,
+      "execution": 249,
+      "duration": 249,
+      "period": 11500,
+      "deadline": 11500,
+      "type": "Soft"
+    },
+    {
+      "id": 33,
+      "execution": 18,
+      "duration": 18,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 34,
+      "execution": 312,
+      "duration": 312,
+      "period": 16000,
+      "deadline": 16000,
+      "type": "Soft"
+    },
+    {
+      "id": 35,
+      "execution": 373,
+      "duration": 373,
+      "period": 2000,
+      "deadline": 2000,
+      "type": "Soft"
+    },
+    {
+      "id": 36,
+      "execution": 171,
+      "duration": 171,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 37,
+      "execution": 75,
+      "duration": 75,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "Soft"
+    },
+    {
+      "id": 38,
+      "execution": 113,
+      "duration": 113,
+      "period": 4500,
+      "deadline": 4500,
+      "type": "Soft"
+    },
+    {
+      "id": 39,
+      "execution": 298,
+      "duration": 298,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "Soft"
+    },
+    {
+      "id": 40,
+      "execution": 238,
+      "duration": 238,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 41,
+      "execution": 344,
+      "duration": 344,
+      "period": 25500,
+      "deadline": 25500,
+      "type": "Soft"
+    },
+    {
+      "id": 42,
+      "execution": 169,
+      "duration": 169,
+      "period": 54500,
+      "deadline": 54500,
+      "type": "Soft"
+    },
+    {
+      "id": 43,
+      "execution": 209,
+      "duration": 209,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 44,
+      "execution": 17,
+      "duration": 17,
+      "period": 500,
+      "deadline": 500,
+      "type": "Soft"
+    },
+    {
+      "id": 45,
+      "execution": 334,
+      "duration": 334,
+      "period": 9500,
+      "deadline": 9500,
+      "type": "Soft"
+    },
+    {
+      "id": 46,
+      "execution": 154,
+      "duration": 154,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "Soft"
+    },
+    {
+      "id": 47,
+      "execution": 226,
+      "duration": 226,
+      "period": 892500,
+      "deadline": 892500,
+      "type": "Soft"
+    },
+    {
+      "id": 48,
+      "execution": 183,
+      "duration": 183,
+      "period": 1500,
+      "deadline": 1500,
+      "type": "Soft"
+    },
+    {
+      "id": 49,
+      "execution": 172,
+      "duration": 172,
+      "period": 1000,
+      "deadline": 1000,
+      "type": "Soft"
+    }
+  ],
   "config": {
     "total_cores": 16,
     "efficiency": 0.5
   },
-  "sum_util_task": 4.9149698585231185,
+  "sum_util_task": 7.918735373082252,
+  "sum_util": 7.918735373082252,
   "tasks": [
-    "{'id': 30, 'execution': 387, 'duration': 387, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
-    "{'id': 13, 'execution': 296, 'duration': 296, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 11, 'execution': 95, 'duration': 95, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 22, 'execution': 200, 'duration': 200, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
     "{'id': 34, 'execution': 312, 'duration': 312, 'period': 16000, 'deadline': 16000, 'type': 'Soft'}",
-    "{'id': 8, 'execution': 329, 'duration': 329, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 26, 'execution': 43, 'duration': 43, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 20, 'execution': 215, 'duration': 215, 'period': 11500, 'deadline': 11500, 'type': 'Hard'}",
-    "{'id': 46, 'execution': 154, 'duration': 154, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 3, 'execution': 139, 'duration': 139, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 29, 'execution': 368, 'duration': 368, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 17, 'execution': 355, 'duration': 355, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
-    "{'id': 25, 'execution': 46, 'duration': 46, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 6, 'execution': 287, 'duration': 287, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}",
-    "{'id': 33, 'execution': 18, 'duration': 18, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 41, 'execution': 344, 'duration': 344, 'period': 25500, 'deadline': 25500, 'type': 'Soft'}",
-    "{'id': 48, 'execution': 183, 'duration': 183, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-    "{'id': 0, 'execution': 141, 'duration': 141, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 27, 'execution': 30, 'duration': 30, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 7, 'execution': 163, 'duration': 163, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 16, 'execution': 360, 'duration': 360, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 39, 'execution': 298, 'duration': 298, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 40, 'execution': 238, 'duration': 238, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 21, 'execution': 169, 'duration': 169, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 31, 'execution': 259, 'duration': 259, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 45, 'execution': 334, 'duration': 334, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
-    "{'id': 24, 'execution': 213, 'duration': 213, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 14, 'execution': 370, 'duration': 370, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 47, 'execution': 226, 'duration': 226, 'period': 892500, 'deadline': 892500, 'type': 'Soft'}",
-    "{'id': 28, 'execution': 94, 'duration': 94, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 44, 'execution': 17, 'duration': 17, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 9, 'execution': 158, 'duration': 158, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}",
-    "{'id': 38, 'execution': 113, 'duration': 113, 'period': 4500, 'deadline': 4500, 'type': 'Soft'}",
-    "{'id': 35, 'execution': 373, 'duration': 373, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-    "{'id': 5, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 1, 'execution': 157, 'duration': 157, 'period': 8000, 'deadline': 8000, 'type': 'Hard'}",
-    "{'id': 36, 'execution': 171, 'duration': 171, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 42, 'execution': 169, 'duration': 169, 'period': 54500, 'deadline': 54500, 'type': 'Soft'}",
-    "{'id': 49, 'execution': 172, 'duration': 172, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 18, 'execution': 127, 'duration': 127, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 19, 'execution': 44, 'duration': 44, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 12, 'execution': 25, 'duration': 25, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 23, 'execution': 387, 'duration': 387, 'period': 14000, 'deadline': 14000, 'type': 'Hard'}",
     "{'id': 4, 'execution': 208, 'duration': 208, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 10, 'execution': 298, 'duration': 298, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 43, 'execution': 209, 'duration': 209, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 37, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+    "{'id': 18, 'execution': 127, 'duration': 127, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 45, 'execution': 334, 'duration': 334, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
+    "{'id': 30, 'execution': 387, 'duration': 387, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
+    "{'id': 16, 'execution': 360, 'duration': 360, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 9, 'execution': 158, 'duration': 158, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}",
+    "{'id': 19, 'execution': 44, 'duration': 44, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 20, 'execution': 215, 'duration': 215, 'period': 11500, 'deadline': 11500, 'type': 'Hard'}",
+    "{'id': 32, 'execution': 249, 'duration': 249, 'period': 11500, 'deadline': 11500, 'type': 'Soft'}",
+    "{'id': 12, 'execution': 25, 'duration': 25, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 31, 'execution': 259, 'duration': 259, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 11, 'execution': 95, 'duration': 95, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 28, 'execution': 94, 'duration': 94, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 38, 'execution': 113, 'duration': 113, 'period': 4500, 'deadline': 4500, 'type': 'Soft'}",
+    "{'id': 1, 'execution': 157, 'duration': 157, 'period': 8000, 'deadline': 8000, 'type': 'Hard'}",
     "{'id': 2, 'execution': 166, 'duration': 166, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
+    "{'id': 14, 'execution': 370, 'duration': 370, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 33, 'execution': 18, 'duration': 18, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 27, 'execution': 30, 'duration': 30, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 10, 'execution': 298, 'duration': 298, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+    "{'id': 42, 'execution': 169, 'duration': 169, 'period': 54500, 'deadline': 54500, 'type': 'Soft'}",
+    "{'id': 3, 'execution': 139, 'duration': 139, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 0, 'execution': 141, 'duration': 141, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 6, 'execution': 287, 'duration': 287, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}",
+    "{'id': 13, 'execution': 296, 'duration': 296, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 29, 'execution': 368, 'duration': 368, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 26, 'execution': 43, 'duration': 43, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 24, 'execution': 213, 'duration': 213, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 22, 'execution': 200, 'duration': 200, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 35, 'execution': 373, 'duration': 373, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
+    "{'id': 39, 'execution': 298, 'duration': 298, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 5, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 23, 'execution': 387, 'duration': 387, 'period': 14000, 'deadline': 14000, 'type': 'Hard'}",
+    "{'id': 25, 'execution': 46, 'duration': 46, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 21, 'execution': 169, 'duration': 169, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 43, 'execution': 209, 'duration': 209, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 44, 'execution': 17, 'duration': 17, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 37, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
     "{'id': 15, 'execution': 99, 'duration': 99, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 32, 'execution': 249, 'duration': 249, 'period': 11500, 'deadline': 11500, 'type': 'Soft'}"
+    "{'id': 7, 'execution': 163, 'duration': 163, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 47, 'execution': 226, 'duration': 226, 'period': 892500, 'deadline': 892500, 'type': 'Soft'}",
+    "{'id': 48, 'execution': 183, 'duration': 183, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+    "{'id': 8, 'execution': 329, 'duration': 329, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 40, 'execution': 238, 'duration': 238, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 46, 'execution': 154, 'duration': 154, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 17, 'execution': 355, 'duration': 355, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
+    "{'id': 36, 'execution': 171, 'duration': 171, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 41, 'execution': 344, 'duration': 344, 'period': 25500, 'deadline': 25500, 'type': 'Soft'}",
+    "{'id': 49, 'execution': 172, 'duration': 172, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
   ],
   "cores": [
     {
       "core_id": 0,
       "sum_util_task": 0.736,
       "tasks": [
-        "{'id': 29, 'execution': 368, 'duration': 368, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 29,
+          "execution": 368,
+          "duration": 368,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 33, 'execution': 18, 'duration': 18, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 37, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 44, 'execution': 17, 'duration': 17, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        {
+          "id": 33,
+          "execution": 18,
+          "duration": 18,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        },
+        {
+          "id": 37,
+          "execution": 75,
+          "duration": 75,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Soft"
+        },
+        {
+          "id": 44,
+          "execution": 17,
+          "duration": 17,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -95,10 +286,24 @@
       "core_id": 1,
       "sum_util_task": 0.426,
       "tasks": [
-        "{'id': 24, 'execution': 213, 'duration': 213, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 24,
+          "execution": 213,
+          "duration": 213,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 31, 'execution': 259, 'duration': 259, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        {
+          "id": 31,
+          "execution": 259,
+          "duration": 259,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -117,11 +322,32 @@
       "core_id": 2,
       "sum_util_task": 0.37,
       "tasks": [
-        "{'id': 14, 'execution': 370, 'duration': 370, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        {
+          "id": 14,
+          "execution": 370,
+          "duration": 370,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 30, 'execution': 387, 'duration': 387, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
-        "{'id': 36, 'execution': 171, 'duration': 171, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        {
+          "id": 30,
+          "execution": 387,
+          "duration": 387,
+          "period": 3000,
+          "deadline": 3000,
+          "type": "Soft"
+        },
+        {
+          "id": 36,
+          "execution": 171,
+          "duration": 171,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -145,10 +371,24 @@
       "core_id": 3,
       "sum_util_task": 0.326,
       "tasks": [
-        "{'id': 7, 'execution': 163, 'duration': 163, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 7,
+          "execution": 163,
+          "duration": 163,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 32, 'execution': 249, 'duration': 249, 'period': 11500, 'deadline': 11500, 'type': 'Soft'}"
+        {
+          "id": 32,
+          "execution": 249,
+          "duration": 249,
+          "period": 11500,
+          "deadline": 11500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -167,11 +407,32 @@
       "core_id": 4,
       "sum_util_task": 0.296,
       "tasks": [
-        "{'id': 13, 'execution': 296, 'duration': 296, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        {
+          "id": 13,
+          "execution": 296,
+          "duration": 296,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 34, 'execution': 312, 'duration': 312, 'period': 16000, 'deadline': 16000, 'type': 'Soft'}",
-        "{'id': 35, 'execution': 373, 'duration': 373, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}"
+        {
+          "id": 34,
+          "execution": 312,
+          "duration": 312,
+          "period": 16000,
+          "deadline": 16000,
+          "type": "Soft"
+        },
+        {
+          "id": 35,
+          "execution": 373,
+          "duration": 373,
+          "period": 2000,
+          "deadline": 2000,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -195,11 +456,32 @@
       "core_id": 5,
       "sum_util_task": 0.282,
       "tasks": [
-        "{'id': 0, 'execution': 141, 'duration': 141, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 0,
+          "execution": 141,
+          "duration": 141,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 38, 'execution': 113, 'duration': 113, 'period': 4500, 'deadline': 4500, 'type': 'Soft'}",
-        "{'id': 40, 'execution': 238, 'duration': 238, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        {
+          "id": 38,
+          "execution": 113,
+          "duration": 113,
+          "period": 4500,
+          "deadline": 4500,
+          "type": "Soft"
+        },
+        {
+          "id": 40,
+          "execution": 238,
+          "duration": 238,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -223,13 +505,48 @@
       "core_id": 6,
       "sum_util_task": 0.24,
       "tasks": [
-        "{'id': 16, 'execution': 360, 'duration': 360, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+        {
+          "id": 16,
+          "execution": 360,
+          "duration": 360,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 39, 'execution': 298, 'duration': 298, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-        "{'id': 41, 'execution': 344, 'duration': 344, 'period': 25500, 'deadline': 25500, 'type': 'Soft'}",
-        "{'id': 42, 'execution': 169, 'duration': 169, 'period': 54500, 'deadline': 54500, 'type': 'Soft'}",
-        "{'id': 43, 'execution': 209, 'duration': 209, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        {
+          "id": 39,
+          "execution": 298,
+          "duration": 298,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Soft"
+        },
+        {
+          "id": 41,
+          "execution": 344,
+          "duration": 344,
+          "period": 25500,
+          "deadline": 25500,
+          "type": "Soft"
+        },
+        {
+          "id": 42,
+          "execution": 169,
+          "duration": 169,
+          "period": 54500,
+          "deadline": 54500,
+          "type": "Soft"
+        },
+        {
+          "id": 43,
+          "execution": 209,
+          "duration": 209,
+          "period": 500,
+          "deadline": 500,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -263,15 +580,64 @@
       "core_id": 7,
       "sum_util_task": 0.23895833333333333,
       "tasks": [
-        "{'id': 8, 'execution': 329, 'duration': 329, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 1, 'execution': 157, 'duration': 157, 'period': 8000, 'deadline': 8000, 'type': 'Hard'}"
+        {
+          "id": 8,
+          "execution": 329,
+          "duration": 329,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        },
+        {
+          "id": 1,
+          "execution": 157,
+          "duration": 157,
+          "period": 8000,
+          "deadline": 8000,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [
-        "{'id': 45, 'execution': 334, 'duration': 334, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
-        "{'id': 46, 'execution': 154, 'duration': 154, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-        "{'id': 47, 'execution': 226, 'duration': 226, 'period': 892500, 'deadline': 892500, 'type': 'Soft'}",
-        "{'id': 48, 'execution': 183, 'duration': 183, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 49, 'execution': 172, 'duration': 172, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
+        {
+          "id": 45,
+          "execution": 334,
+          "duration": 334,
+          "period": 9500,
+          "deadline": 9500,
+          "type": "Soft"
+        },
+        {
+          "id": 46,
+          "execution": 154,
+          "duration": 154,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Soft"
+        },
+        {
+          "id": 47,
+          "execution": 226,
+          "duration": 226,
+          "period": 892500,
+          "deadline": 892500,
+          "type": "Soft"
+        },
+        {
+          "id": 48,
+          "execution": 183,
+          "duration": 183,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Soft"
+        },
+        {
+          "id": 49,
+          "execution": 172,
+          "duration": 172,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Soft"
+        }
       ],
       "schedule": [
         {
@@ -400,8 +766,22 @@
       "core_id": 8,
       "sum_util_task": 0.24711111111111111,
       "tasks": [
-        "{'id': 5, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 9, 'execution': 158, 'duration': 158, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}"
+        {
+          "id": 5,
+          "execution": 106,
+          "duration": 106,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        },
+        {
+          "id": 9,
+          "execution": 158,
+          "duration": 158,
+          "period": 4500,
+          "deadline": 4500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -461,8 +841,22 @@
       "core_id": 9,
       "sum_util_task": 0.25,
       "tasks": [
-        "{'id': 11, 'execution': 95, 'duration': 95, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 27, 'execution': 30, 'duration': 30, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 11,
+          "execution": 95,
+          "duration": 95,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        },
+        {
+          "id": 27,
+          "execution": 30,
+          "duration": 30,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -482,8 +876,22 @@
       "core_id": 10,
       "sum_util_task": 0.254,
       "tasks": [
-        "{'id': 28, 'execution': 94, 'duration': 94, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 15, 'execution': 99, 'duration': 99, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+        {
+          "id": 28,
+          "execution": 94,
+          "duration": 94,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        },
+        {
+          "id": 15,
+          "execution": 99,
+          "duration": 99,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -513,9 +921,30 @@
       "core_id": 11,
       "sum_util_task": 0.24406666666666665,
       "tasks": [
-        "{'id': 10, 'execution': 298, 'duration': 298, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-        "{'id': 2, 'execution': 166, 'duration': 166, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-        "{'id': 26, 'execution': 43, 'duration': 43, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+        {
+          "id": 10,
+          "execution": 298,
+          "duration": 298,
+          "period": 2000,
+          "deadline": 2000,
+          "type": "Hard"
+        },
+        {
+          "id": 2,
+          "execution": 166,
+          "duration": 166,
+          "period": 2500,
+          "deadline": 2500,
+          "type": "Hard"
+        },
+        {
+          "id": 26,
+          "execution": 43,
+          "duration": 43,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -760,9 +1189,30 @@
       "core_id": 12,
       "sum_util_task": 0.24002898550724638,
       "tasks": [
-        "{'id': 22, 'execution': 200, 'duration': 200, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 19, 'execution': 44, 'duration': 44, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 20, 'execution': 215, 'duration': 215, 'period': 11500, 'deadline': 11500, 'type': 'Hard'}"
+        {
+          "id": 22,
+          "execution": 200,
+          "duration": 200,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        },
+        {
+          "id": 19,
+          "execution": 44,
+          "duration": 44,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        },
+        {
+          "id": 20,
+          "execution": 215,
+          "duration": 215,
+          "period": 11500,
+          "deadline": 11500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -1247,9 +1697,30 @@
       "core_id": 13,
       "sum_util_task": 0.24664285714285714,
       "tasks": [
-        "{'id': 18, 'execution': 127, 'duration': 127, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 25, 'execution': 46, 'duration': 46, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 23, 'execution': 387, 'duration': 387, 'period': 14000, 'deadline': 14000, 'type': 'Hard'}"
+        {
+          "id": 18,
+          "execution": 127,
+          "duration": 127,
+          "period": 1000,
+          "deadline": 1000,
+          "type": "Hard"
+        },
+        {
+          "id": 25,
+          "execution": 46,
+          "duration": 46,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        },
+        {
+          "id": 23,
+          "execution": 387,
+          "duration": 387,
+          "period": 14000,
+          "deadline": 14000,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -1479,9 +1950,30 @@
       "core_id": 14,
       "sum_util_task": 0.2627333333333333,
       "tasks": [
-        "{'id': 21, 'execution': 169, 'duration': 169, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 3, 'execution': 139, 'duration': 139, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 6, 'execution': 287, 'duration': 287, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}"
+        {
+          "id": 21,
+          "execution": 169,
+          "duration": 169,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        },
+        {
+          "id": 3,
+          "execution": 139,
+          "duration": 139,
+          "period": 1500,
+          "deadline": 1500,
+          "type": "Hard"
+        },
+        {
+          "id": 6,
+          "execution": 287,
+          "duration": 287,
+          "period": 5000,
+          "deadline": 5000,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
@@ -1606,9 +2098,30 @@
       "core_id": 15,
       "sum_util_task": 0.2554285714285714,
       "tasks": [
-        "{'id': 4, 'execution': 208, 'duration': 208, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-        "{'id': 17, 'execution': 355, 'duration': 355, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
-        "{'id': 12, 'execution': 25, 'duration': 25, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        {
+          "id": 4,
+          "execution": 208,
+          "duration": 208,
+          "period": 2000,
+          "deadline": 2000,
+          "type": "Hard"
+        },
+        {
+          "id": 17,
+          "execution": 355,
+          "duration": 355,
+          "period": 3500,
+          "deadline": 3500,
+          "type": "Hard"
+        },
+        {
+          "id": 12,
+          "execution": 25,
+          "duration": 25,
+          "period": 500,
+          "deadline": 500,
+          "type": "Hard"
+        }
       ],
       "soft_tasks": [],
       "schedule": [
