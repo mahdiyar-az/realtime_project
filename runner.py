@@ -171,8 +171,8 @@ def create_output():
     last_exec()
     power()
 
-# runner_generate_task()
-# phase1()
-# phase2_hardtask()
-# phase2_softask()
+runner_generate_task()
+phase1()
+phase2_hardtask()
+phase2_softask()
 create_output()

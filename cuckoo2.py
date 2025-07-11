@@ -42,18 +42,16 @@ def cuckoo(cores, tasks, num_nests=5, max_iter=2, pa=0.25):
                 best_nest = new_nest.copy()
                 best_fit = f_new
 
-        # جایگزینی لانه‌های ضعیف
         num_replace = int(pa * num_nests)
         worst_indices = sorted(range(num_nests), key=lambda i: fitness(nests[i]), reverse=True)
         for idx in worst_indices[:num_replace]:
             nests[idx] = np.random.randint(0, num_cores, size=num_tasks)
 
-    # اجرای واقعی
     scheduled_tasks = []
     dropped_tasks = []
 
     if best_nest is None:
-        return [], tasks  # همه دراپ میشن
+        return [], tasks
 
     for i, core_index in enumerate(best_nest):
         task = tasks[i]
@@ -73,7 +71,6 @@ def cuckoo(cores, tasks, num_nests=5, max_iter=2, pa=0.25):
                 'parts': 1
             })
         else:
-            # تلاش برای شکستن تسک
             success = False
             split_sizes = split_task(duration)
             temp_parts = []
@@ -105,7 +102,6 @@ def cuckoo(cores, tasks, num_nests=5, max_iter=2, pa=0.25):
 
 
 def split_task(duration):
-    # ساده‌ترین حالت تقسیم: تا جای ممکن به تکه‌های 3 و 2
     parts = []
     while duration > 0:
         if duration >= 3:

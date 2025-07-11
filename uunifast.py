@@ -4,7 +4,7 @@ from time import sleep
 from task import Task
 
 def normalize_array(arr):
-    b = arr.copy()  # کپی برای جلوگیری از تغییر آرایه اصلی
+    b = arr.copy()
     b.sort()
     b[0]=(b[0]+b[len(b)-1])/3
     b[len(b)-1]=b[0]*2

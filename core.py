@@ -58,7 +58,7 @@ class core:
         time = 0
         self.schedule = []
         ready_jobs = []
-        remaining = {}  # زمان باقی مانده برای هر job
+        remaining = {}
 
         self.jobs = sorted(self.jobs, key=lambda j: j['release'])
         job_idx = 0
@@ -87,16 +87,13 @@ class core:
                 current_start = time
 
             if current_job is None:
-                # هیچ job آماده نیست، زمان رو می‌بریم جلو به زمان release بعدی
                 if job_idx < len(self.jobs):
                     time = self.jobs[job_idx]['release']
                 else:
                     break
             else:
-                # پیش‌بینی زمانی که job فعلی می‌تونه اجرا بشه تا:
-                # 1. تکمیلش
+
                 time_to_finish = remaining[current_job['task']]
-                # 2. یا release شدن job جدید (اگه هست)
                 if job_idx < len(self.jobs):
                     time_to_next_release = self.jobs[job_idx]['release'] - time
                 else:
@@ -107,7 +104,6 @@ class core:
                 remaining[current_job['task']] -= delta
 
                 if remaining[current_job['task']] == 0:
-                    # job تموم شده، حذفش از ready_jobs
                     ready_jobs.remove(current_job)
                     self.schedule.append({"start":current_start,"end": time,"exec":time-current_start})
 
@@ -117,7 +113,6 @@ class core:
 
     def get_earliest_start_time(self, task):
         self.get_slack()
-        # فرض: لیستی از jobهای زمان‌بندی شده داریم (jobs)
         for task2 in self.slack:
             # print(task)
             if task.execution <= task2['end'] - task2["start"]:
