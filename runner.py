@@ -1,6 +1,7 @@
 import json
 from core import core
 from cuckoo2 import cuckoo
+from output_generator import failer, last_exec
 
 from task import Task
 from uunifast import generate_tasks
@@ -163,7 +164,13 @@ def phase2_softask():
             filename = f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json"
             with open(filename, "w") as f:
                 json.dump(data, f, indent=2)
-runner_generate_task()
-phase1()
-phase2_hardtask()
-phase2_softask()
+
+def create_output():
+    # failer()
+    last_exec()
+
+# runner_generate_task()
+# phase1()
+# phase2_hardtask()
+# phase2_softask()
+create_output()
