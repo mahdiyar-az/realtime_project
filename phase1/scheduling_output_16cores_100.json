@@ -1,3809 +1,762 @@
 {
   "config": {
     "total_cores": 16,
-    "efficiency": 1
+    "efficiency": 1.0
   },
-  "sum_util_task": 9.648875213675215,
+  "sum_util_task": 5.709526190476191,
   "tasks": [
-    "{'id': 22, 'execution': 122, 'duration': 122, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 0, 'execution': 168, 'duration': 168, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 7, 'execution': 197, 'duration': 197, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}",
-    "{'id': 5, 'execution': 244, 'duration': 244, 'period': 8000, 'deadline': 8000, 'type': 'Soft'}",
-    "{'id': 4, 'execution': 87, 'duration': 87, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
-    "{'id': 24, 'execution': 258, 'duration': 258, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 43, 'execution': 308, 'duration': 308, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 46, 'execution': 398, 'duration': 398, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 34, 'execution': 199, 'duration': 199, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 19, 'execution': 338, 'duration': 338, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 9, 'execution': 189, 'duration': 189, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
-    "{'id': 16, 'execution': 191, 'duration': 191, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 47, 'execution': 455, 'duration': 455, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 37, 'execution': 438, 'duration': 438, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 14, 'execution': 160, 'duration': 160, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 38, 'execution': 446, 'duration': 446, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 49, 'execution': 337, 'duration': 337, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 12, 'execution': 273, 'duration': 273, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 32, 'execution': 191, 'duration': 191, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 45, 'execution': 381, 'duration': 381, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 33, 'execution': 192, 'duration': 192, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 39, 'execution': 231, 'duration': 231, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 10, 'execution': 276, 'duration': 276, 'period': 5000, 'deadline': 5000, 'type': 'Soft'}",
-    "{'id': 25, 'execution': 131, 'duration': 131, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 30, 'execution': 177, 'duration': 177, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 1, 'execution': 252, 'duration': 252, 'period': 17500, 'deadline': 17500, 'type': 'Soft'}",
-    "{'id': 13, 'execution': 157, 'duration': 157, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 15, 'execution': 164, 'duration': 164, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 6, 'execution': 307, 'duration': 307, 'period': 9000, 'deadline': 9000, 'type': 'Soft'}",
-    "{'id': 8, 'execution': 364, 'duration': 364, 'period': 7500, 'deadline': 7500, 'type': 'Hard'}",
-    "{'id': 42, 'execution': 301, 'duration': 301, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 17, 'execution': 108, 'duration': 108, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 11, 'execution': 277, 'duration': 277, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
-    "{'id': 36, 'execution': 216, 'duration': 216, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 41, 'execution': 294, 'duration': 294, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 26, 'execution': 263, 'duration': 263, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 27, 'execution': 136, 'duration': 136, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 35, 'execution': 431, 'duration': 431, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 3, 'execution': 254, 'duration': 254, 'period': 13000, 'deadline': 13000, 'type': 'Hard'}",
-    "{'id': 29, 'execution': 169, 'duration': 169, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 48, 'execution': 462, 'duration': 462, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 40, 'execution': 231, 'duration': 231, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 31, 'execution': 190, 'duration': 190, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 2, 'execution': 395, 'duration': 395, 'period': 26000, 'deadline': 26000, 'type': 'Hard'}",
-    "{'id': 18, 'execution': 108, 'duration': 108, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 20, 'execution': 452, 'duration': 452, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-    "{'id': 44, 'execution': 322, 'duration': 322, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 23, 'execution': 378, 'duration': 378, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 28, 'execution': 150, 'duration': 150, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 21, 'execution': 342, 'duration': 342, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}"
+    "{'id': 19, 'execution': 121, 'duration': 121, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 12, 'execution': 284, 'duration': 284, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+    "{'id': 31, 'execution': 377, 'duration': 377, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 29, 'execution': 180, 'duration': 180, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 10, 'execution': 381, 'duration': 381, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
+    "{'id': 11, 'execution': 279, 'duration': 279, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+    "{'id': 42, 'execution': 283, 'duration': 283, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 24, 'execution': 401, 'duration': 401, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 3, 'execution': 59, 'duration': 59, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 20, 'execution': 243, 'duration': 243, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 27, 'execution': 318, 'duration': 318, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 5, 'execution': 217, 'duration': 217, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
+    "{'id': 46, 'execution': 338, 'duration': 338, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 49, 'execution': 343, 'duration': 343, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 14, 'execution': 197, 'duration': 197, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 4, 'execution': 263, 'duration': 263, 'period': 4000, 'deadline': 4000, 'type': 'Hard'}",
+    "{'id': 2, 'execution': 360, 'duration': 360, 'period': 10000, 'deadline': 10000, 'type': 'Hard'}",
+    "{'id': 17, 'execution': 215, 'duration': 215, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 23, 'execution': 127, 'duration': 127, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 30, 'execution': 181, 'duration': 181, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 25, 'execution': 275, 'duration': 275, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 13, 'execution': 291, 'duration': 291, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 38, 'execution': 208, 'duration': 208, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 21, 'execution': 246, 'duration': 246, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 26, 'execution': 156, 'duration': 156, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 18, 'execution': 344, 'duration': 344, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 45, 'execution': 327, 'duration': 327, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 22, 'execution': 250, 'duration': 250, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 39, 'execution': 218, 'duration': 218, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 28, 'execution': 160, 'duration': 160, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 32, 'execution': 191, 'duration': 191, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 43, 'execution': 286, 'duration': 286, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 15, 'execution': 104, 'duration': 104, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 37, 'execution': 207, 'duration': 207, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 41, 'execution': 269, 'duration': 269, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 47, 'execution': 339, 'duration': 339, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 33, 'execution': 385, 'duration': 385, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 0, 'execution': 343, 'duration': 343, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 48, 'execution': 385, 'duration': 385, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 6, 'execution': 270, 'duration': 270, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
+    "{'id': 7, 'execution': 43, 'duration': 43, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 40, 'execution': 248, 'duration': 248, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 35, 'execution': 199, 'duration': 199, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 44, 'execution': 325, 'duration': 325, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 9, 'execution': 158, 'duration': 158, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 8, 'execution': 252, 'duration': 252, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
+    "{'id': 34, 'execution': 197, 'duration': 197, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 1, 'execution': 52, 'duration': 52, 'period': 4000, 'deadline': 4000, 'type': 'Hard'}",
+    "{'id': 36, 'execution': 206, 'duration': 206, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 16, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
   ],
   "cores": [
     {
       "core_id": 0,
-      "sum_util_task": 0.924,
+      "sum_util_task": 0.36,
       "tasks": [
-        "{'id': 48, 'execution': 462, 'duration': 462, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 29, 'execution': 180, 'duration': 180, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
-      "soft_tasks": [],
+      "soft_tasks": [
+        "{'id': 30, 'execution': 181, 'duration': 181, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+      ],
       "schedule": [
         {
           "start": 0,
-          "end": 462,
-          "exec": 462
+          "end": 180,
+          "exec": 180
+        },
+        {
+          "start": 180,
+          "end": 361,
+          "exec": 181
         }
       ]
     },
     {
       "core_id": 1,
-      "sum_util_task": 0.91,
+      "sum_util_task": 0.343,
       "tasks": [
-        "{'id': 47, 'execution': 455, 'duration': 455, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 0, 'execution': 343, 'duration': 343, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
-      "soft_tasks": [],
+      "soft_tasks": [
+        "{'id': 31, 'execution': 377, 'duration': 377, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+        "{'id': 32, 'execution': 191, 'duration': 191, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+      ],
       "schedule": [
         {
           "start": 0,
-          "end": 455,
-          "exec": 455
+          "end": 343,
+          "exec": 343
+        },
+        {
+          "start": 343,
+          "end": 720,
+          "exec": 377
+        },
+        {
+          "start": 720,
+          "end": 911,
+          "exec": 191
         }
       ]
     },
     {
       "core_id": 2,
-      "sum_util_task": 0.674,
+      "sum_util_task": 0.333,
       "tasks": [
-        "{'id': 49, 'execution': 337, 'duration': 337, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 28, 'execution': 160, 'duration': 160, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 1, 'execution': 52, 'duration': 52, 'period': 4000, 'deadline': 4000, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 25, 'execution': 131, 'duration': 131, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        "{'id': 34, 'execution': 197, 'duration': 197, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 35, 'execution': 199, 'duration': 199, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 36, 'execution': 206, 'duration': 206, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 37, 'execution': 207, 'duration': 207, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 38, 'execution': 208, 'duration': 208, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 39, 'execution': 218, 'duration': 218, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 40, 'execution': 248, 'duration': 248, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 41, 'execution': 269, 'duration': 269, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 337,
-          "exec": 337
+          "end": 160,
+          "exec": 160
         },
         {
-          "start": 337,
-          "end": 468,
-          "exec": 131
+          "start": 160,
+          "end": 212,
+          "exec": 52
+        },
+        {
+          "start": 212,
+          "end": 409,
+          "exec": 197
+        },
+        {
+          "start": 500,
+          "end": 660,
+          "exec": 160
+        },
+        {
+          "start": 660,
+          "end": 859,
+          "exec": 199
+        },
+        {
+          "start": 1000,
+          "end": 1160,
+          "exec": 160
+        },
+        {
+          "start": 1160,
+          "end": 1366,
+          "exec": 206
+        },
+        {
+          "start": 1500,
+          "end": 1660,
+          "exec": 160
+        },
+        {
+          "start": 1660,
+          "end": 1867,
+          "exec": 207
+        },
+        {
+          "start": 2000,
+          "end": 2160,
+          "exec": 160
+        },
+        {
+          "start": 2160,
+          "end": 2368,
+          "exec": 208
+        },
+        {
+          "start": 2500,
+          "end": 2660,
+          "exec": 160
+        },
+        {
+          "start": 2660,
+          "end": 2878,
+          "exec": 218
+        },
+        {
+          "start": 3000,
+          "end": 3160,
+          "exec": 160
+        },
+        {
+          "start": 3160,
+          "end": 3408,
+          "exec": 248
+        },
+        {
+          "start": 3500,
+          "end": 3660,
+          "exec": 160
+        },
+        {
+          "start": 3660,
+          "end": 3929,
+          "exec": 269
         }
       ]
     },
     {
       "core_id": 3,
-      "sum_util_task": 0.644,
+      "sum_util_task": 0.354,
       "tasks": [
-        "{'id': 44, 'execution': 322, 'duration': 322, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 27, 'execution': 318, 'duration': 318, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 2, 'execution': 360, 'duration': 360, 'period': 10000, 'deadline': 10000, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 0, 'execution': 168, 'duration': 168, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+        "{'id': 33, 'execution': 385, 'duration': 385, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+        "{'id': 42, 'execution': 283, 'duration': 283, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 43, 'execution': 286, 'duration': 286, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 44, 'execution': 325, 'duration': 325, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 45, 'execution': 327, 'duration': 327, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 46, 'execution': 338, 'duration': 338, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 47, 'execution': 339, 'duration': 339, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 48, 'execution': 385, 'duration': 385, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 49, 'execution': 343, 'duration': 343, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 322,
-          "exec": 322
+          "end": 318,
+          "exec": 318
         },
         {
-          "start": 322,
-          "end": 490,
-          "exec": 168
+          "start": 318,
+          "end": 678,
+          "exec": 360
+        },
+        {
+          "start": 678,
+          "end": 961,
+          "exec": 283
+        },
+        {
+          "start": 1000,
+          "end": 1318,
+          "exec": 318
+        },
+        {
+          "start": 1318,
+          "end": 1703,
+          "exec": 385
+        },
+        {
+          "start": 1703,
+          "end": 1989,
+          "exec": 286
+        },
+        {
+          "start": 2000,
+          "end": 2318,
+          "exec": 318
+        },
+        {
+          "start": 2318,
+          "end": 2643,
+          "exec": 325
+        },
+        {
+          "start": 2643,
+          "end": 2970,
+          "exec": 327
+        },
+        {
+          "start": 3000,
+          "end": 3318,
+          "exec": 318
+        },
+        {
+          "start": 3318,
+          "end": 3656,
+          "exec": 338
+        },
+        {
+          "start": 3656,
+          "end": 3995,
+          "exec": 339
+        },
+        {
+          "start": 4000,
+          "end": 4318,
+          "exec": 318
+        },
+        {
+          "start": 4318,
+          "end": 4703,
+          "exec": 385
+        },
+        {
+          "start": 5000,
+          "end": 5318,
+          "exec": 318
+        },
+        {
+          "start": 5318,
+          "end": 5661,
+          "exec": 343
+        },
+        {
+          "start": 6000,
+          "end": 6318,
+          "exec": 318
+        },
+        {
+          "start": 7000,
+          "end": 7318,
+          "exec": 318
+        },
+        {
+          "start": 8000,
+          "end": 8318,
+          "exec": 318
+        },
+        {
+          "start": 9000,
+          "end": 9318,
+          "exec": 318
         }
       ]
     },
     {
       "core_id": 4,
-      "sum_util_task": 0.616,
+      "sum_util_task": 0.371,
       "tasks": [
-        "{'id': 43, 'execution': 308, 'duration': 308, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 26, 'execution': 156, 'duration': 156, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 3, 'execution': 59, 'duration': 59, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
-      "soft_tasks": [
-        "{'id': 15, 'execution': 164, 'duration': 164, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
-      ],
+      "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 308,
-          "exec": 308
+          "end": 156,
+          "exec": 156
         },
         {
-          "start": 308,
-          "end": 472,
-          "exec": 164
+          "start": 156,
+          "end": 215,
+          "exec": 59
+        },
+        {
+          "start": 500,
+          "end": 656,
+          "exec": 156
         }
       ]
     },
     {
       "core_id": 5,
-      "sum_util_task": 0.602,
+      "sum_util_task": 0.34075,
       "tasks": [
-        "{'id': 42, 'execution': 301, 'duration': 301, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 25, 'execution': 275, 'duration': 275, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 4, 'execution': 263, 'duration': 263, 'period': 4000, 'deadline': 4000, 'type': 'Hard'}"
       ],
-      "soft_tasks": [
-        "{'id': 16, 'execution': 191, 'duration': 191, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
-      ],
+      "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 301,
-          "exec": 301
+          "end": 275,
+          "exec": 275
         },
         {
-          "start": 301,
-          "end": 492,
-          "exec": 191
+          "start": 275,
+          "end": 538,
+          "exec": 263
+        },
+        {
+          "start": 1000,
+          "end": 1275,
+          "exec": 275
+        },
+        {
+          "start": 2000,
+          "end": 2275,
+          "exec": 275
+        },
+        {
+          "start": 3000,
+          "end": 3275,
+          "exec": 275
         }
       ]
     },
     {
       "core_id": 6,
-      "sum_util_task": 0.5300717948717949,
+      "sum_util_task": 0.3396666666666667,
       "tasks": [
-        "{'id': 39, 'execution': 231, 'duration': 231, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 8, 'execution': 364, 'duration': 364, 'period': 7500, 'deadline': 7500, 'type': 'Hard'}",
-        "{'id': 3, 'execution': 254, 'duration': 254, 'period': 13000, 'deadline': 13000, 'type': 'Hard'}"
+        "{'id': 24, 'execution': 401, 'duration': 401, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 5, 'execution': 217, 'duration': 217, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}"
       ],
-      "soft_tasks": [
-        "{'id': 1, 'execution': 252, 'duration': 252, 'period': 17500, 'deadline': 17500, 'type': 'Soft'}",
-        "{'id': 5, 'execution': 244, 'duration': 244, 'period': 8000, 'deadline': 8000, 'type': 'Soft'}",
-        "{'id': 26, 'execution': 263, 'duration': 263, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-        "{'id': 30, 'execution': 177, 'duration': 177, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 31, 'execution': 190, 'duration': 190, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 36, 'execution': 216, 'duration': 216, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 40, 'execution': 231, 'duration': 231, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
-      ],
+      "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 231,
-          "exec": 231
+          "end": 401,
+          "exec": 401
         },
         {
-          "start": 231,
-          "end": 500,
-          "exec": 269
-        },
-        {
-          "start": 500,
-          "end": 731,
-          "exec": 231
-        },
-        {
-          "start": 731,
-          "end": 826,
-          "exec": 95
-        },
-        {
-          "start": 826,
-          "end": 1000,
-          "exec": 174
-        },
-        {
-          "start": 1000,
-          "end": 1231,
-          "exec": 231
-        },
-        {
-          "start": 1231,
-          "end": 1311,
-          "exec": 80
-        },
-        {
-          "start": 1311,
-          "end": 1488,
-          "exec": 177
+          "start": 401,
+          "end": 618,
+          "exec": 217
         },
         {
           "start": 1500,
-          "end": 1731,
-          "exec": 231
-        },
-        {
-          "start": 1731,
-          "end": 1983,
-          "exec": 252
-        },
-        {
-          "start": 2000,
-          "end": 2231,
-          "exec": 231
-        },
-        {
-          "start": 2231,
-          "end": 2475,
-          "exec": 244
-        },
-        {
-          "start": 2500,
-          "end": 2731,
-          "exec": 231
-        },
-        {
-          "start": 2731,
-          "end": 2994,
-          "exec": 263
-        },
-        {
-          "start": 3000,
-          "end": 3231,
-          "exec": 231
-        },
-        {
-          "start": 3231,
-          "end": 3421,
-          "exec": 190
-        },
-        {
-          "start": 3500,
-          "end": 3731,
-          "exec": 231
-        },
-        {
-          "start": 3731,
-          "end": 3947,
-          "exec": 216
-        },
-        {
-          "start": 4000,
-          "end": 4231,
-          "exec": 231
-        },
-        {
-          "start": 4231,
-          "end": 4462,
-          "exec": 231
-        },
-        {
-          "start": 4500,
-          "end": 4731,
-          "exec": 231
-        },
-        {
-          "start": 5000,
-          "end": 5231,
-          "exec": 231
-        },
-        {
-          "start": 5500,
-          "end": 5731,
-          "exec": 231
-        },
-        {
-          "start": 6000,
-          "end": 6231,
-          "exec": 231
-        },
-        {
-          "start": 6500,
-          "end": 6731,
-          "exec": 231
-        },
-        {
-          "start": 7000,
-          "end": 7231,
-          "exec": 231
-        },
-        {
-          "start": 7500,
-          "end": 7731,
-          "exec": 231
-        },
-        {
-          "start": 7731,
-          "end": 8000,
-          "exec": 269
-        },
-        {
-          "start": 8000,
-          "end": 8231,
-          "exec": 231
-        },
-        {
-          "start": 8231,
-          "end": 8326,
-          "exec": 95
-        },
-        {
-          "start": 8500,
-          "end": 8731,
-          "exec": 231
-        },
-        {
-          "start": 9000,
-          "end": 9231,
-          "exec": 231
-        },
-        {
-          "start": 9500,
-          "end": 9731,
-          "exec": 231
-        },
-        {
-          "start": 10000,
-          "end": 10231,
-          "exec": 231
-        },
-        {
-          "start": 10500,
-          "end": 10731,
-          "exec": 231
-        },
-        {
-          "start": 11000,
-          "end": 11231,
-          "exec": 231
-        },
-        {
-          "start": 11500,
-          "end": 11731,
-          "exec": 231
-        },
-        {
-          "start": 12000,
-          "end": 12231,
-          "exec": 231
-        },
-        {
-          "start": 12500,
-          "end": 12731,
-          "exec": 231
-        },
-        {
-          "start": 13000,
-          "end": 13231,
-          "exec": 231
-        },
-        {
-          "start": 13231,
-          "end": 13485,
-          "exec": 254
-        },
-        {
-          "start": 13500,
-          "end": 13731,
-          "exec": 231
-        },
-        {
-          "start": 14000,
-          "end": 14231,
-          "exec": 231
-        },
-        {
-          "start": 14500,
-          "end": 14731,
-          "exec": 231
-        },
-        {
-          "start": 15000,
-          "end": 15231,
-          "exec": 231
-        },
-        {
-          "start": 15231,
-          "end": 15500,
-          "exec": 269
-        },
-        {
-          "start": 15500,
-          "end": 15731,
-          "exec": 231
-        },
-        {
-          "start": 15731,
-          "end": 15826,
-          "exec": 95
-        },
-        {
-          "start": 16000,
-          "end": 16231,
-          "exec": 231
-        },
-        {
-          "start": 16500,
-          "end": 16731,
-          "exec": 231
-        },
-        {
-          "start": 17000,
-          "end": 17231,
-          "exec": 231
-        },
-        {
-          "start": 17500,
-          "end": 17731,
-          "exec": 231
-        },
-        {
-          "start": 18000,
-          "end": 18231,
-          "exec": 231
-        },
-        {
-          "start": 18500,
-          "end": 18731,
-          "exec": 231
-        },
-        {
-          "start": 19000,
-          "end": 19231,
-          "exec": 231
-        },
-        {
-          "start": 19500,
-          "end": 19731,
-          "exec": 231
-        },
-        {
-          "start": 20000,
-          "end": 20231,
-          "exec": 231
-        },
-        {
-          "start": 20500,
-          "end": 20731,
-          "exec": 231
-        },
-        {
-          "start": 21000,
-          "end": 21231,
-          "exec": 231
-        },
-        {
-          "start": 21500,
-          "end": 21731,
-          "exec": 231
-        },
-        {
-          "start": 22000,
-          "end": 22231,
-          "exec": 231
-        },
-        {
-          "start": 22500,
-          "end": 22731,
-          "exec": 231
-        },
-        {
-          "start": 22731,
-          "end": 23000,
-          "exec": 269
-        },
-        {
-          "start": 23000,
-          "end": 23231,
-          "exec": 231
-        },
-        {
-          "start": 23231,
-          "end": 23326,
-          "exec": 95
-        },
-        {
-          "start": 23500,
-          "end": 23731,
-          "exec": 231
-        },
-        {
-          "start": 24000,
-          "end": 24231,
-          "exec": 231
-        },
-        {
-          "start": 24500,
-          "end": 24731,
-          "exec": 231
-        },
-        {
-          "start": 25000,
-          "end": 25231,
-          "exec": 231
-        },
-        {
-          "start": 25500,
-          "end": 25731,
-          "exec": 231
-        },
-        {
-          "start": 26000,
-          "end": 26231,
-          "exec": 231
-        },
-        {
-          "start": 26231,
-          "end": 26485,
-          "exec": 254
-        },
-        {
-          "start": 26500,
-          "end": 26731,
-          "exec": 231
-        },
-        {
-          "start": 27000,
-          "end": 27231,
-          "exec": 231
-        },
-        {
-          "start": 27500,
-          "end": 27731,
-          "exec": 231
-        },
-        {
-          "start": 28000,
-          "end": 28231,
-          "exec": 231
-        },
-        {
-          "start": 28500,
-          "end": 28731,
-          "exec": 231
-        },
-        {
-          "start": 29000,
-          "end": 29231,
-          "exec": 231
-        },
-        {
-          "start": 29500,
-          "end": 29731,
-          "exec": 231
-        },
-        {
-          "start": 30000,
-          "end": 30231,
-          "exec": 231
-        },
-        {
-          "start": 30231,
-          "end": 30500,
-          "exec": 269
-        },
-        {
-          "start": 30500,
-          "end": 30731,
-          "exec": 231
-        },
-        {
-          "start": 30731,
-          "end": 30826,
-          "exec": 95
-        },
-        {
-          "start": 31000,
-          "end": 31231,
-          "exec": 231
-        },
-        {
-          "start": 31500,
-          "end": 31731,
-          "exec": 231
-        },
-        {
-          "start": 32000,
-          "end": 32231,
-          "exec": 231
-        },
-        {
-          "start": 32500,
-          "end": 32731,
-          "exec": 231
-        },
-        {
-          "start": 33000,
-          "end": 33231,
-          "exec": 231
-        },
-        {
-          "start": 33500,
-          "end": 33731,
-          "exec": 231
-        },
-        {
-          "start": 34000,
-          "end": 34231,
-          "exec": 231
-        },
-        {
-          "start": 34500,
-          "end": 34731,
-          "exec": 231
-        },
-        {
-          "start": 35000,
-          "end": 35231,
-          "exec": 231
-        },
-        {
-          "start": 35500,
-          "end": 35731,
-          "exec": 231
-        },
-        {
-          "start": 36000,
-          "end": 36231,
-          "exec": 231
-        },
-        {
-          "start": 36500,
-          "end": 36731,
-          "exec": 231
-        },
-        {
-          "start": 37000,
-          "end": 37231,
-          "exec": 231
-        },
-        {
-          "start": 37500,
-          "end": 37731,
-          "exec": 231
-        },
-        {
-          "start": 37731,
-          "end": 38000,
-          "exec": 269
-        },
-        {
-          "start": 38000,
-          "end": 38231,
-          "exec": 231
-        },
-        {
-          "start": 38231,
-          "end": 38326,
-          "exec": 95
-        },
-        {
-          "start": 38500,
-          "end": 38731,
-          "exec": 231
-        },
-        {
-          "start": 39000,
-          "end": 39231,
-          "exec": 231
-        },
-        {
-          "start": 39231,
-          "end": 39485,
-          "exec": 254
-        },
-        {
-          "start": 39500,
-          "end": 39731,
-          "exec": 231
-        },
-        {
-          "start": 40000,
-          "end": 40231,
-          "exec": 231
-        },
-        {
-          "start": 40500,
-          "end": 40731,
-          "exec": 231
-        },
-        {
-          "start": 41000,
-          "end": 41231,
-          "exec": 231
-        },
-        {
-          "start": 41500,
-          "end": 41731,
-          "exec": 231
-        },
-        {
-          "start": 42000,
-          "end": 42231,
-          "exec": 231
-        },
-        {
-          "start": 42500,
-          "end": 42731,
-          "exec": 231
-        },
-        {
-          "start": 43000,
-          "end": 43231,
-          "exec": 231
-        },
-        {
-          "start": 43500,
-          "end": 43731,
-          "exec": 231
-        },
-        {
-          "start": 44000,
-          "end": 44231,
-          "exec": 231
-        },
-        {
-          "start": 44500,
-          "end": 44731,
-          "exec": 231
-        },
-        {
-          "start": 45000,
-          "end": 45231,
-          "exec": 231
-        },
-        {
-          "start": 45231,
-          "end": 45500,
-          "exec": 269
-        },
-        {
-          "start": 45500,
-          "end": 45731,
-          "exec": 231
-        },
-        {
-          "start": 45731,
-          "end": 45826,
-          "exec": 95
-        },
-        {
-          "start": 46000,
-          "end": 46231,
-          "exec": 231
-        },
-        {
-          "start": 46500,
-          "end": 46731,
-          "exec": 231
-        },
-        {
-          "start": 47000,
-          "end": 47231,
-          "exec": 231
-        },
-        {
-          "start": 47500,
-          "end": 47731,
-          "exec": 231
-        },
-        {
-          "start": 48000,
-          "end": 48231,
-          "exec": 231
-        },
-        {
-          "start": 48500,
-          "end": 48731,
-          "exec": 231
-        },
-        {
-          "start": 49000,
-          "end": 49231,
-          "exec": 231
-        },
-        {
-          "start": 49500,
-          "end": 49731,
-          "exec": 231
-        },
-        {
-          "start": 50000,
-          "end": 50231,
-          "exec": 231
-        },
-        {
-          "start": 50500,
-          "end": 50731,
-          "exec": 231
-        },
-        {
-          "start": 51000,
-          "end": 51231,
-          "exec": 231
-        },
-        {
-          "start": 51500,
-          "end": 51731,
-          "exec": 231
-        },
-        {
-          "start": 52000,
-          "end": 52231,
-          "exec": 231
-        },
-        {
-          "start": 52231,
-          "end": 52485,
-          "exec": 254
-        },
-        {
-          "start": 52500,
-          "end": 52731,
-          "exec": 231
-        },
-        {
-          "start": 52731,
-          "end": 53000,
-          "exec": 269
-        },
-        {
-          "start": 53000,
-          "end": 53231,
-          "exec": 231
-        },
-        {
-          "start": 53231,
-          "end": 53326,
-          "exec": 95
-        },
-        {
-          "start": 53500,
-          "end": 53731,
-          "exec": 231
-        },
-        {
-          "start": 54000,
-          "end": 54231,
-          "exec": 231
-        },
-        {
-          "start": 54500,
-          "end": 54731,
-          "exec": 231
-        },
-        {
-          "start": 55000,
-          "end": 55231,
-          "exec": 231
-        },
-        {
-          "start": 55500,
-          "end": 55731,
-          "exec": 231
-        },
-        {
-          "start": 56000,
-          "end": 56231,
-          "exec": 231
-        },
-        {
-          "start": 56500,
-          "end": 56731,
-          "exec": 231
-        },
-        {
-          "start": 57000,
-          "end": 57231,
-          "exec": 231
-        },
-        {
-          "start": 57500,
-          "end": 57731,
-          "exec": 231
-        },
-        {
-          "start": 58000,
-          "end": 58231,
-          "exec": 231
-        },
-        {
-          "start": 58500,
-          "end": 58731,
-          "exec": 231
-        },
-        {
-          "start": 59000,
-          "end": 59231,
-          "exec": 231
-        },
-        {
-          "start": 59500,
-          "end": 59731,
-          "exec": 231
-        },
-        {
-          "start": 60000,
-          "end": 60231,
-          "exec": 231
-        },
-        {
-          "start": 60231,
-          "end": 60500,
-          "exec": 269
-        },
-        {
-          "start": 60500,
-          "end": 60731,
-          "exec": 231
-        },
-        {
-          "start": 60731,
-          "end": 60826,
-          "exec": 95
-        },
-        {
-          "start": 61000,
-          "end": 61231,
-          "exec": 231
-        },
-        {
-          "start": 61500,
-          "end": 61731,
-          "exec": 231
-        },
-        {
-          "start": 62000,
-          "end": 62231,
-          "exec": 231
-        },
-        {
-          "start": 62500,
-          "end": 62731,
-          "exec": 231
-        },
-        {
-          "start": 63000,
-          "end": 63231,
-          "exec": 231
-        },
-        {
-          "start": 63500,
-          "end": 63731,
-          "exec": 231
-        },
-        {
-          "start": 64000,
-          "end": 64231,
-          "exec": 231
-        },
-        {
-          "start": 64500,
-          "end": 64731,
-          "exec": 231
-        },
-        {
-          "start": 65000,
-          "end": 65231,
-          "exec": 231
-        },
-        {
-          "start": 65231,
-          "end": 65485,
-          "exec": 254
-        },
-        {
-          "start": 65500,
-          "end": 65731,
-          "exec": 231
-        },
-        {
-          "start": 66000,
-          "end": 66231,
-          "exec": 231
-        },
-        {
-          "start": 66500,
-          "end": 66731,
-          "exec": 231
-        },
-        {
-          "start": 67000,
-          "end": 67231,
-          "exec": 231
-        },
-        {
-          "start": 67500,
-          "end": 67731,
-          "exec": 231
-        },
-        {
-          "start": 67731,
-          "end": 68000,
-          "exec": 269
-        },
-        {
-          "start": 68000,
-          "end": 68231,
-          "exec": 231
-        },
-        {
-          "start": 68231,
-          "end": 68326,
-          "exec": 95
-        },
-        {
-          "start": 68500,
-          "end": 68731,
-          "exec": 231
-        },
-        {
-          "start": 69000,
-          "end": 69231,
-          "exec": 231
-        },
-        {
-          "start": 69500,
-          "end": 69731,
-          "exec": 231
-        },
-        {
-          "start": 70000,
-          "end": 70231,
-          "exec": 231
-        },
-        {
-          "start": 70500,
-          "end": 70731,
-          "exec": 231
-        },
-        {
-          "start": 71000,
-          "end": 71231,
-          "exec": 231
-        },
-        {
-          "start": 71500,
-          "end": 71731,
-          "exec": 231
-        },
-        {
-          "start": 72000,
-          "end": 72231,
-          "exec": 231
-        },
-        {
-          "start": 72500,
-          "end": 72731,
-          "exec": 231
-        },
-        {
-          "start": 73000,
-          "end": 73231,
-          "exec": 231
-        },
-        {
-          "start": 73500,
-          "end": 73731,
-          "exec": 231
-        },
-        {
-          "start": 74000,
-          "end": 74231,
-          "exec": 231
-        },
-        {
-          "start": 74500,
-          "end": 74731,
-          "exec": 231
-        },
-        {
-          "start": 75000,
-          "end": 75231,
-          "exec": 231
-        },
-        {
-          "start": 75231,
-          "end": 75500,
-          "exec": 269
-        },
-        {
-          "start": 75500,
-          "end": 75731,
-          "exec": 231
-        },
-        {
-          "start": 75731,
-          "end": 75826,
-          "exec": 95
-        },
-        {
-          "start": 76000,
-          "end": 76231,
-          "exec": 231
-        },
-        {
-          "start": 76500,
-          "end": 76731,
-          "exec": 231
-        },
-        {
-          "start": 77000,
-          "end": 77231,
-          "exec": 231
-        },
-        {
-          "start": 77500,
-          "end": 77731,
-          "exec": 231
-        },
-        {
-          "start": 78000,
-          "end": 78231,
-          "exec": 231
-        },
-        {
-          "start": 78231,
-          "end": 78485,
-          "exec": 254
-        },
-        {
-          "start": 78500,
-          "end": 78731,
-          "exec": 231
-        },
-        {
-          "start": 79000,
-          "end": 79231,
-          "exec": 231
-        },
-        {
-          "start": 79500,
-          "end": 79731,
-          "exec": 231
-        },
-        {
-          "start": 80000,
-          "end": 80231,
-          "exec": 231
-        },
-        {
-          "start": 80500,
-          "end": 80731,
-          "exec": 231
-        },
-        {
-          "start": 81000,
-          "end": 81231,
-          "exec": 231
-        },
-        {
-          "start": 81500,
-          "end": 81731,
-          "exec": 231
-        },
-        {
-          "start": 82000,
-          "end": 82231,
-          "exec": 231
-        },
-        {
-          "start": 82500,
-          "end": 82731,
-          "exec": 231
-        },
-        {
-          "start": 82731,
-          "end": 83000,
-          "exec": 269
-        },
-        {
-          "start": 83000,
-          "end": 83231,
-          "exec": 231
-        },
-        {
-          "start": 83231,
-          "end": 83326,
-          "exec": 95
-        },
-        {
-          "start": 83500,
-          "end": 83731,
-          "exec": 231
-        },
-        {
-          "start": 84000,
-          "end": 84231,
-          "exec": 231
-        },
-        {
-          "start": 84500,
-          "end": 84731,
-          "exec": 231
-        },
-        {
-          "start": 85000,
-          "end": 85231,
-          "exec": 231
-        },
-        {
-          "start": 85500,
-          "end": 85731,
-          "exec": 231
-        },
-        {
-          "start": 86000,
-          "end": 86231,
-          "exec": 231
-        },
-        {
-          "start": 86500,
-          "end": 86731,
-          "exec": 231
-        },
-        {
-          "start": 87000,
-          "end": 87231,
-          "exec": 231
-        },
-        {
-          "start": 87500,
-          "end": 87731,
-          "exec": 231
-        },
-        {
-          "start": 88000,
-          "end": 88231,
-          "exec": 231
-        },
-        {
-          "start": 88500,
-          "end": 88731,
-          "exec": 231
-        },
-        {
-          "start": 89000,
-          "end": 89231,
-          "exec": 231
-        },
-        {
-          "start": 89500,
-          "end": 89731,
-          "exec": 231
-        },
-        {
-          "start": 90000,
-          "end": 90231,
-          "exec": 231
-        },
-        {
-          "start": 90231,
-          "end": 90500,
-          "exec": 269
-        },
-        {
-          "start": 90500,
-          "end": 90731,
-          "exec": 231
-        },
-        {
-          "start": 90731,
-          "end": 90826,
-          "exec": 95
-        },
-        {
-          "start": 91000,
-          "end": 91231,
-          "exec": 231
-        },
-        {
-          "start": 91231,
-          "end": 91485,
-          "exec": 254
-        },
-        {
-          "start": 91500,
-          "end": 91731,
-          "exec": 231
-        },
-        {
-          "start": 92000,
-          "end": 92231,
-          "exec": 231
-        },
-        {
-          "start": 92500,
-          "end": 92731,
-          "exec": 231
-        },
-        {
-          "start": 93000,
-          "end": 93231,
-          "exec": 231
-        },
-        {
-          "start": 93500,
-          "end": 93731,
-          "exec": 231
-        },
-        {
-          "start": 94000,
-          "end": 94231,
-          "exec": 231
-        },
-        {
-          "start": 94500,
-          "end": 94731,
-          "exec": 231
-        },
-        {
-          "start": 95000,
-          "end": 95231,
-          "exec": 231
-        },
-        {
-          "start": 95500,
-          "end": 95731,
-          "exec": 231
-        },
-        {
-          "start": 96000,
-          "end": 96231,
-          "exec": 231
-        },
-        {
-          "start": 96500,
-          "end": 96731,
-          "exec": 231
-        },
-        {
-          "start": 97000,
-          "end": 97231,
-          "exec": 231
-        },
-        {
-          "start": 97500,
-          "end": 97731,
-          "exec": 231
-        },
-        {
-          "start": 97731,
-          "end": 98000,
-          "exec": 269
-        },
-        {
-          "start": 98000,
-          "end": 98231,
-          "exec": 231
-        },
-        {
-          "start": 98231,
-          "end": 98326,
-          "exec": 95
-        },
-        {
-          "start": 98500,
-          "end": 98731,
-          "exec": 231
-        },
-        {
-          "start": 99000,
-          "end": 99231,
-          "exec": 231
-        },
-        {
-          "start": 99500,
-          "end": 99731,
-          "exec": 231
-        },
-        {
-          "start": 100000,
-          "end": 100231,
-          "exec": 231
-        },
-        {
-          "start": 100500,
-          "end": 100731,
-          "exec": 231
-        },
-        {
-          "start": 101000,
-          "end": 101231,
-          "exec": 231
-        },
-        {
-          "start": 101500,
-          "end": 101731,
-          "exec": 231
-        },
-        {
-          "start": 102000,
-          "end": 102231,
-          "exec": 231
-        },
-        {
-          "start": 102500,
-          "end": 102731,
-          "exec": 231
-        },
-        {
-          "start": 103000,
-          "end": 103231,
-          "exec": 231
-        },
-        {
-          "start": 103500,
-          "end": 103731,
-          "exec": 231
-        },
-        {
-          "start": 104000,
-          "end": 104231,
-          "exec": 231
-        },
-        {
-          "start": 104231,
-          "end": 104485,
-          "exec": 254
-        },
-        {
-          "start": 104500,
-          "end": 104731,
-          "exec": 231
-        },
-        {
-          "start": 105000,
-          "end": 105231,
-          "exec": 231
-        },
-        {
-          "start": 105231,
-          "end": 105500,
-          "exec": 269
-        },
-        {
-          "start": 105500,
-          "end": 105731,
-          "exec": 231
-        },
-        {
-          "start": 105731,
-          "end": 105826,
-          "exec": 95
-        },
-        {
-          "start": 106000,
-          "end": 106231,
-          "exec": 231
-        },
-        {
-          "start": 106500,
-          "end": 106731,
-          "exec": 231
-        },
-        {
-          "start": 107000,
-          "end": 107231,
-          "exec": 231
-        },
-        {
-          "start": 107500,
-          "end": 107731,
-          "exec": 231
-        },
-        {
-          "start": 108000,
-          "end": 108231,
-          "exec": 231
-        },
-        {
-          "start": 108500,
-          "end": 108731,
-          "exec": 231
-        },
-        {
-          "start": 109000,
-          "end": 109231,
-          "exec": 231
-        },
-        {
-          "start": 109500,
-          "end": 109731,
-          "exec": 231
-        },
-        {
-          "start": 110000,
-          "end": 110231,
-          "exec": 231
-        },
-        {
-          "start": 110500,
-          "end": 110731,
-          "exec": 231
-        },
-        {
-          "start": 111000,
-          "end": 111231,
-          "exec": 231
-        },
-        {
-          "start": 111500,
-          "end": 111731,
-          "exec": 231
-        },
-        {
-          "start": 112000,
-          "end": 112231,
-          "exec": 231
-        },
-        {
-          "start": 112500,
-          "end": 112731,
-          "exec": 231
-        },
-        {
-          "start": 112731,
-          "end": 113000,
-          "exec": 269
-        },
-        {
-          "start": 113000,
-          "end": 113231,
-          "exec": 231
-        },
-        {
-          "start": 113231,
-          "end": 113326,
-          "exec": 95
-        },
-        {
-          "start": 113500,
-          "end": 113731,
-          "exec": 231
-        },
-        {
-          "start": 114000,
-          "end": 114231,
-          "exec": 231
-        },
-        {
-          "start": 114500,
-          "end": 114731,
-          "exec": 231
-        },
-        {
-          "start": 115000,
-          "end": 115231,
-          "exec": 231
-        },
-        {
-          "start": 115500,
-          "end": 115731,
-          "exec": 231
-        },
-        {
-          "start": 116000,
-          "end": 116231,
-          "exec": 231
-        },
-        {
-          "start": 116500,
-          "end": 116731,
-          "exec": 231
-        },
-        {
-          "start": 117000,
-          "end": 117231,
-          "exec": 231
-        },
-        {
-          "start": 117231,
-          "end": 117485,
-          "exec": 254
-        },
-        {
-          "start": 117500,
-          "end": 117731,
-          "exec": 231
-        },
-        {
-          "start": 118000,
-          "end": 118231,
-          "exec": 231
-        },
-        {
-          "start": 118500,
-          "end": 118731,
-          "exec": 231
-        },
-        {
-          "start": 119000,
-          "end": 119231,
-          "exec": 231
-        },
-        {
-          "start": 119500,
-          "end": 119731,
-          "exec": 231
-        },
-        {
-          "start": 120000,
-          "end": 120231,
-          "exec": 231
-        },
-        {
-          "start": 120231,
-          "end": 120500,
-          "exec": 269
-        },
-        {
-          "start": 120500,
-          "end": 120731,
-          "exec": 231
-        },
-        {
-          "start": 120731,
-          "end": 120826,
-          "exec": 95
-        },
-        {
-          "start": 121000,
-          "end": 121231,
-          "exec": 231
-        },
-        {
-          "start": 121500,
-          "end": 121731,
-          "exec": 231
-        },
-        {
-          "start": 122000,
-          "end": 122231,
-          "exec": 231
-        },
-        {
-          "start": 122500,
-          "end": 122731,
-          "exec": 231
-        },
-        {
-          "start": 123000,
-          "end": 123231,
-          "exec": 231
-        },
-        {
-          "start": 123500,
-          "end": 123731,
-          "exec": 231
-        },
-        {
-          "start": 124000,
-          "end": 124231,
-          "exec": 231
-        },
-        {
-          "start": 124500,
-          "end": 124731,
-          "exec": 231
-        },
-        {
-          "start": 125000,
-          "end": 125231,
-          "exec": 231
-        },
-        {
-          "start": 125500,
-          "end": 125731,
-          "exec": 231
-        },
-        {
-          "start": 126000,
-          "end": 126231,
-          "exec": 231
-        },
-        {
-          "start": 126500,
-          "end": 126731,
-          "exec": 231
-        },
-        {
-          "start": 127000,
-          "end": 127231,
-          "exec": 231
-        },
-        {
-          "start": 127500,
-          "end": 127731,
-          "exec": 231
-        },
-        {
-          "start": 127731,
-          "end": 128000,
-          "exec": 269
-        },
-        {
-          "start": 128000,
-          "end": 128231,
-          "exec": 231
-        },
-        {
-          "start": 128231,
-          "end": 128326,
-          "exec": 95
-        },
-        {
-          "start": 128500,
-          "end": 128731,
-          "exec": 231
-        },
-        {
-          "start": 129000,
-          "end": 129231,
-          "exec": 231
-        },
-        {
-          "start": 129500,
-          "end": 129731,
-          "exec": 231
-        },
-        {
-          "start": 130000,
-          "end": 130231,
-          "exec": 231
-        },
-        {
-          "start": 130231,
-          "end": 130485,
-          "exec": 254
-        },
-        {
-          "start": 130500,
-          "end": 130731,
-          "exec": 231
-        },
-        {
-          "start": 131000,
-          "end": 131231,
-          "exec": 231
-        },
-        {
-          "start": 131500,
-          "end": 131731,
-          "exec": 231
-        },
-        {
-          "start": 132000,
-          "end": 132231,
-          "exec": 231
-        },
-        {
-          "start": 132500,
-          "end": 132731,
-          "exec": 231
-        },
-        {
-          "start": 133000,
-          "end": 133231,
-          "exec": 231
-        },
-        {
-          "start": 133500,
-          "end": 133731,
-          "exec": 231
-        },
-        {
-          "start": 134000,
-          "end": 134231,
-          "exec": 231
-        },
-        {
-          "start": 134500,
-          "end": 134731,
-          "exec": 231
-        },
-        {
-          "start": 135000,
-          "end": 135231,
-          "exec": 231
-        },
-        {
-          "start": 135231,
-          "end": 135500,
-          "exec": 269
-        },
-        {
-          "start": 135500,
-          "end": 135731,
-          "exec": 231
-        },
-        {
-          "start": 135731,
-          "end": 135826,
-          "exec": 95
-        },
-        {
-          "start": 136000,
-          "end": 136231,
-          "exec": 231
-        },
-        {
-          "start": 136500,
-          "end": 136731,
-          "exec": 231
-        },
-        {
-          "start": 137000,
-          "end": 137231,
-          "exec": 231
-        },
-        {
-          "start": 137500,
-          "end": 137731,
-          "exec": 231
-        },
-        {
-          "start": 138000,
-          "end": 138231,
-          "exec": 231
-        },
-        {
-          "start": 138500,
-          "end": 138731,
-          "exec": 231
-        },
-        {
-          "start": 139000,
-          "end": 139231,
-          "exec": 231
-        },
-        {
-          "start": 139500,
-          "end": 139731,
-          "exec": 231
-        },
-        {
-          "start": 140000,
-          "end": 140231,
-          "exec": 231
-        },
-        {
-          "start": 140500,
-          "end": 140731,
-          "exec": 231
-        },
-        {
-          "start": 141000,
-          "end": 141231,
-          "exec": 231
-        },
-        {
-          "start": 141500,
-          "end": 141731,
-          "exec": 231
-        },
-        {
-          "start": 142000,
-          "end": 142231,
-          "exec": 231
-        },
-        {
-          "start": 142500,
-          "end": 142731,
-          "exec": 231
-        },
-        {
-          "start": 142731,
-          "end": 143000,
-          "exec": 269
-        },
-        {
-          "start": 143000,
-          "end": 143231,
-          "exec": 231
-        },
-        {
-          "start": 143231,
-          "end": 143326,
-          "exec": 95
-        },
-        {
-          "start": 143326,
-          "end": 143500,
-          "exec": 174
-        },
-        {
-          "start": 143500,
-          "end": 143731,
-          "exec": 231
-        },
-        {
-          "start": 143731,
-          "end": 143811,
-          "exec": 80
-        },
-        {
-          "start": 144000,
-          "end": 144231,
-          "exec": 231
-        },
-        {
-          "start": 144500,
-          "end": 144731,
-          "exec": 231
-        },
-        {
-          "start": 145000,
-          "end": 145231,
-          "exec": 231
-        },
-        {
-          "start": 145500,
-          "end": 145731,
-          "exec": 231
-        },
-        {
-          "start": 146000,
-          "end": 146231,
-          "exec": 231
-        },
-        {
-          "start": 146500,
-          "end": 146731,
-          "exec": 231
-        },
-        {
-          "start": 147000,
-          "end": 147231,
-          "exec": 231
-        },
-        {
-          "start": 147500,
-          "end": 147731,
-          "exec": 231
-        },
-        {
-          "start": 148000,
-          "end": 148231,
-          "exec": 231
-        },
-        {
-          "start": 148500,
-          "end": 148731,
-          "exec": 231
-        },
-        {
-          "start": 149000,
-          "end": 149231,
-          "exec": 231
-        },
-        {
-          "start": 149500,
-          "end": 149731,
-          "exec": 231
-        },
-        {
-          "start": 150000,
-          "end": 150231,
-          "exec": 231
-        },
-        {
-          "start": 150231,
-          "end": 150500,
-          "exec": 269
-        },
-        {
-          "start": 150500,
-          "end": 150731,
-          "exec": 231
-        },
-        {
-          "start": 150731,
-          "end": 150826,
-          "exec": 95
-        },
-        {
-          "start": 151000,
-          "end": 151231,
-          "exec": 231
-        },
-        {
-          "start": 151500,
-          "end": 151731,
-          "exec": 231
-        },
-        {
-          "start": 152000,
-          "end": 152231,
-          "exec": 231
-        },
-        {
-          "start": 152500,
-          "end": 152731,
-          "exec": 231
-        },
-        {
-          "start": 153000,
-          "end": 153231,
-          "exec": 231
-        },
-        {
-          "start": 153500,
-          "end": 153731,
-          "exec": 231
-        },
-        {
-          "start": 154000,
-          "end": 154231,
-          "exec": 231
-        },
-        {
-          "start": 154500,
-          "end": 154731,
-          "exec": 231
-        },
-        {
-          "start": 155000,
-          "end": 155231,
-          "exec": 231
-        },
-        {
-          "start": 155500,
-          "end": 155731,
-          "exec": 231
-        },
-        {
-          "start": 156000,
-          "end": 156231,
-          "exec": 231
-        },
-        {
-          "start": 156231,
-          "end": 156485,
-          "exec": 254
-        },
-        {
-          "start": 156500,
-          "end": 156731,
-          "exec": 231
-        },
-        {
-          "start": 157000,
-          "end": 157231,
-          "exec": 231
-        },
-        {
-          "start": 157500,
-          "end": 157731,
-          "exec": 231
-        },
-        {
-          "start": 157731,
-          "end": 158000,
-          "exec": 269
-        },
-        {
-          "start": 158000,
-          "end": 158231,
-          "exec": 231
-        },
-        {
-          "start": 158231,
-          "end": 158326,
-          "exec": 95
-        },
-        {
-          "start": 158500,
-          "end": 158731,
-          "exec": 231
-        },
-        {
-          "start": 159000,
-          "end": 159231,
-          "exec": 231
-        },
-        {
-          "start": 159500,
-          "end": 159731,
-          "exec": 231
-        },
-        {
-          "start": 160000,
-          "end": 160231,
-          "exec": 231
-        },
-        {
-          "start": 160500,
-          "end": 160731,
-          "exec": 231
-        },
-        {
-          "start": 161000,
-          "end": 161231,
-          "exec": 231
-        },
-        {
-          "start": 161500,
-          "end": 161731,
-          "exec": 231
-        },
-        {
-          "start": 162000,
-          "end": 162231,
-          "exec": 231
-        },
-        {
-          "start": 162500,
-          "end": 162731,
-          "exec": 231
-        },
-        {
-          "start": 163000,
-          "end": 163231,
-          "exec": 231
-        },
-        {
-          "start": 163500,
-          "end": 163731,
-          "exec": 231
-        },
-        {
-          "start": 164000,
-          "end": 164231,
-          "exec": 231
-        },
-        {
-          "start": 164500,
-          "end": 164731,
-          "exec": 231
-        },
-        {
-          "start": 165000,
-          "end": 165231,
-          "exec": 231
-        },
-        {
-          "start": 165231,
-          "end": 165500,
-          "exec": 269
-        },
-        {
-          "start": 165500,
-          "end": 165731,
-          "exec": 231
-        },
-        {
-          "start": 165731,
-          "end": 165826,
-          "exec": 95
-        },
-        {
-          "start": 166000,
-          "end": 166231,
-          "exec": 231
-        },
-        {
-          "start": 166500,
-          "end": 166731,
-          "exec": 231
-        },
-        {
-          "start": 167000,
-          "end": 167231,
-          "exec": 231
-        },
-        {
-          "start": 167500,
-          "end": 167731,
-          "exec": 231
-        },
-        {
-          "start": 168000,
-          "end": 168231,
-          "exec": 231
-        },
-        {
-          "start": 168500,
-          "end": 168731,
-          "exec": 231
-        },
-        {
-          "start": 169000,
-          "end": 169231,
-          "exec": 231
-        },
-        {
-          "start": 169231,
-          "end": 169485,
-          "exec": 254
-        },
-        {
-          "start": 169500,
-          "end": 169731,
-          "exec": 231
-        },
-        {
-          "start": 170000,
-          "end": 170231,
-          "exec": 231
-        },
-        {
-          "start": 170500,
-          "end": 170731,
-          "exec": 231
-        },
-        {
-          "start": 171000,
-          "end": 171231,
-          "exec": 231
-        },
-        {
-          "start": 171500,
-          "end": 171731,
-          "exec": 231
-        },
-        {
-          "start": 172000,
-          "end": 172231,
-          "exec": 231
-        },
-        {
-          "start": 172500,
-          "end": 172731,
-          "exec": 231
-        },
-        {
-          "start": 172731,
-          "end": 173000,
-          "exec": 269
-        },
-        {
-          "start": 173000,
-          "end": 173231,
-          "exec": 231
-        },
-        {
-          "start": 173231,
-          "end": 173326,
-          "exec": 95
-        },
-        {
-          "start": 173500,
-          "end": 173731,
-          "exec": 231
-        },
-        {
-          "start": 174000,
-          "end": 174231,
-          "exec": 231
-        },
-        {
-          "start": 174500,
-          "end": 174731,
-          "exec": 231
-        },
-        {
-          "start": 175000,
-          "end": 175231,
-          "exec": 231
-        },
-        {
-          "start": 175500,
-          "end": 175731,
-          "exec": 231
-        },
-        {
-          "start": 176000,
-          "end": 176231,
-          "exec": 231
-        },
-        {
-          "start": 176500,
-          "end": 176731,
-          "exec": 231
-        },
-        {
-          "start": 177000,
-          "end": 177231,
-          "exec": 231
-        },
-        {
-          "start": 177500,
-          "end": 177731,
-          "exec": 231
-        },
-        {
-          "start": 178000,
-          "end": 178231,
-          "exec": 231
-        },
-        {
-          "start": 178500,
-          "end": 178731,
-          "exec": 231
-        },
-        {
-          "start": 179000,
-          "end": 179231,
-          "exec": 231
-        },
-        {
-          "start": 179500,
-          "end": 179731,
-          "exec": 231
-        },
-        {
-          "start": 180000,
-          "end": 180231,
-          "exec": 231
-        },
-        {
-          "start": 180231,
-          "end": 180500,
-          "exec": 269
-        },
-        {
-          "start": 180500,
-          "end": 180731,
-          "exec": 231
-        },
-        {
-          "start": 180731,
-          "end": 180826,
-          "exec": 95
-        },
-        {
-          "start": 181000,
-          "end": 181231,
-          "exec": 231
-        },
-        {
-          "start": 181500,
-          "end": 181731,
-          "exec": 231
-        },
-        {
-          "start": 182000,
-          "end": 182231,
-          "exec": 231
-        },
-        {
-          "start": 182231,
-          "end": 182485,
-          "exec": 254
-        },
-        {
-          "start": 182500,
-          "end": 182731,
-          "exec": 231
-        },
-        {
-          "start": 183000,
-          "end": 183231,
-          "exec": 231
-        },
-        {
-          "start": 183500,
-          "end": 183731,
-          "exec": 231
-        },
-        {
-          "start": 184000,
-          "end": 184231,
-          "exec": 231
-        },
-        {
-          "start": 184500,
-          "end": 184731,
-          "exec": 231
-        },
-        {
-          "start": 185000,
-          "end": 185231,
-          "exec": 231
-        },
-        {
-          "start": 185500,
-          "end": 185731,
-          "exec": 231
-        },
-        {
-          "start": 186000,
-          "end": 186231,
-          "exec": 231
-        },
-        {
-          "start": 186500,
-          "end": 186731,
-          "exec": 231
-        },
-        {
-          "start": 187000,
-          "end": 187231,
-          "exec": 231
-        },
-        {
-          "start": 187500,
-          "end": 187731,
-          "exec": 231
-        },
-        {
-          "start": 187731,
-          "end": 188000,
-          "exec": 269
-        },
-        {
-          "start": 188000,
-          "end": 188231,
-          "exec": 231
-        },
-        {
-          "start": 188231,
-          "end": 188326,
-          "exec": 95
-        },
-        {
-          "start": 188500,
-          "end": 188731,
-          "exec": 231
-        },
-        {
-          "start": 189000,
-          "end": 189231,
-          "exec": 231
-        },
-        {
-          "start": 189500,
-          "end": 189731,
-          "exec": 231
-        },
-        {
-          "start": 190000,
-          "end": 190231,
-          "exec": 231
-        },
-        {
-          "start": 190500,
-          "end": 190731,
-          "exec": 231
-        },
-        {
-          "start": 191000,
-          "end": 191231,
-          "exec": 231
-        },
-        {
-          "start": 191500,
-          "end": 191731,
-          "exec": 231
-        },
-        {
-          "start": 192000,
-          "end": 192231,
-          "exec": 231
-        },
-        {
-          "start": 192500,
-          "end": 192731,
-          "exec": 231
-        },
-        {
-          "start": 193000,
-          "end": 193231,
-          "exec": 231
-        },
-        {
-          "start": 193500,
-          "end": 193731,
-          "exec": 231
-        },
-        {
-          "start": 194000,
-          "end": 194231,
-          "exec": 231
-        },
-        {
-          "start": 194500,
-          "end": 194731,
-          "exec": 231
+          "end": 1901,
+          "exec": 401
         }
       ]
     },
     {
       "core_id": 7,
-      "sum_util_task": 0.5437777777777778,
+      "sum_util_task": 0.3311428571428571,
       "tasks": [
-        "{'id': 38, 'execution': 446, 'duration': 446, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 9, 'execution': 189, 'duration': 189, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
-        "{'id': 7, 'execution': 197, 'duration': 197, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}"
+        "{'id': 23, 'execution': 127, 'duration': 127, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 6, 'execution': 270, 'duration': 270, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}"
       ],
-      "soft_tasks": [
-        "{'id': 6, 'execution': 307, 'duration': 307, 'period': 9000, 'deadline': 9000, 'type': 'Soft'}",
-        "{'id': 10, 'execution': 276, 'duration': 276, 'period': 5000, 'deadline': 5000, 'type': 'Soft'}",
-        "{'id': 11, 'execution': 277, 'duration': 277, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
-        "{'id': 20, 'execution': 452, 'duration': 452, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-        "{'id': 21, 'execution': 342, 'duration': 342, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 35, 'execution': 431, 'duration': 431, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-        "{'id': 41, 'execution': 294, 'duration': 294, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 45, 'execution': 381, 'duration': 381, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 46, 'execution': 398, 'duration': 398, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
-      ],
+      "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 446,
-          "exec": 446
+          "end": 127,
+          "exec": 127
         },
         {
-          "start": 446,
-          "end": 635,
-          "exec": 189
+          "start": 127,
+          "end": 397,
+          "exec": 270
         },
         {
-          "start": 635,
-          "end": 832,
-          "exec": 197
+          "start": 500,
+          "end": 627,
+          "exec": 127
         },
         {
           "start": 1000,
-          "end": 1446,
-          "exec": 446
+          "end": 1127,
+          "exec": 127
         },
         {
-          "start": 1446,
-          "end": 1753,
-          "exec": 307
+          "start": 1500,
+          "end": 1627,
+          "exec": 127
         },
         {
           "start": 2000,
-          "end": 2446,
-          "exec": 446
+          "end": 2127,
+          "exec": 127
         },
         {
-          "start": 2446,
-          "end": 2722,
-          "exec": 276
-        },
-        {
-          "start": 2722,
-          "end": 2999,
-          "exec": 277
+          "start": 2500,
+          "end": 2627,
+          "exec": 127
         },
         {
           "start": 3000,
-          "end": 3446,
-          "exec": 446
-        },
-        {
-          "start": 3500,
-          "end": 3689,
-          "exec": 189
-        },
-        {
-          "start": 3689,
-          "end": 3983,
-          "exec": 294
-        },
-        {
-          "start": 4000,
-          "end": 4446,
-          "exec": 446
-        },
-        {
-          "start": 4500,
-          "end": 4697,
-          "exec": 197
-        },
-        {
-          "start": 5000,
-          "end": 5446,
-          "exec": 446
-        },
-        {
-          "start": 5446,
-          "end": 5898,
-          "exec": 452
-        },
-        {
-          "start": 6000,
-          "end": 6446,
-          "exec": 446
-        },
-        {
-          "start": 6446,
-          "end": 6788,
-          "exec": 342
-        },
-        {
-          "start": 7000,
-          "end": 7446,
-          "exec": 446
-        },
-        {
-          "start": 7446,
-          "end": 7635,
-          "exec": 189
-        },
-        {
-          "start": 8000,
-          "end": 8446,
-          "exec": 446
-        },
-        {
-          "start": 8446,
-          "end": 8877,
-          "exec": 431
-        },
-        {
-          "start": 9000,
-          "end": 9446,
-          "exec": 446
-        },
-        {
-          "start": 9446,
-          "end": 9643,
-          "exec": 197
-        },
-        {
-          "start": 10000,
-          "end": 10446,
-          "exec": 446
-        },
-        {
-          "start": 10500,
-          "end": 10689,
-          "exec": 189
-        },
-        {
-          "start": 11000,
-          "end": 11446,
-          "exec": 446
-        },
-        {
-          "start": 11446,
-          "end": 11827,
-          "exec": 381
-        },
-        {
-          "start": 12000,
-          "end": 12446,
-          "exec": 446
-        },
-        {
-          "start": 12446,
-          "end": 12844,
-          "exec": 398
-        },
-        {
-          "start": 13000,
-          "end": 13446,
-          "exec": 446
-        },
-        {
-          "start": 13500,
-          "end": 13697,
-          "exec": 197
-        },
-        {
-          "start": 14000,
-          "end": 14446,
-          "exec": 446
-        },
-        {
-          "start": 14446,
-          "end": 14635,
-          "exec": 189
-        },
-        {
-          "start": 15000,
-          "end": 15446,
-          "exec": 446
-        },
-        {
-          "start": 16000,
-          "end": 16446,
-          "exec": 446
-        },
-        {
-          "start": 17000,
-          "end": 17446,
-          "exec": 446
-        },
-        {
-          "start": 17500,
-          "end": 17689,
-          "exec": 189
-        },
-        {
-          "start": 18000,
-          "end": 18446,
-          "exec": 446
-        },
-        {
-          "start": 18446,
-          "end": 18643,
-          "exec": 197
-        },
-        {
-          "start": 19000,
-          "end": 19446,
-          "exec": 446
-        },
-        {
-          "start": 20000,
-          "end": 20446,
-          "exec": 446
-        },
-        {
-          "start": 21000,
-          "end": 21446,
-          "exec": 446
-        },
-        {
-          "start": 21446,
-          "end": 21635,
-          "exec": 189
-        },
-        {
-          "start": 22000,
-          "end": 22446,
-          "exec": 446
-        },
-        {
-          "start": 22500,
-          "end": 22697,
-          "exec": 197
-        },
-        {
-          "start": 23000,
-          "end": 23446,
-          "exec": 446
-        },
-        {
-          "start": 24000,
-          "end": 24446,
-          "exec": 446
-        },
-        {
-          "start": 24500,
-          "end": 24689,
-          "exec": 189
-        },
-        {
-          "start": 25000,
-          "end": 25446,
-          "exec": 446
-        },
-        {
-          "start": 26000,
-          "end": 26446,
-          "exec": 446
-        },
-        {
-          "start": 27000,
-          "end": 27446,
-          "exec": 446
-        },
-        {
-          "start": 27446,
-          "end": 27643,
-          "exec": 197
-        },
-        {
-          "start": 28000,
-          "end": 28446,
-          "exec": 446
-        },
-        {
-          "start": 28446,
-          "end": 28635,
-          "exec": 189
-        },
-        {
-          "start": 29000,
-          "end": 29446,
-          "exec": 446
-        },
-        {
-          "start": 30000,
-          "end": 30446,
-          "exec": 446
-        },
-        {
-          "start": 31000,
-          "end": 31446,
-          "exec": 446
-        },
-        {
-          "start": 31500,
-          "end": 31689,
-          "exec": 189
-        },
-        {
-          "start": 31689,
-          "end": 31886,
-          "exec": 197
-        },
-        {
-          "start": 32000,
-          "end": 32446,
-          "exec": 446
-        },
-        {
-          "start": 33000,
-          "end": 33446,
-          "exec": 446
-        },
-        {
-          "start": 34000,
-          "end": 34446,
-          "exec": 446
-        },
-        {
-          "start": 35000,
-          "end": 35446,
-          "exec": 446
-        },
-        {
-          "start": 35446,
-          "end": 35635,
-          "exec": 189
-        },
-        {
-          "start": 36000,
-          "end": 36446,
-          "exec": 446
-        },
-        {
-          "start": 36446,
-          "end": 36643,
-          "exec": 197
-        },
-        {
-          "start": 37000,
-          "end": 37446,
-          "exec": 446
-        },
-        {
-          "start": 38000,
-          "end": 38446,
-          "exec": 446
-        },
-        {
-          "start": 38500,
-          "end": 38689,
-          "exec": 189
-        },
-        {
-          "start": 39000,
-          "end": 39446,
-          "exec": 446
-        },
-        {
-          "start": 40000,
-          "end": 40446,
-          "exec": 446
-        },
-        {
-          "start": 40500,
-          "end": 40697,
-          "exec": 197
-        },
-        {
-          "start": 41000,
-          "end": 41446,
-          "exec": 446
-        },
-        {
-          "start": 42000,
-          "end": 42446,
-          "exec": 446
-        },
-        {
-          "start": 42446,
-          "end": 42635,
-          "exec": 189
-        },
-        {
-          "start": 43000,
-          "end": 43446,
-          "exec": 446
-        },
-        {
-          "start": 44000,
-          "end": 44446,
-          "exec": 446
-        },
-        {
-          "start": 45000,
-          "end": 45446,
-          "exec": 446
-        },
-        {
-          "start": 45446,
-          "end": 45500,
-          "exec": 54
-        },
-        {
-          "start": 45500,
-          "end": 45689,
-          "exec": 189
-        },
-        {
-          "start": 45689,
-          "end": 45832,
-          "exec": 143
-        },
-        {
-          "start": 46000,
-          "end": 46446,
-          "exec": 446
-        },
-        {
-          "start": 47000,
-          "end": 47446,
-          "exec": 446
-        },
-        {
-          "start": 48000,
-          "end": 48446,
-          "exec": 446
-        },
-        {
-          "start": 49000,
-          "end": 49446,
-          "exec": 446
-        },
-        {
-          "start": 49446,
-          "end": 49635,
-          "exec": 189
-        },
-        {
-          "start": 49635,
-          "end": 49832,
-          "exec": 197
-        },
-        {
-          "start": 50000,
-          "end": 50446,
-          "exec": 446
-        },
-        {
-          "start": 51000,
-          "end": 51446,
-          "exec": 446
-        },
-        {
-          "start": 52000,
-          "end": 52446,
-          "exec": 446
-        },
-        {
-          "start": 52500,
-          "end": 52689,
-          "exec": 189
-        },
-        {
-          "start": 53000,
-          "end": 53446,
-          "exec": 446
-        },
-        {
-          "start": 54000,
-          "end": 54446,
-          "exec": 446
-        },
-        {
-          "start": 54446,
-          "end": 54643,
-          "exec": 197
-        },
-        {
-          "start": 55000,
-          "end": 55446,
-          "exec": 446
-        },
-        {
-          "start": 56000,
-          "end": 56446,
-          "exec": 446
-        },
-        {
-          "start": 56446,
-          "end": 56635,
-          "exec": 189
-        },
-        {
-          "start": 57000,
-          "end": 57446,
-          "exec": 446
-        },
-        {
-          "start": 58000,
-          "end": 58446,
-          "exec": 446
-        },
-        {
-          "start": 58500,
-          "end": 58697,
-          "exec": 197
-        },
-        {
-          "start": 59000,
-          "end": 59446,
-          "exec": 446
-        },
-        {
-          "start": 59500,
-          "end": 59689,
-          "exec": 189
-        },
-        {
-          "start": 60000,
-          "end": 60446,
-          "exec": 446
-        },
-        {
-          "start": 61000,
-          "end": 61446,
-          "exec": 446
-        },
-        {
-          "start": 62000,
-          "end": 62446,
-          "exec": 446
+          "end": 3127,
+          "exec": 127
         }
       ]
     },
     {
       "core_id": 8,
-      "sum_util_task": 0.5745,
+      "sum_util_task": 0.33599999999999997,
       "tasks": [
-        "{'id': 37, 'execution': 438, 'duration': 438, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 12, 'execution': 273, 'duration': 273, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}"
+        "{'id': 22, 'execution': 250, 'duration': 250, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 7, 'execution': 43, 'duration': 43, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 438,
-          "exec": 438
+          "end": 43,
+          "exec": 43
         },
         {
-          "start": 438,
-          "end": 711,
-          "exec": 273
+          "start": 43,
+          "end": 293,
+          "exec": 250
         },
         {
-          "start": 1000,
-          "end": 1438,
-          "exec": 438
+          "start": 500,
+          "end": 543,
+          "exec": 43
         }
       ]
     },
     {
       "core_id": 9,
-      "sum_util_task": 0.555,
+      "sum_util_task": 0.3468,
       "tasks": [
-        "{'id': 34, 'execution': 199, 'duration': 199, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 13, 'execution': 157, 'duration': 157, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        "{'id': 21, 'execution': 246, 'duration': 246, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 8, 'execution': 252, 'duration': 252, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 199,
-          "exec": 199
+          "end": 246,
+          "exec": 246
         },
         {
-          "start": 199,
-          "end": 356,
-          "exec": 157
+          "start": 246,
+          "end": 498,
+          "exec": 252
         },
         {
-          "start": 500,
-          "end": 699,
-          "exec": 199
+          "start": 1000,
+          "end": 1246,
+          "exec": 246
+        },
+        {
+          "start": 2000,
+          "end": 2246,
+          "exec": 246
+        },
+        {
+          "start": 2500,
+          "end": 2752,
+          "exec": 252
+        },
+        {
+          "start": 3000,
+          "end": 3246,
+          "exec": 246
+        },
+        {
+          "start": 4000,
+          "end": 4246,
+          "exec": 246
         }
       ]
     },
     {
       "core_id": 10,
-      "sum_util_task": 0.544,
+      "sum_util_task": 0.34833333333333333,
       "tasks": [
-        "{'id': 33, 'execution': 192, 'duration': 192, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 14, 'execution': 160, 'duration': 160, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        "{'id': 20, 'execution': 243, 'duration': 243, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 9, 'execution': 158, 'duration': 158, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 192,
-          "exec": 192
+          "end": 243,
+          "exec": 243
         },
         {
-          "start": 192,
-          "end": 352,
-          "exec": 160
+          "start": 243,
+          "end": 401,
+          "exec": 158
         },
         {
-          "start": 500,
-          "end": 692,
-          "exec": 192
+          "start": 1000,
+          "end": 1243,
+          "exec": 243
+        },
+        {
+          "start": 1500,
+          "end": 1658,
+          "exec": 158
+        },
+        {
+          "start": 2000,
+          "end": 2243,
+          "exec": 243
         }
       ]
     },
     {
       "core_id": 11,
-      "sum_util_task": 0.598,
+      "sum_util_task": 0.369,
       "tasks": [
-        "{'id': 32, 'execution': 191, 'duration': 191, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 18, 'execution': 108, 'duration': 108, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 19, 'execution': 121, 'duration': 121, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 10, 'execution': 381, 'duration': 381, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 191,
-          "exec": 191
+          "end": 121,
+          "exec": 121
         },
         {
-          "start": 191,
-          "end": 299,
-          "exec": 108
+          "start": 121,
+          "end": 500,
+          "exec": 379
+        },
+        {
+          "start": 500,
+          "end": 621,
+          "exec": 121
+        },
+        {
+          "start": 621,
+          "end": 623,
+          "exec": 2
+        },
+        {
+          "start": 1000,
+          "end": 1121,
+          "exec": 121
+        },
+        {
+          "start": 1500,
+          "end": 1621,
+          "exec": 121
+        },
+        {
+          "start": 2000,
+          "end": 2121,
+          "exec": 121
+        },
+        {
+          "start": 2500,
+          "end": 2621,
+          "exec": 121
         }
       ]
     },
     {
       "core_id": 12,
-      "sum_util_task": 0.554,
+      "sum_util_task": 0.36883333333333335,
       "tasks": [
-        "{'id': 29, 'execution': 169, 'duration': 169, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 17, 'execution': 108, 'duration': 108, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 18, 'execution': 344, 'duration': 344, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 11, 'execution': 279, 'duration': 279, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 169,
-          "exec": 169
+          "end": 344,
+          "exec": 344
         },
         {
-          "start": 169,
-          "end": 277,
-          "exec": 108
+          "start": 344,
+          "end": 623,
+          "exec": 279
+        },
+        {
+          "start": 1500,
+          "end": 1844,
+          "exec": 344
+        },
+        {
+          "start": 2000,
+          "end": 2279,
+          "exec": 279
+        },
+        {
+          "start": 3000,
+          "end": 3344,
+          "exec": 344
+        },
+        {
+          "start": 4000,
+          "end": 4279,
+          "exec": 279
+        },
+        {
+          "start": 4500,
+          "end": 4844,
+          "exec": 344
         }
       ]
     },
     {
       "core_id": 13,
-      "sum_util_task": 0.5253333333333333,
+      "sum_util_task": 0.357,
       "tasks": [
-        "{'id': 28, 'execution': 150, 'duration': 150, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 19, 'execution': 338, 'duration': 338, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+        "{'id': 17, 'execution': 215, 'duration': 215, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 12, 'execution': 284, 'duration': 284, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 150,
-          "exec": 150
+          "end": 215,
+          "exec": 215
         },
         {
-          "start": 150,
-          "end": 488,
-          "exec": 338
-        },
-        {
-          "start": 500,
-          "end": 650,
-          "exec": 150
+          "start": 215,
+          "end": 499,
+          "exec": 284
         },
         {
           "start": 1000,
-          "end": 1150,
-          "exec": 150
+          "end": 1215,
+          "exec": 215
         }
       ]
     },
     {
       "core_id": 14,
-      "sum_util_task": 0.5311923076923077,
+      "sum_util_task": 0.406,
       "tasks": [
-        "{'id': 27, 'execution': 136, 'duration': 136, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 22, 'execution': 122, 'duration': 122, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 2, 'execution': 395, 'duration': 395, 'period': 26000, 'deadline': 26000, 'type': 'Hard'}"
+        "{'id': 16, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 13, 'execution': 291, 'duration': 291, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 136,
-          "exec": 136
+          "end": 106,
+          "exec": 106
         },
         {
-          "start": 136,
-          "end": 258,
-          "exec": 122
-        },
-        {
-          "start": 258,
-          "end": 500,
-          "exec": 242
+          "start": 106,
+          "end": 397,
+          "exec": 291
         },
         {
           "start": 500,
-          "end": 636,
-          "exec": 136
-        },
-        {
-          "start": 636,
-          "end": 758,
-          "exec": 122
-        },
-        {
-          "start": 758,
-          "end": 911,
-          "exec": 153
+          "end": 606,
+          "exec": 106
         },
         {
           "start": 1000,
-          "end": 1136,
-          "exec": 136
-        },
-        {
-          "start": 1136,
-          "end": 1258,
-          "exec": 122
-        },
-        {
-          "start": 1500,
-          "end": 1636,
-          "exec": 136
-        },
-        {
-          "start": 1636,
-          "end": 1758,
-          "exec": 122
-        },
-        {
-          "start": 2000,
-          "end": 2136,
-          "exec": 136
-        },
-        {
-          "start": 2136,
-          "end": 2258,
-          "exec": 122
-        },
-        {
-          "start": 2500,
-          "end": 2636,
-          "exec": 136
-        },
-        {
-          "start": 2636,
-          "end": 2758,
-          "exec": 122
-        },
-        {
-          "start": 3000,
-          "end": 3136,
-          "exec": 136
-        },
-        {
-          "start": 3136,
-          "end": 3258,
-          "exec": 122
-        },
-        {
-          "start": 3500,
-          "end": 3636,
-          "exec": 136
-        },
-        {
-          "start": 3636,
-          "end": 3758,
-          "exec": 122
-        },
-        {
-          "start": 4000,
-          "end": 4136,
-          "exec": 136
-        },
-        {
-          "start": 4136,
-          "end": 4258,
-          "exec": 122
-        },
-        {
-          "start": 4500,
-          "end": 4636,
-          "exec": 136
-        },
-        {
-          "start": 4636,
-          "end": 4758,
-          "exec": 122
-        },
-        {
-          "start": 5000,
-          "end": 5136,
-          "exec": 136
-        },
-        {
-          "start": 5136,
-          "end": 5258,
-          "exec": 122
-        },
-        {
-          "start": 5500,
-          "end": 5636,
-          "exec": 136
-        },
-        {
-          "start": 5636,
-          "end": 5758,
-          "exec": 122
-        },
-        {
-          "start": 6000,
-          "end": 6136,
-          "exec": 136
-        },
-        {
-          "start": 6136,
-          "end": 6258,
-          "exec": 122
-        },
-        {
-          "start": 6500,
-          "end": 6636,
-          "exec": 136
-        },
-        {
-          "start": 6636,
-          "end": 6758,
-          "exec": 122
-        },
-        {
-          "start": 7000,
-          "end": 7136,
-          "exec": 136
-        },
-        {
-          "start": 7136,
-          "end": 7258,
-          "exec": 122
-        },
-        {
-          "start": 7500,
-          "end": 7636,
-          "exec": 136
-        },
-        {
-          "start": 7636,
-          "end": 7758,
-          "exec": 122
-        },
-        {
-          "start": 8000,
-          "end": 8136,
-          "exec": 136
-        },
-        {
-          "start": 8136,
-          "end": 8258,
-          "exec": 122
-        },
-        {
-          "start": 8500,
-          "end": 8636,
-          "exec": 136
-        },
-        {
-          "start": 8636,
-          "end": 8758,
-          "exec": 122
-        },
-        {
-          "start": 9000,
-          "end": 9136,
-          "exec": 136
-        },
-        {
-          "start": 9136,
-          "end": 9258,
-          "exec": 122
-        },
-        {
-          "start": 9500,
-          "end": 9636,
-          "exec": 136
-        },
-        {
-          "start": 9636,
-          "end": 9758,
-          "exec": 122
-        },
-        {
-          "start": 10000,
-          "end": 10136,
-          "exec": 136
-        },
-        {
-          "start": 10136,
-          "end": 10258,
-          "exec": 122
-        },
-        {
-          "start": 10500,
-          "end": 10636,
-          "exec": 136
-        },
-        {
-          "start": 10636,
-          "end": 10758,
-          "exec": 122
-        },
-        {
-          "start": 11000,
-          "end": 11136,
-          "exec": 136
-        },
-        {
-          "start": 11136,
-          "end": 11258,
-          "exec": 122
-        },
-        {
-          "start": 11500,
-          "end": 11636,
-          "exec": 136
-        },
-        {
-          "start": 11636,
-          "end": 11758,
-          "exec": 122
-        },
-        {
-          "start": 12000,
-          "end": 12136,
-          "exec": 136
-        },
-        {
-          "start": 12136,
-          "end": 12258,
-          "exec": 122
-        },
-        {
-          "start": 12500,
-          "end": 12636,
-          "exec": 136
-        },
-        {
-          "start": 12636,
-          "end": 12758,
-          "exec": 122
-        },
-        {
-          "start": 13000,
-          "end": 13136,
-          "exec": 136
-        },
-        {
-          "start": 13136,
-          "end": 13258,
-          "exec": 122
-        },
-        {
-          "start": 13500,
-          "end": 13636,
-          "exec": 136
-        },
-        {
-          "start": 13636,
-          "end": 13758,
-          "exec": 122
-        },
-        {
-          "start": 14000,
-          "end": 14136,
-          "exec": 136
-        },
-        {
-          "start": 14136,
-          "end": 14258,
-          "exec": 122
-        },
-        {
-          "start": 14500,
-          "end": 14636,
-          "exec": 136
-        },
-        {
-          "start": 14636,
-          "end": 14758,
-          "exec": 122
-        },
-        {
-          "start": 15000,
-          "end": 15136,
-          "exec": 136
-        },
-        {
-          "start": 15136,
-          "end": 15258,
-          "exec": 122
-        },
-        {
-          "start": 15500,
-          "end": 15636,
-          "exec": 136
-        },
-        {
-          "start": 15636,
-          "end": 15758,
-          "exec": 122
-        },
-        {
-          "start": 16000,
-          "end": 16136,
-          "exec": 136
-        },
-        {
-          "start": 16136,
-          "end": 16258,
-          "exec": 122
-        },
-        {
-          "start": 16500,
-          "end": 16636,
-          "exec": 136
-        },
-        {
-          "start": 16636,
-          "end": 16758,
-          "exec": 122
-        },
-        {
-          "start": 17000,
-          "end": 17136,
-          "exec": 136
-        },
-        {
-          "start": 17136,
-          "end": 17258,
-          "exec": 122
-        },
-        {
-          "start": 17500,
-          "end": 17636,
-          "exec": 136
-        },
-        {
-          "start": 17636,
-          "end": 17758,
-          "exec": 122
-        },
-        {
-          "start": 18000,
-          "end": 18136,
-          "exec": 136
-        },
-        {
-          "start": 18136,
-          "end": 18258,
-          "exec": 122
-        },
-        {
-          "start": 18500,
-          "end": 18636,
-          "exec": 136
-        },
-        {
-          "start": 18636,
-          "end": 18758,
-          "exec": 122
-        },
-        {
-          "start": 19000,
-          "end": 19136,
-          "exec": 136
-        },
-        {
-          "start": 19136,
-          "end": 19258,
-          "exec": 122
-        },
-        {
-          "start": 19500,
-          "end": 19636,
-          "exec": 136
-        },
-        {
-          "start": 19636,
-          "end": 19758,
-          "exec": 122
-        },
-        {
-          "start": 20000,
-          "end": 20136,
-          "exec": 136
-        },
-        {
-          "start": 20136,
-          "end": 20258,
-          "exec": 122
-        },
-        {
-          "start": 20500,
-          "end": 20636,
-          "exec": 136
-        },
-        {
-          "start": 20636,
-          "end": 20758,
-          "exec": 122
-        },
-        {
-          "start": 21000,
-          "end": 21136,
-          "exec": 136
-        },
-        {
-          "start": 21136,
-          "end": 21258,
-          "exec": 122
-        },
-        {
-          "start": 21500,
-          "end": 21636,
-          "exec": 136
-        },
-        {
-          "start": 21636,
-          "end": 21758,
-          "exec": 122
-        },
-        {
-          "start": 22000,
-          "end": 22136,
-          "exec": 136
-        },
-        {
-          "start": 22136,
-          "end": 22258,
-          "exec": 122
-        },
-        {
-          "start": 22500,
-          "end": 22636,
-          "exec": 136
-        },
-        {
-          "start": 22636,
-          "end": 22758,
-          "exec": 122
-        },
-        {
-          "start": 23000,
-          "end": 23136,
-          "exec": 136
-        },
-        {
-          "start": 23136,
-          "end": 23258,
-          "exec": 122
-        },
-        {
-          "start": 23500,
-          "end": 23636,
-          "exec": 136
-        },
-        {
-          "start": 23636,
-          "end": 23758,
-          "exec": 122
-        },
-        {
-          "start": 24000,
-          "end": 24136,
-          "exec": 136
-        },
-        {
-          "start": 24136,
-          "end": 24258,
-          "exec": 122
-        },
-        {
-          "start": 24500,
-          "end": 24636,
-          "exec": 136
-        },
-        {
-          "start": 24636,
-          "end": 24758,
-          "exec": 122
-        },
-        {
-          "start": 25000,
-          "end": 25136,
-          "exec": 136
-        },
-        {
-          "start": 25136,
-          "end": 25258,
-          "exec": 122
-        },
-        {
-          "start": 25500,
-          "end": 25636,
-          "exec": 136
-        },
-        {
-          "start": 25636,
-          "end": 25758,
-          "exec": 122
+          "end": 1106,
+          "exec": 106
         }
       ]
     },
     {
       "core_id": 15,
-      "sum_util_task": 0.539,
+      "sum_util_task": 0.405,
       "tasks": [
-        "{'id': 24, 'execution': 258, 'duration': 258, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 23, 'execution': 378, 'duration': 378, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 4, 'execution': 87, 'duration': 87, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}"
+        "{'id': 15, 'execution': 104, 'duration': 104, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 14, 'execution': 197, 'duration': 197, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 258,
-          "exec": 258
+          "end": 104,
+          "exec": 104
         },
         {
-          "start": 258,
-          "end": 636,
-          "exec": 378
+          "start": 104,
+          "end": 301,
+          "exec": 197
         },
         {
-          "start": 636,
-          "end": 723,
-          "exec": 87
-        },
-        {
-          "start": 1000,
-          "end": 1258,
-          "exec": 258
-        },
-        {
-          "start": 1500,
-          "end": 1878,
-          "exec": 378
-        },
-        {
-          "start": 2000,
-          "end": 2258,
-          "exec": 258
+          "start": 500,
+          "end": 604,
+          "exec": 104
         }
       ]
     }

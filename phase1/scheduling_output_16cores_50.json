@@ -3,650 +3,153 @@
     "total_cores": 16,
     "efficiency": 0.5
   },
-  "sum_util_task": 4.9624214559386965,
+  "sum_util_task": 4.9149698585231185,
   "tasks": [
-    "{'id': 34, 'execution': 134, 'duration': 134, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 45, 'execution': 260, 'duration': 260, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 2, 'execution': 154, 'duration': 154, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 5, 'execution': 340, 'duration': 340, 'period': 4000, 'deadline': 4000, 'type': 'Soft'}",
-    "{'id': 15, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-    "{'id': 31, 'execution': 373, 'duration': 373, 'period': 8000, 'deadline': 8000, 'type': 'Soft'}",
-    "{'id': 8, 'execution': 208, 'duration': 208, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 26, 'execution': 324, 'duration': 324, 'period': 3500, 'deadline': 3500, 'type': 'Soft'}",
-    "{'id': 30, 'execution': 184, 'duration': 184, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}",
-    "{'id': 43, 'execution': 261, 'duration': 261, 'period': 29000, 'deadline': 29000, 'type': 'Hard'}",
-    "{'id': 35, 'execution': 240, 'duration': 240, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-    "{'id': 49, 'execution': 115, 'duration': 115, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-    "{'id': 39, 'execution': 217, 'duration': 217, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 20, 'execution': 117, 'duration': 117, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 40, 'execution': 179, 'duration': 179, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 4, 'execution': 367, 'duration': 367, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 3, 'execution': 296, 'duration': 296, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
-    "{'id': 42, 'execution': 163, 'duration': 163, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 28, 'execution': 34, 'duration': 34, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 21, 'execution': 167, 'duration': 167, 'period': 7000, 'deadline': 7000, 'type': 'Soft'}",
-    "{'id': 44, 'execution': 267, 'duration': 267, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 12, 'execution': 310, 'duration': 310, 'period': 12500, 'deadline': 12500, 'type': 'Hard'}",
-    "{'id': 7, 'execution': 262, 'duration': 262, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
-    "{'id': 29, 'execution': 16, 'duration': 16, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 1, 'execution': 264, 'duration': 264, 'period': 5000, 'deadline': 5000, 'type': 'Soft'}",
-    "{'id': 10, 'execution': 130, 'duration': 130, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}",
-    "{'id': 24, 'execution': 170, 'duration': 170, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 32, 'execution': 307, 'duration': 307, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 0, 'execution': 408, 'duration': 408, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-    "{'id': 33, 'execution': 254, 'duration': 254, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 16, 'execution': 75, 'duration': 75, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
-    "{'id': 18, 'execution': 271, 'duration': 271, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 47, 'execution': 378, 'duration': 378, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-    "{'id': 13, 'execution': 189, 'duration': 189, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 46, 'execution': 328, 'duration': 328, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}",
-    "{'id': 22, 'execution': 122, 'duration': 122, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 25, 'execution': 89, 'duration': 89, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-    "{'id': 11, 'execution': 373, 'duration': 373, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
-    "{'id': 38, 'execution': 240, 'duration': 240, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 48, 'execution': 366, 'duration': 366, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-    "{'id': 27, 'execution': 180, 'duration': 180, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-    "{'id': 9, 'execution': 110, 'duration': 110, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-    "{'id': 17, 'execution': 84, 'duration': 84, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-    "{'id': 36, 'execution': 231, 'duration': 231, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-    "{'id': 37, 'execution': 338, 'duration': 338, 'period': 14500, 'deadline': 14500, 'type': 'Hard'}",
-    "{'id': 6, 'execution': 154, 'duration': 154, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 23, 'execution': 39, 'duration': 39, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-    "{'id': 41, 'execution': 167, 'duration': 167, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-    "{'id': 19, 'execution': 134, 'duration': 134, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}",
-    "{'id': 14, 'execution': 121, 'duration': 121, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+    "{'id': 30, 'execution': 387, 'duration': 387, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
+    "{'id': 13, 'execution': 296, 'duration': 296, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 11, 'execution': 95, 'duration': 95, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 22, 'execution': 200, 'duration': 200, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 34, 'execution': 312, 'duration': 312, 'period': 16000, 'deadline': 16000, 'type': 'Soft'}",
+    "{'id': 8, 'execution': 329, 'duration': 329, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 26, 'execution': 43, 'duration': 43, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 20, 'execution': 215, 'duration': 215, 'period': 11500, 'deadline': 11500, 'type': 'Hard'}",
+    "{'id': 46, 'execution': 154, 'duration': 154, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 3, 'execution': 139, 'duration': 139, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 29, 'execution': 368, 'duration': 368, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 17, 'execution': 355, 'duration': 355, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
+    "{'id': 25, 'execution': 46, 'duration': 46, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 6, 'execution': 287, 'duration': 287, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}",
+    "{'id': 33, 'execution': 18, 'duration': 18, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 41, 'execution': 344, 'duration': 344, 'period': 25500, 'deadline': 25500, 'type': 'Soft'}",
+    "{'id': 48, 'execution': 183, 'duration': 183, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+    "{'id': 0, 'execution': 141, 'duration': 141, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 27, 'execution': 30, 'duration': 30, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 7, 'execution': 163, 'duration': 163, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 16, 'execution': 360, 'duration': 360, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 39, 'execution': 298, 'duration': 298, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 40, 'execution': 238, 'duration': 238, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 21, 'execution': 169, 'duration': 169, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 31, 'execution': 259, 'duration': 259, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 45, 'execution': 334, 'duration': 334, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
+    "{'id': 24, 'execution': 213, 'duration': 213, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 14, 'execution': 370, 'duration': 370, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 47, 'execution': 226, 'duration': 226, 'period': 892500, 'deadline': 892500, 'type': 'Soft'}",
+    "{'id': 28, 'execution': 94, 'duration': 94, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 44, 'execution': 17, 'duration': 17, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 9, 'execution': 158, 'duration': 158, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}",
+    "{'id': 38, 'execution': 113, 'duration': 113, 'period': 4500, 'deadline': 4500, 'type': 'Soft'}",
+    "{'id': 35, 'execution': 373, 'duration': 373, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
+    "{'id': 5, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 1, 'execution': 157, 'duration': 157, 'period': 8000, 'deadline': 8000, 'type': 'Hard'}",
+    "{'id': 36, 'execution': 171, 'duration': 171, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 42, 'execution': 169, 'duration': 169, 'period': 54500, 'deadline': 54500, 'type': 'Soft'}",
+    "{'id': 49, 'execution': 172, 'duration': 172, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+    "{'id': 18, 'execution': 127, 'duration': 127, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+    "{'id': 19, 'execution': 44, 'duration': 44, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 12, 'execution': 25, 'duration': 25, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+    "{'id': 23, 'execution': 387, 'duration': 387, 'period': 14000, 'deadline': 14000, 'type': 'Hard'}",
+    "{'id': 4, 'execution': 208, 'duration': 208, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+    "{'id': 10, 'execution': 298, 'duration': 298, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+    "{'id': 43, 'execution': 209, 'duration': 209, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+    "{'id': 37, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+    "{'id': 2, 'execution': 166, 'duration': 166, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
+    "{'id': 15, 'execution': 99, 'duration': 99, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+    "{'id': 32, 'execution': 249, 'duration': 249, 'period': 11500, 'deadline': 11500, 'type': 'Soft'}"
   ],
   "cores": [
     {
       "core_id": 0,
-      "sum_util_task": 0.732,
+      "sum_util_task": 0.736,
       "tasks": [
-        "{'id': 48, 'execution': 366, 'duration': 366, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 29, 'execution': 368, 'duration': 368, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 10, 'execution': 130, 'duration': 130, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}"
+        "{'id': 33, 'execution': 18, 'duration': 18, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
+        "{'id': 37, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+        "{'id': 44, 'execution': 17, 'duration': 17, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 366,
-          "exec": 366
+          "end": 368,
+          "exec": 368
         },
         {
-          "start": 366,
-          "end": 496,
-          "exec": 130
+          "start": 368,
+          "end": 386,
+          "exec": 18
+        },
+        {
+          "start": 386,
+          "end": 461,
+          "exec": 75
+        },
+        {
+          "start": 461,
+          "end": 478,
+          "exec": 17
         }
       ]
     },
     {
       "core_id": 1,
-      "sum_util_task": 0.434,
+      "sum_util_task": 0.426,
       "tasks": [
-        "{'id': 39, 'execution': 217, 'duration': 217, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 24, 'execution': 213, 'duration': 213, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 1, 'execution': 264, 'duration': 264, 'period': 5000, 'deadline': 5000, 'type': 'Soft'}"
+        "{'id': 31, 'execution': 259, 'duration': 259, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 217,
-          "exec": 217
+          "end": 213,
+          "exec": 213
         },
         {
-          "start": 217,
-          "end": 481,
-          "exec": 264
+          "start": 213,
+          "end": 472,
+          "exec": 259
         }
       ]
     },
     {
       "core_id": 2,
-      "sum_util_task": 0.378,
+      "sum_util_task": 0.37,
       "tasks": [
-        "{'id': 13, 'execution': 189, 'duration': 189, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 14, 'execution': 370, 'duration': 370, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 6, 'execution': 154, 'duration': 154, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 15, 'execution': 75, 'duration': 75, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 16, 'execution': 75, 'duration': 75, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
+        "{'id': 30, 'execution': 387, 'duration': 387, 'period': 3000, 'deadline': 3000, 'type': 'Soft'}",
+        "{'id': 36, 'execution': 171, 'duration': 171, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
       ],
       "schedule": [
         {
           "start": 0,
-          "end": 189,
-          "exec": 189
+          "end": 370,
+          "exec": 370
         },
         {
-          "start": 189,
-          "end": 343,
-          "exec": 154
+          "start": 370,
+          "end": 757,
+          "exec": 387
         },
         {
-          "start": 343,
-          "end": 418,
-          "exec": 75
-        },
-        {
-          "start": 418,
-          "end": 493,
-          "exec": 75
+          "start": 757,
+          "end": 928,
+          "exec": 171
         }
       ]
     },
     {
       "core_id": 3,
-      "sum_util_task": 0.308,
+      "sum_util_task": 0.326,
       "tasks": [
-        "{'id': 2, 'execution': 154, 'duration': 154, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+        "{'id': 7, 'execution': 163, 'duration': 163, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "soft_tasks": [
-        "{'id': 5, 'execution': 340, 'duration': 340, 'period': 4000, 'deadline': 4000, 'type': 'Soft'}"
+        "{'id': 32, 'execution': 249, 'duration': 249, 'period': 11500, 'deadline': 11500, 'type': 'Soft'}"
       ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 154,
-          "exec": 154
-        },
-        {
-          "start": 154,
-          "end": 494,
-          "exec": 340
-        }
-      ]
-    },
-    {
-      "core_id": 4,
-      "sum_util_task": 0.271,
-      "tasks": [
-        "{'id': 18, 'execution': 271, 'duration': 271, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [
-        "{'id': 0, 'execution': 408, 'duration': 408, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-        "{'id': 20, 'execution': 117, 'duration': 117, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 21, 'execution': 167, 'duration': 167, 'period': 7000, 'deadline': 7000, 'type': 'Soft'}"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 271,
-          "exec": 271
-        },
-        {
-          "start": 271,
-          "end": 679,
-          "exec": 408
-        },
-        {
-          "start": 679,
-          "end": 796,
-          "exec": 117
-        },
-        {
-          "start": 796,
-          "end": 963,
-          "exec": 167
-        }
-      ]
-    },
-    {
-      "core_id": 5,
-      "sum_util_task": 0.268,
-      "tasks": [
-        "{'id': 34, 'execution': 134, 'duration': 134, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [
-        "{'id': 25, 'execution': 89, 'duration': 89, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 30, 'execution': 184, 'duration': 184, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 134,
-          "exec": 134
-        },
-        {
-          "start": 134,
-          "end": 223,
-          "exec": 89
-        },
-        {
-          "start": 223,
-          "end": 407,
-          "exec": 184
-        }
-      ]
-    },
-    {
-      "core_id": 6,
-      "sum_util_task": 0.267,
-      "tasks": [
-        "{'id': 44, 'execution': 267, 'duration': 267, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [
-        "{'id': 11, 'execution': 373, 'duration': 373, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
-        "{'id': 26, 'execution': 324, 'duration': 324, 'period': 3500, 'deadline': 3500, 'type': 'Soft'}"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 267,
-          "exec": 267
-        },
-        {
-          "start": 267,
-          "end": 640,
-          "exec": 373
-        },
-        {
-          "start": 640,
-          "end": 964,
-          "exec": 324
-        }
-      ]
-    },
-    {
-      "core_id": 7,
-      "sum_util_task": 0.24466666666666667,
-      "tasks": [
-        "{'id': 4, 'execution': 367, 'duration': 367, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [
-        "{'id': 31, 'execution': 373, 'duration': 373, 'period': 8000, 'deadline': 8000, 'type': 'Soft'}",
-        "{'id': 35, 'execution': 240, 'duration': 240, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}",
-        "{'id': 36, 'execution': 231, 'duration': 231, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
-        "{'id': 40, 'execution': 179, 'duration': 179, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 367,
-          "exec": 367
-        },
-        {
-          "start": 367,
-          "end": 740,
-          "exec": 373
-        },
-        {
-          "start": 740,
-          "end": 980,
-          "exec": 240
-        },
-        {
-          "start": 980,
-          "end": 1211,
-          "exec": 231
-        },
-        {
-          "start": 1211,
-          "end": 1390,
-          "exec": 179
-        }
-      ]
-    },
-    {
-      "core_id": 8,
-      "sum_util_task": 0.253,
-      "tasks": [
-        "{'id': 22, 'execution': 122, 'duration': 122, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
-        "{'id': 43, 'execution': 261, 'duration': 261, 'period': 29000, 'deadline': 29000, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [
-        "{'id': 41, 'execution': 167, 'duration': 167, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 45, 'execution': 260, 'duration': 260, 'period': 500, 'deadline': 500, 'type': 'Soft'}",
-        "{'id': 46, 'execution': 328, 'duration': 328, 'period': 2500, 'deadline': 2500, 'type': 'Soft'}"
-      ],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 122,
-          "exec": 122
-        },
-        {
-          "start": 122,
-          "end": 383,
-          "exec": 261
-        },
-        {
-          "start": 500,
-          "end": 622,
-          "exec": 122
-        },
-        {
-          "start": 622,
-          "end": 789,
-          "exec": 167
-        },
-        {
-          "start": 1000,
-          "end": 1122,
-          "exec": 122
-        },
-        {
-          "start": 1122,
-          "end": 1382,
-          "exec": 260
-        },
-        {
-          "start": 1500,
-          "end": 1622,
-          "exec": 122
-        },
-        {
-          "start": 1622,
-          "end": 1950,
-          "exec": 328
-        },
-        {
-          "start": 2000,
-          "end": 2122,
-          "exec": 122
-        },
-        {
-          "start": 2500,
-          "end": 2622,
-          "exec": 122
-        },
-        {
-          "start": 3000,
-          "end": 3122,
-          "exec": 122
-        },
-        {
-          "start": 3500,
-          "end": 3622,
-          "exec": 122
-        },
-        {
-          "start": 4000,
-          "end": 4122,
-          "exec": 122
-        },
-        {
-          "start": 4500,
-          "end": 4622,
-          "exec": 122
-        },
-        {
-          "start": 5000,
-          "end": 5122,
-          "exec": 122
-        },
-        {
-          "start": 5500,
-          "end": 5622,
-          "exec": 122
-        },
-        {
-          "start": 6000,
-          "end": 6122,
-          "exec": 122
-        },
-        {
-          "start": 6500,
-          "end": 6622,
-          "exec": 122
-        },
-        {
-          "start": 7000,
-          "end": 7122,
-          "exec": 122
-        },
-        {
-          "start": 7500,
-          "end": 7622,
-          "exec": 122
-        },
-        {
-          "start": 8000,
-          "end": 8122,
-          "exec": 122
-        },
-        {
-          "start": 8500,
-          "end": 8622,
-          "exec": 122
-        },
-        {
-          "start": 9000,
-          "end": 9122,
-          "exec": 122
-        },
-        {
-          "start": 9500,
-          "end": 9622,
-          "exec": 122
-        },
-        {
-          "start": 10000,
-          "end": 10122,
-          "exec": 122
-        },
-        {
-          "start": 10500,
-          "end": 10622,
-          "exec": 122
-        },
-        {
-          "start": 11000,
-          "end": 11122,
-          "exec": 122
-        },
-        {
-          "start": 11500,
-          "end": 11622,
-          "exec": 122
-        },
-        {
-          "start": 12000,
-          "end": 12122,
-          "exec": 122
-        },
-        {
-          "start": 12500,
-          "end": 12622,
-          "exec": 122
-        },
-        {
-          "start": 13000,
-          "end": 13122,
-          "exec": 122
-        },
-        {
-          "start": 13500,
-          "end": 13622,
-          "exec": 122
-        },
-        {
-          "start": 14000,
-          "end": 14122,
-          "exec": 122
-        },
-        {
-          "start": 14500,
-          "end": 14622,
-          "exec": 122
-        },
-        {
-          "start": 15000,
-          "end": 15122,
-          "exec": 122
-        },
-        {
-          "start": 15500,
-          "end": 15622,
-          "exec": 122
-        },
-        {
-          "start": 16000,
-          "end": 16122,
-          "exec": 122
-        },
-        {
-          "start": 16500,
-          "end": 16622,
-          "exec": 122
-        },
-        {
-          "start": 17000,
-          "end": 17122,
-          "exec": 122
-        },
-        {
-          "start": 17500,
-          "end": 17622,
-          "exec": 122
-        },
-        {
-          "start": 18000,
-          "end": 18122,
-          "exec": 122
-        },
-        {
-          "start": 18500,
-          "end": 18622,
-          "exec": 122
-        },
-        {
-          "start": 19000,
-          "end": 19122,
-          "exec": 122
-        },
-        {
-          "start": 19500,
-          "end": 19622,
-          "exec": 122
-        },
-        {
-          "start": 20000,
-          "end": 20122,
-          "exec": 122
-        },
-        {
-          "start": 20500,
-          "end": 20622,
-          "exec": 122
-        },
-        {
-          "start": 21000,
-          "end": 21122,
-          "exec": 122
-        },
-        {
-          "start": 21500,
-          "end": 21622,
-          "exec": 122
-        },
-        {
-          "start": 22000,
-          "end": 22122,
-          "exec": 122
-        },
-        {
-          "start": 22500,
-          "end": 22622,
-          "exec": 122
-        },
-        {
-          "start": 23000,
-          "end": 23122,
-          "exec": 122
-        },
-        {
-          "start": 23500,
-          "end": 23622,
-          "exec": 122
-        },
-        {
-          "start": 24000,
-          "end": 24122,
-          "exec": 122
-        },
-        {
-          "start": 24500,
-          "end": 24622,
-          "exec": 122
-        },
-        {
-          "start": 25000,
-          "end": 25122,
-          "exec": 122
-        },
-        {
-          "start": 25500,
-          "end": 25622,
-          "exec": 122
-        },
-        {
-          "start": 26000,
-          "end": 26122,
-          "exec": 122
-        },
-        {
-          "start": 26500,
-          "end": 26622,
-          "exec": 122
-        },
-        {
-          "start": 27000,
-          "end": 27122,
-          "exec": 122
-        },
-        {
-          "start": 27500,
-          "end": 27622,
-          "exec": 122
-        },
-        {
-          "start": 28000,
-          "end": 28122,
-          "exec": 122
-        },
-        {
-          "start": 28500,
-          "end": 28622,
-          "exec": 122
-        }
-      ]
-    },
-    {
-      "core_id": 9,
-      "sum_util_task": 0.2595,
-      "tasks": [
-        "{'id': 38, 'execution': 240, 'duration': 240, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 23, 'execution': 39, 'duration': 39, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [],
-      "schedule": [
-        {
-          "start": 0,
-          "end": 240,
-          "exec": 240
-        },
-        {
-          "start": 240,
-          "end": 279,
-          "exec": 39
-        },
-        {
-          "start": 1000,
-          "end": 1240,
-          "exec": 240
-        }
-      ]
-    },
-    {
-      "core_id": 10,
-      "sum_util_task": 0.253,
-      "tasks": [
-        "{'id': 42, 'execution': 163, 'duration': 163, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 49, 'execution': 115, 'duration': 115, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-        "{'id': 9, 'execution': 110, 'duration': 110, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}"
-      ],
-      "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
@@ -655,958 +158,1659 @@
         },
         {
           "start": 163,
-          "end": 278,
-          "exec": 115
+          "end": 412,
+          "exec": 249
+        }
+      ]
+    },
+    {
+      "core_id": 4,
+      "sum_util_task": 0.296,
+      "tasks": [
+        "{'id': 13, 'execution': 296, 'duration': 296, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [
+        "{'id': 34, 'execution': 312, 'duration': 312, 'period': 16000, 'deadline': 16000, 'type': 'Soft'}",
+        "{'id': 35, 'execution': 373, 'duration': 373, 'period': 2000, 'deadline': 2000, 'type': 'Soft'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 296,
+          "exec": 296
         },
         {
-          "start": 278,
-          "end": 388,
-          "exec": 110
+          "start": 296,
+          "end": 608,
+          "exec": 312
         },
         {
-          "start": 1000,
-          "end": 1163,
-          "exec": 163
+          "start": 608,
+          "end": 981,
+          "exec": 373
+        }
+      ]
+    },
+    {
+      "core_id": 5,
+      "sum_util_task": 0.282,
+      "tasks": [
+        "{'id': 0, 'execution': 141, 'duration': 141, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [
+        "{'id': 38, 'execution': 113, 'duration': 113, 'period': 4500, 'deadline': 4500, 'type': 'Soft'}",
+        "{'id': 40, 'execution': 238, 'duration': 238, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 141,
+          "exec": 141
         },
         {
-          "start": 2000,
-          "end": 2163,
-          "exec": 163
+          "start": 141,
+          "end": 254,
+          "exec": 113
         },
         {
-          "start": 2500,
-          "end": 2615,
-          "exec": 115
+          "start": 254,
+          "end": 492,
+          "exec": 238
+        }
+      ]
+    },
+    {
+      "core_id": 6,
+      "sum_util_task": 0.24,
+      "tasks": [
+        "{'id': 16, 'execution': 360, 'duration': 360, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [
+        "{'id': 39, 'execution': 298, 'duration': 298, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+        "{'id': 41, 'execution': 344, 'duration': 344, 'period': 25500, 'deadline': 25500, 'type': 'Soft'}",
+        "{'id': 42, 'execution': 169, 'duration': 169, 'period': 54500, 'deadline': 54500, 'type': 'Soft'}",
+        "{'id': 43, 'execution': 209, 'duration': 209, 'period': 500, 'deadline': 500, 'type': 'Soft'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 360,
+          "exec": 360
         },
         {
-          "start": 2615,
-          "end": 2725,
-          "exec": 110
+          "start": 360,
+          "end": 658,
+          "exec": 298
+        },
+        {
+          "start": 658,
+          "end": 1002,
+          "exec": 344
+        },
+        {
+          "start": 1002,
+          "end": 1171,
+          "exec": 169
+        },
+        {
+          "start": 1171,
+          "end": 1380,
+          "exec": 209
+        }
+      ]
+    },
+    {
+      "core_id": 7,
+      "sum_util_task": 0.23895833333333333,
+      "tasks": [
+        "{'id': 8, 'execution': 329, 'duration': 329, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 1, 'execution': 157, 'duration': 157, 'period': 8000, 'deadline': 8000, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [
+        "{'id': 45, 'execution': 334, 'duration': 334, 'period': 9500, 'deadline': 9500, 'type': 'Soft'}",
+        "{'id': 46, 'execution': 154, 'duration': 154, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}",
+        "{'id': 47, 'execution': 226, 'duration': 226, 'period': 892500, 'deadline': 892500, 'type': 'Soft'}",
+        "{'id': 48, 'execution': 183, 'duration': 183, 'period': 1500, 'deadline': 1500, 'type': 'Soft'}",
+        "{'id': 49, 'execution': 172, 'duration': 172, 'period': 1000, 'deadline': 1000, 'type': 'Soft'}"
+      ],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 329,
+          "exec": 329
+        },
+        {
+          "start": 329,
+          "end": 486,
+          "exec": 157
+        },
+        {
+          "start": 486,
+          "end": 820,
+          "exec": 334
+        },
+        {
+          "start": 820,
+          "end": 974,
+          "exec": 154
+        },
+        {
+          "start": 974,
+          "end": 1200,
+          "exec": 226
+        },
+        {
+          "start": 1200,
+          "end": 1383,
+          "exec": 183
+        },
+        {
+          "start": 1500,
+          "end": 1829,
+          "exec": 329
+        },
+        {
+          "start": 1829,
+          "end": 2001,
+          "exec": 172
         },
         {
           "start": 3000,
-          "end": 3163,
-          "exec": 163
+          "end": 3329,
+          "exec": 329
+        },
+        {
+          "start": 4500,
+          "end": 4829,
+          "exec": 329
+        },
+        {
+          "start": 6000,
+          "end": 6329,
+          "exec": 329
+        },
+        {
+          "start": 7500,
+          "end": 7829,
+          "exec": 329
+        },
+        {
+          "start": 8000,
+          "end": 8157,
+          "exec": 157
+        },
+        {
+          "start": 9000,
+          "end": 9329,
+          "exec": 329
+        },
+        {
+          "start": 10500,
+          "end": 10829,
+          "exec": 329
+        },
+        {
+          "start": 12000,
+          "end": 12329,
+          "exec": 329
+        },
+        {
+          "start": 13500,
+          "end": 13829,
+          "exec": 329
+        },
+        {
+          "start": 15000,
+          "end": 15329,
+          "exec": 329
+        },
+        {
+          "start": 16000,
+          "end": 16157,
+          "exec": 157
+        },
+        {
+          "start": 16500,
+          "end": 16829,
+          "exec": 329
+        },
+        {
+          "start": 18000,
+          "end": 18329,
+          "exec": 329
+        },
+        {
+          "start": 19500,
+          "end": 19829,
+          "exec": 329
+        },
+        {
+          "start": 21000,
+          "end": 21329,
+          "exec": 329
+        },
+        {
+          "start": 22500,
+          "end": 22829,
+          "exec": 329
+        }
+      ]
+    },
+    {
+      "core_id": 8,
+      "sum_util_task": 0.24711111111111111,
+      "tasks": [
+        "{'id': 5, 'execution': 106, 'duration': 106, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 9, 'execution': 158, 'duration': 158, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 106,
+          "exec": 106
+        },
+        {
+          "start": 106,
+          "end": 264,
+          "exec": 158
+        },
+        {
+          "start": 500,
+          "end": 606,
+          "exec": 106
+        },
+        {
+          "start": 1000,
+          "end": 1106,
+          "exec": 106
+        },
+        {
+          "start": 1500,
+          "end": 1606,
+          "exec": 106
+        },
+        {
+          "start": 2000,
+          "end": 2106,
+          "exec": 106
+        },
+        {
+          "start": 2500,
+          "end": 2606,
+          "exec": 106
+        },
+        {
+          "start": 3000,
+          "end": 3106,
+          "exec": 106
+        },
+        {
+          "start": 3500,
+          "end": 3606,
+          "exec": 106
         },
         {
           "start": 4000,
-          "end": 4163,
-          "exec": 163
+          "end": 4106,
+          "exec": 106
+        }
+      ]
+    },
+    {
+      "core_id": 9,
+      "sum_util_task": 0.25,
+      "tasks": [
+        "{'id': 11, 'execution': 95, 'duration': 95, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 27, 'execution': 30, 'duration': 30, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 95,
+          "exec": 95
+        },
+        {
+          "start": 95,
+          "end": 125,
+          "exec": 30
+        }
+      ]
+    },
+    {
+      "core_id": 10,
+      "sum_util_task": 0.254,
+      "tasks": [
+        "{'id': 28, 'execution': 94, 'duration': 94, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 15, 'execution': 99, 'duration': 99, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
+      ],
+      "soft_tasks": [],
+      "schedule": [
+        {
+          "start": 0,
+          "end": 94,
+          "exec": 94
+        },
+        {
+          "start": 94,
+          "end": 193,
+          "exec": 99
+        },
+        {
+          "start": 500,
+          "end": 594,
+          "exec": 94
+        },
+        {
+          "start": 1000,
+          "end": 1094,
+          "exec": 94
         }
       ]
     },
     {
       "core_id": 11,
-      "sum_util_task": 0.2608103448275862,
+      "sum_util_task": 0.24406666666666665,
       "tasks": [
-        "{'id': 32, 'execution': 307, 'duration': 307, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-        "{'id': 17, 'execution': 84, 'duration': 84, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 37, 'execution': 338, 'duration': 338, 'period': 14500, 'deadline': 14500, 'type': 'Hard'}"
+        "{'id': 10, 'execution': 298, 'duration': 298, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+        "{'id': 2, 'execution': 166, 'duration': 166, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
+        "{'id': 26, 'execution': 43, 'duration': 43, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 84,
-          "exec": 84
+          "end": 43,
+          "exec": 43
         },
         {
-          "start": 84,
-          "end": 391,
-          "exec": 307
+          "start": 43,
+          "end": 341,
+          "exec": 298
         },
         {
-          "start": 391,
-          "end": 729,
-          "exec": 338
+          "start": 341,
+          "end": 507,
+          "exec": 166
         },
         {
-          "start": 1000,
-          "end": 1084,
-          "exec": 84
+          "start": 1500,
+          "end": 1543,
+          "exec": 43
         },
         {
           "start": 2000,
-          "end": 2084,
-          "exec": 84
+          "end": 2298,
+          "exec": 298
         },
         {
-          "start": 2084,
-          "end": 2391,
-          "exec": 307
+          "start": 2500,
+          "end": 2666,
+          "exec": 166
         },
         {
           "start": 3000,
-          "end": 3084,
-          "exec": 84
+          "end": 3043,
+          "exec": 43
         },
         {
           "start": 4000,
-          "end": 4084,
-          "exec": 84
+          "end": 4298,
+          "exec": 298
         },
         {
-          "start": 4084,
-          "end": 4391,
-          "exec": 307
+          "start": 4500,
+          "end": 4543,
+          "exec": 43
         },
         {
           "start": 5000,
-          "end": 5084,
-          "exec": 84
+          "end": 5166,
+          "exec": 166
         },
         {
           "start": 6000,
-          "end": 6084,
-          "exec": 84
+          "end": 6043,
+          "exec": 43
         },
         {
-          "start": 6084,
-          "end": 6391,
-          "exec": 307
+          "start": 6043,
+          "end": 6341,
+          "exec": 298
         },
         {
-          "start": 7000,
-          "end": 7084,
-          "exec": 84
+          "start": 7500,
+          "end": 7543,
+          "exec": 43
+        },
+        {
+          "start": 7543,
+          "end": 7709,
+          "exec": 166
         },
         {
           "start": 8000,
-          "end": 8084,
-          "exec": 84
-        },
-        {
-          "start": 8084,
-          "end": 8391,
-          "exec": 307
+          "end": 8298,
+          "exec": 298
         },
         {
           "start": 9000,
-          "end": 9084,
-          "exec": 84
+          "end": 9043,
+          "exec": 43
         },
         {
           "start": 10000,
-          "end": 10084,
-          "exec": 84
+          "end": 10298,
+          "exec": 298
         },
         {
-          "start": 10084,
-          "end": 10391,
-          "exec": 307
+          "start": 10298,
+          "end": 10464,
+          "exec": 166
         },
         {
-          "start": 11000,
-          "end": 11084,
-          "exec": 84
+          "start": 10500,
+          "end": 10543,
+          "exec": 43
         },
         {
           "start": 12000,
-          "end": 12084,
-          "exec": 84
+          "end": 12043,
+          "exec": 43
         },
         {
-          "start": 12084,
-          "end": 12391,
-          "exec": 307
+          "start": 12043,
+          "end": 12341,
+          "exec": 298
         },
         {
-          "start": 13000,
-          "end": 13084,
-          "exec": 84
+          "start": 12500,
+          "end": 12666,
+          "exec": 166
+        },
+        {
+          "start": 13500,
+          "end": 13543,
+          "exec": 43
         },
         {
           "start": 14000,
-          "end": 14084,
-          "exec": 84
-        },
-        {
-          "start": 14084,
-          "end": 14391,
-          "exec": 307
-        },
-        {
-          "start": 14500,
-          "end": 14838,
-          "exec": 338
+          "end": 14298,
+          "exec": 298
         },
         {
           "start": 15000,
-          "end": 15084,
-          "exec": 84
+          "end": 15043,
+          "exec": 43
+        },
+        {
+          "start": 15043,
+          "end": 15209,
+          "exec": 166
         },
         {
           "start": 16000,
-          "end": 16084,
-          "exec": 84
+          "end": 16298,
+          "exec": 298
         },
         {
-          "start": 16084,
-          "end": 16391,
-          "exec": 307
+          "start": 16500,
+          "end": 16543,
+          "exec": 43
         },
         {
-          "start": 17000,
-          "end": 17084,
-          "exec": 84
+          "start": 17500,
+          "end": 17666,
+          "exec": 166
         },
         {
           "start": 18000,
-          "end": 18084,
-          "exec": 84
+          "end": 18043,
+          "exec": 43
         },
         {
-          "start": 18084,
-          "end": 18391,
-          "exec": 307
+          "start": 18043,
+          "end": 18341,
+          "exec": 298
         },
         {
-          "start": 19000,
-          "end": 19084,
-          "exec": 84
+          "start": 19500,
+          "end": 19543,
+          "exec": 43
         },
         {
           "start": 20000,
-          "end": 20084,
-          "exec": 84
+          "end": 20298,
+          "exec": 298
         },
         {
-          "start": 20084,
-          "end": 20391,
-          "exec": 307
+          "start": 20298,
+          "end": 20464,
+          "exec": 166
         },
         {
           "start": 21000,
-          "end": 21084,
-          "exec": 84
+          "end": 21043,
+          "exec": 43
         },
         {
           "start": 22000,
-          "end": 22084,
-          "exec": 84
+          "end": 22298,
+          "exec": 298
         },
         {
-          "start": 22084,
-          "end": 22391,
-          "exec": 307
+          "start": 22500,
+          "end": 22543,
+          "exec": 43
         },
         {
-          "start": 23000,
-          "end": 23084,
-          "exec": 84
+          "start": 22543,
+          "end": 22709,
+          "exec": 166
         },
         {
           "start": 24000,
-          "end": 24084,
-          "exec": 84
+          "end": 24043,
+          "exec": 43
         },
         {
-          "start": 24084,
-          "end": 24391,
-          "exec": 307
+          "start": 24043,
+          "end": 24341,
+          "exec": 298
         },
         {
           "start": 25000,
-          "end": 25084,
-          "exec": 84
+          "end": 25166,
+          "exec": 166
+        },
+        {
+          "start": 25500,
+          "end": 25543,
+          "exec": 43
         },
         {
           "start": 26000,
-          "end": 26084,
-          "exec": 84
-        },
-        {
-          "start": 26084,
-          "end": 26391,
-          "exec": 307
+          "end": 26298,
+          "exec": 298
         },
         {
           "start": 27000,
-          "end": 27084,
-          "exec": 84
+          "end": 27043,
+          "exec": 43
+        },
+        {
+          "start": 27500,
+          "end": 27666,
+          "exec": 166
         },
         {
           "start": 28000,
-          "end": 28084,
-          "exec": 84
+          "end": 28298,
+          "exec": 298
         },
         {
-          "start": 28084,
-          "end": 28391,
-          "exec": 307
-        },
-        {
-          "start": 29000,
-          "end": 29084,
-          "exec": 84
-        },
-        {
-          "start": 29084,
-          "end": 29422,
-          "exec": 338
-        },
-        {
-          "start": 30000,
-          "end": 30084,
-          "exec": 84
-        },
-        {
-          "start": 30084,
-          "end": 30391,
-          "exec": 307
-        },
-        {
-          "start": 31000,
-          "end": 31084,
-          "exec": 84
-        },
-        {
-          "start": 32000,
-          "end": 32084,
-          "exec": 84
-        },
-        {
-          "start": 32084,
-          "end": 32391,
-          "exec": 307
-        },
-        {
-          "start": 33000,
-          "end": 33084,
-          "exec": 84
-        },
-        {
-          "start": 34000,
-          "end": 34084,
-          "exec": 84
-        },
-        {
-          "start": 34084,
-          "end": 34391,
-          "exec": 307
-        },
-        {
-          "start": 35000,
-          "end": 35084,
-          "exec": 84
-        },
-        {
-          "start": 36000,
-          "end": 36084,
-          "exec": 84
-        },
-        {
-          "start": 36084,
-          "end": 36391,
-          "exec": 307
-        },
-        {
-          "start": 37000,
-          "end": 37084,
-          "exec": 84
-        },
-        {
-          "start": 38000,
-          "end": 38084,
-          "exec": 84
-        },
-        {
-          "start": 38084,
-          "end": 38391,
-          "exec": 307
-        },
-        {
-          "start": 39000,
-          "end": 39084,
-          "exec": 84
-        },
-        {
-          "start": 40000,
-          "end": 40084,
-          "exec": 84
-        },
-        {
-          "start": 40084,
-          "end": 40391,
-          "exec": 307
-        },
-        {
-          "start": 41000,
-          "end": 41084,
-          "exec": 84
-        },
-        {
-          "start": 42000,
-          "end": 42084,
-          "exec": 84
-        },
-        {
-          "start": 42084,
-          "end": 42391,
-          "exec": 307
-        },
-        {
-          "start": 43000,
-          "end": 43084,
-          "exec": 84
-        },
-        {
-          "start": 43500,
-          "end": 43838,
-          "exec": 338
-        },
-        {
-          "start": 44000,
-          "end": 44084,
-          "exec": 84
-        },
-        {
-          "start": 44084,
-          "end": 44391,
-          "exec": 307
-        },
-        {
-          "start": 45000,
-          "end": 45084,
-          "exec": 84
-        },
-        {
-          "start": 46000,
-          "end": 46084,
-          "exec": 84
-        },
-        {
-          "start": 46084,
-          "end": 46391,
-          "exec": 307
-        },
-        {
-          "start": 47000,
-          "end": 47084,
-          "exec": 84
-        },
-        {
-          "start": 48000,
-          "end": 48084,
-          "exec": 84
-        },
-        {
-          "start": 48084,
-          "end": 48391,
-          "exec": 307
-        },
-        {
-          "start": 49000,
-          "end": 49084,
-          "exec": 84
-        },
-        {
-          "start": 50000,
-          "end": 50084,
-          "exec": 84
-        },
-        {
-          "start": 50084,
-          "end": 50391,
-          "exec": 307
-        },
-        {
-          "start": 51000,
-          "end": 51084,
-          "exec": 84
-        },
-        {
-          "start": 52000,
-          "end": 52084,
-          "exec": 84
-        },
-        {
-          "start": 52084,
-          "end": 52391,
-          "exec": 307
-        },
-        {
-          "start": 53000,
-          "end": 53084,
-          "exec": 84
-        },
-        {
-          "start": 54000,
-          "end": 54084,
-          "exec": 84
-        },
-        {
-          "start": 54084,
-          "end": 54391,
-          "exec": 307
-        },
-        {
-          "start": 55000,
-          "end": 55084,
-          "exec": 84
-        },
-        {
-          "start": 56000,
-          "end": 56084,
-          "exec": 84
-        },
-        {
-          "start": 56084,
-          "end": 56391,
-          "exec": 307
-        },
-        {
-          "start": 57000,
-          "end": 57084,
-          "exec": 84
+          "start": 28500,
+          "end": 28543,
+          "exec": 43
         }
       ]
     },
     {
       "core_id": 12,
-      "sum_util_task": 0.261,
+      "sum_util_task": 0.24002898550724638,
       "tasks": [
-        "{'id': 47, 'execution': 378, 'duration': 378, 'period': 2500, 'deadline': 2500, 'type': 'Hard'}",
-        "{'id': 24, 'execution': 170, 'duration': 170, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-        "{'id': 12, 'execution': 310, 'duration': 310, 'period': 12500, 'deadline': 12500, 'type': 'Hard'}"
+        "{'id': 22, 'execution': 200, 'duration': 200, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 19, 'execution': 44, 'duration': 44, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 20, 'execution': 215, 'duration': 215, 'period': 11500, 'deadline': 11500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 170,
-          "exec": 170
+          "end": 44,
+          "exec": 44
         },
         {
-          "start": 170,
-          "end": 548,
-          "exec": 378
+          "start": 44,
+          "end": 244,
+          "exec": 200
         },
         {
-          "start": 548,
-          "end": 858,
-          "exec": 310
+          "start": 244,
+          "end": 459,
+          "exec": 215
+        },
+        {
+          "start": 500,
+          "end": 544,
+          "exec": 44
+        },
+        {
+          "start": 1000,
+          "end": 1044,
+          "exec": 44
+        },
+        {
+          "start": 1500,
+          "end": 1544,
+          "exec": 44
+        },
+        {
+          "start": 1544,
+          "end": 1744,
+          "exec": 200
         },
         {
           "start": 2000,
-          "end": 2170,
-          "exec": 170
+          "end": 2044,
+          "exec": 44
         },
         {
           "start": 2500,
-          "end": 2878,
-          "exec": 378
+          "end": 2544,
+          "exec": 44
+        },
+        {
+          "start": 3000,
+          "end": 3044,
+          "exec": 44
+        },
+        {
+          "start": 3044,
+          "end": 3244,
+          "exec": 200
+        },
+        {
+          "start": 3500,
+          "end": 3544,
+          "exec": 44
         },
         {
           "start": 4000,
-          "end": 4170,
-          "exec": 170
+          "end": 4044,
+          "exec": 44
+        },
+        {
+          "start": 4500,
+          "end": 4544,
+          "exec": 44
+        },
+        {
+          "start": 4544,
+          "end": 4744,
+          "exec": 200
         },
         {
           "start": 5000,
-          "end": 5378,
-          "exec": 378
+          "end": 5044,
+          "exec": 44
+        },
+        {
+          "start": 5500,
+          "end": 5544,
+          "exec": 44
         },
         {
           "start": 6000,
-          "end": 6170,
-          "exec": 170
+          "end": 6044,
+          "exec": 44
+        },
+        {
+          "start": 6044,
+          "end": 6244,
+          "exec": 200
+        },
+        {
+          "start": 6500,
+          "end": 6544,
+          "exec": 44
+        },
+        {
+          "start": 7000,
+          "end": 7044,
+          "exec": 44
         },
         {
           "start": 7500,
-          "end": 7878,
-          "exec": 378
+          "end": 7544,
+          "exec": 44
+        },
+        {
+          "start": 7544,
+          "end": 7744,
+          "exec": 200
         },
         {
           "start": 8000,
-          "end": 8170,
-          "exec": 170
+          "end": 8044,
+          "exec": 44
+        },
+        {
+          "start": 8500,
+          "end": 8544,
+          "exec": 44
+        },
+        {
+          "start": 9000,
+          "end": 9044,
+          "exec": 44
+        },
+        {
+          "start": 9044,
+          "end": 9244,
+          "exec": 200
+        },
+        {
+          "start": 9500,
+          "end": 9544,
+          "exec": 44
         },
         {
           "start": 10000,
-          "end": 10170,
-          "exec": 170
+          "end": 10044,
+          "exec": 44
         },
         {
-          "start": 10170,
-          "end": 10548,
-          "exec": 378
+          "start": 10500,
+          "end": 10544,
+          "exec": 44
+        },
+        {
+          "start": 10544,
+          "end": 10744,
+          "exec": 200
+        },
+        {
+          "start": 11000,
+          "end": 11044,
+          "exec": 44
+        },
+        {
+          "start": 11500,
+          "end": 11544,
+          "exec": 44
+        },
+        {
+          "start": 11544,
+          "end": 11759,
+          "exec": 215
         },
         {
           "start": 12000,
-          "end": 12170,
-          "exec": 170
+          "end": 12044,
+          "exec": 44
+        },
+        {
+          "start": 12044,
+          "end": 12244,
+          "exec": 200
         },
         {
           "start": 12500,
-          "end": 12878,
-          "exec": 378
+          "end": 12544,
+          "exec": 44
         },
         {
-          "start": 12878,
-          "end": 13188,
-          "exec": 310
+          "start": 13000,
+          "end": 13044,
+          "exec": 44
+        },
+        {
+          "start": 13500,
+          "end": 13544,
+          "exec": 44
+        },
+        {
+          "start": 13544,
+          "end": 13744,
+          "exec": 200
         },
         {
           "start": 14000,
-          "end": 14170,
-          "exec": 170
+          "end": 14044,
+          "exec": 44
+        },
+        {
+          "start": 14500,
+          "end": 14544,
+          "exec": 44
         },
         {
           "start": 15000,
-          "end": 15378,
-          "exec": 378
+          "end": 15044,
+          "exec": 44
+        },
+        {
+          "start": 15044,
+          "end": 15244,
+          "exec": 200
+        },
+        {
+          "start": 15500,
+          "end": 15544,
+          "exec": 44
         },
         {
           "start": 16000,
-          "end": 16170,
-          "exec": 170
+          "end": 16044,
+          "exec": 44
+        },
+        {
+          "start": 16500,
+          "end": 16544,
+          "exec": 44
+        },
+        {
+          "start": 16544,
+          "end": 16744,
+          "exec": 200
+        },
+        {
+          "start": 17000,
+          "end": 17044,
+          "exec": 44
         },
         {
           "start": 17500,
-          "end": 17878,
-          "exec": 378
+          "end": 17544,
+          "exec": 44
         },
         {
           "start": 18000,
-          "end": 18170,
-          "exec": 170
+          "end": 18044,
+          "exec": 44
+        },
+        {
+          "start": 18044,
+          "end": 18244,
+          "exec": 200
+        },
+        {
+          "start": 18500,
+          "end": 18544,
+          "exec": 44
+        },
+        {
+          "start": 19000,
+          "end": 19044,
+          "exec": 44
+        },
+        {
+          "start": 19500,
+          "end": 19544,
+          "exec": 44
+        },
+        {
+          "start": 19544,
+          "end": 19744,
+          "exec": 200
         },
         {
           "start": 20000,
-          "end": 20170,
-          "exec": 170
+          "end": 20044,
+          "exec": 44
         },
         {
-          "start": 20170,
-          "end": 20548,
-          "exec": 378
+          "start": 20500,
+          "end": 20544,
+          "exec": 44
+        },
+        {
+          "start": 21000,
+          "end": 21044,
+          "exec": 44
+        },
+        {
+          "start": 21044,
+          "end": 21244,
+          "exec": 200
+        },
+        {
+          "start": 21500,
+          "end": 21544,
+          "exec": 44
         },
         {
           "start": 22000,
-          "end": 22170,
-          "exec": 170
+          "end": 22044,
+          "exec": 44
         },
         {
           "start": 22500,
-          "end": 22878,
-          "exec": 378
+          "end": 22544,
+          "exec": 44
+        },
+        {
+          "start": 22544,
+          "end": 22744,
+          "exec": 200
+        },
+        {
+          "start": 23000,
+          "end": 23044,
+          "exec": 44
+        },
+        {
+          "start": 23044,
+          "end": 23259,
+          "exec": 215
+        },
+        {
+          "start": 23500,
+          "end": 23544,
+          "exec": 44
         },
         {
           "start": 24000,
-          "end": 24170,
-          "exec": 170
+          "end": 24044,
+          "exec": 44
+        },
+        {
+          "start": 24044,
+          "end": 24244,
+          "exec": 200
+        },
+        {
+          "start": 24500,
+          "end": 24544,
+          "exec": 44
         },
         {
           "start": 25000,
-          "end": 25378,
-          "exec": 378
+          "end": 25044,
+          "exec": 44
         },
         {
-          "start": 25378,
-          "end": 25688,
-          "exec": 310
+          "start": 25500,
+          "end": 25544,
+          "exec": 44
+        },
+        {
+          "start": 25544,
+          "end": 25744,
+          "exec": 200
         },
         {
           "start": 26000,
-          "end": 26170,
-          "exec": 170
+          "end": 26044,
+          "exec": 44
+        },
+        {
+          "start": 26500,
+          "end": 26544,
+          "exec": 44
+        },
+        {
+          "start": 27000,
+          "end": 27044,
+          "exec": 44
+        },
+        {
+          "start": 27044,
+          "end": 27244,
+          "exec": 200
         },
         {
           "start": 27500,
-          "end": 27878,
-          "exec": 378
+          "end": 27544,
+          "exec": 44
         },
         {
           "start": 28000,
-          "end": 28170,
-          "exec": 170
+          "end": 28044,
+          "exec": 44
+        },
+        {
+          "start": 28500,
+          "end": 28544,
+          "exec": 44
+        },
+        {
+          "start": 28544,
+          "end": 28744,
+          "exec": 200
+        },
+        {
+          "start": 29000,
+          "end": 29044,
+          "exec": 44
+        },
+        {
+          "start": 29500,
+          "end": 29544,
+          "exec": 44
         },
         {
           "start": 30000,
-          "end": 30170,
-          "exec": 170
+          "end": 30044,
+          "exec": 44
         },
         {
-          "start": 30170,
-          "end": 30548,
-          "exec": 378
+          "start": 30044,
+          "end": 30244,
+          "exec": 200
+        },
+        {
+          "start": 30500,
+          "end": 30544,
+          "exec": 44
+        },
+        {
+          "start": 31000,
+          "end": 31044,
+          "exec": 44
+        },
+        {
+          "start": 31500,
+          "end": 31544,
+          "exec": 44
+        },
+        {
+          "start": 31544,
+          "end": 31744,
+          "exec": 200
         },
         {
           "start": 32000,
-          "end": 32170,
-          "exec": 170
+          "end": 32044,
+          "exec": 44
         },
         {
           "start": 32500,
-          "end": 32878,
-          "exec": 378
+          "end": 32544,
+          "exec": 44
+        },
+        {
+          "start": 33000,
+          "end": 33044,
+          "exec": 44
+        },
+        {
+          "start": 33044,
+          "end": 33244,
+          "exec": 200
+        },
+        {
+          "start": 33500,
+          "end": 33544,
+          "exec": 44
         },
         {
           "start": 34000,
-          "end": 34170,
-          "exec": 170
-        },
-        {
-          "start": 35000,
-          "end": 35378,
-          "exec": 378
-        },
-        {
-          "start": 36000,
-          "end": 36170,
-          "exec": 170
-        },
-        {
-          "start": 37500,
-          "end": 37878,
-          "exec": 378
-        },
-        {
-          "start": 37878,
-          "end": 38000,
-          "exec": 122
-        },
-        {
-          "start": 38000,
-          "end": 38170,
-          "exec": 170
-        },
-        {
-          "start": 38170,
-          "end": 38358,
-          "exec": 188
-        },
-        {
-          "start": 40000,
-          "end": 40170,
-          "exec": 170
-        },
-        {
-          "start": 40170,
-          "end": 40548,
-          "exec": 378
-        },
-        {
-          "start": 42000,
-          "end": 42170,
-          "exec": 170
-        },
-        {
-          "start": 42500,
-          "end": 42878,
-          "exec": 378
-        },
-        {
-          "start": 44000,
-          "end": 44170,
-          "exec": 170
-        },
-        {
-          "start": 45000,
-          "end": 45378,
-          "exec": 378
-        },
-        {
-          "start": 46000,
-          "end": 46170,
-          "exec": 170
-        },
-        {
-          "start": 47500,
-          "end": 47878,
-          "exec": 378
-        },
-        {
-          "start": 48000,
-          "end": 48170,
-          "exec": 170
+          "end": 34044,
+          "exec": 44
         }
       ]
     },
     {
       "core_id": 13,
-      "sum_util_task": 0.25577777777777777,
+      "sum_util_task": 0.24664285714285714,
       "tasks": [
-        "{'id': 8, 'execution': 208, 'duration': 208, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 7, 'execution': 262, 'duration': 262, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
-        "{'id': 19, 'execution': 134, 'duration': 134, 'period': 4500, 'deadline': 4500, 'type': 'Hard'}"
+        "{'id': 18, 'execution': 127, 'duration': 127, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
+        "{'id': 25, 'execution': 46, 'duration': 46, 'period': 500, 'deadline': 500, 'type': 'Hard'}",
+        "{'id': 23, 'execution': 387, 'duration': 387, 'period': 14000, 'deadline': 14000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 208,
-          "exec": 208
+          "end": 46,
+          "exec": 46
         },
         {
-          "start": 208,
-          "end": 470,
-          "exec": 262
+          "start": 46,
+          "end": 173,
+          "exec": 127
         },
         {
-          "start": 470,
-          "end": 604,
-          "exec": 134
+          "start": 173,
+          "end": 500,
+          "exec": 327
+        },
+        {
+          "start": 500,
+          "end": 546,
+          "exec": 46
+        },
+        {
+          "start": 546,
+          "end": 606,
+          "exec": 60
+        },
+        {
+          "start": 1000,
+          "end": 1046,
+          "exec": 46
+        },
+        {
+          "start": 1046,
+          "end": 1173,
+          "exec": 127
         },
         {
           "start": 1500,
-          "end": 1708,
-          "exec": 208
+          "end": 1546,
+          "exec": 46
+        },
+        {
+          "start": 2000,
+          "end": 2046,
+          "exec": 46
+        },
+        {
+          "start": 2046,
+          "end": 2173,
+          "exec": 127
+        },
+        {
+          "start": 2500,
+          "end": 2546,
+          "exec": 46
         },
         {
           "start": 3000,
-          "end": 3208,
-          "exec": 208
+          "end": 3046,
+          "exec": 46
         },
         {
-          "start": 3208,
-          "end": 3470,
-          "exec": 262
+          "start": 3046,
+          "end": 3173,
+          "exec": 127
+        },
+        {
+          "start": 3500,
+          "end": 3546,
+          "exec": 46
+        },
+        {
+          "start": 4000,
+          "end": 4046,
+          "exec": 46
+        },
+        {
+          "start": 4046,
+          "end": 4173,
+          "exec": 127
         },
         {
           "start": 4500,
-          "end": 4708,
-          "exec": 208
+          "end": 4546,
+          "exec": 46
         },
         {
-          "start": 4708,
-          "end": 4842,
-          "exec": 134
+          "start": 5000,
+          "end": 5046,
+          "exec": 46
+        },
+        {
+          "start": 5046,
+          "end": 5173,
+          "exec": 127
+        },
+        {
+          "start": 5500,
+          "end": 5546,
+          "exec": 46
         },
         {
           "start": 6000,
-          "end": 6208,
-          "exec": 208
+          "end": 6046,
+          "exec": 46
         },
         {
-          "start": 6208,
-          "end": 6470,
-          "exec": 262
+          "start": 6046,
+          "end": 6173,
+          "exec": 127
+        },
+        {
+          "start": 6500,
+          "end": 6546,
+          "exec": 46
+        },
+        {
+          "start": 7000,
+          "end": 7046,
+          "exec": 46
+        },
+        {
+          "start": 7046,
+          "end": 7173,
+          "exec": 127
         },
         {
           "start": 7500,
-          "end": 7708,
-          "exec": 208
+          "end": 7546,
+          "exec": 46
+        },
+        {
+          "start": 8000,
+          "end": 8046,
+          "exec": 46
+        },
+        {
+          "start": 8046,
+          "end": 8173,
+          "exec": 127
+        },
+        {
+          "start": 8500,
+          "end": 8546,
+          "exec": 46
+        },
+        {
+          "start": 9000,
+          "end": 9046,
+          "exec": 46
+        },
+        {
+          "start": 9046,
+          "end": 9173,
+          "exec": 127
+        },
+        {
+          "start": 9500,
+          "end": 9546,
+          "exec": 46
+        },
+        {
+          "start": 10000,
+          "end": 10046,
+          "exec": 46
+        },
+        {
+          "start": 10046,
+          "end": 10173,
+          "exec": 127
+        },
+        {
+          "start": 10500,
+          "end": 10546,
+          "exec": 46
+        },
+        {
+          "start": 11000,
+          "end": 11046,
+          "exec": 46
+        },
+        {
+          "start": 11046,
+          "end": 11173,
+          "exec": 127
+        },
+        {
+          "start": 11500,
+          "end": 11546,
+          "exec": 46
+        },
+        {
+          "start": 12000,
+          "end": 12046,
+          "exec": 46
+        },
+        {
+          "start": 12046,
+          "end": 12173,
+          "exec": 127
+        },
+        {
+          "start": 12500,
+          "end": 12546,
+          "exec": 46
+        },
+        {
+          "start": 13000,
+          "end": 13046,
+          "exec": 46
+        },
+        {
+          "start": 13046,
+          "end": 13173,
+          "exec": 127
+        },
+        {
+          "start": 13500,
+          "end": 13546,
+          "exec": 46
         }
       ]
     },
     {
       "core_id": 14,
-      "sum_util_task": 0.2596666666666667,
+      "sum_util_task": 0.2627333333333333,
       "tasks": [
-        "{'id': 33, 'execution': 254, 'duration': 254, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
-        "{'id': 3, 'execution': 296, 'duration': 296, 'period': 3000, 'deadline': 3000, 'type': 'Hard'}",
-        "{'id': 28, 'execution': 34, 'duration': 34, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        "{'id': 21, 'execution': 169, 'duration': 169, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 3, 'execution': 139, 'duration': 139, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
+        "{'id': 6, 'execution': 287, 'duration': 287, 'period': 5000, 'deadline': 5000, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 34,
-          "exec": 34
+          "end": 169,
+          "exec": 169
         },
         {
-          "start": 34,
-          "end": 288,
-          "exec": 254
+          "start": 169,
+          "end": 308,
+          "exec": 139
         },
         {
-          "start": 288,
-          "end": 584,
-          "exec": 296
+          "start": 308,
+          "end": 595,
+          "exec": 287
         },
         {
-          "start": 1000,
-          "end": 1034,
-          "exec": 34
+          "start": 1500,
+          "end": 1669,
+          "exec": 169
         },
         {
-          "start": 2000,
-          "end": 2034,
-          "exec": 34
-        },
-        {
-          "start": 2034,
-          "end": 2288,
-          "exec": 254
+          "start": 1669,
+          "end": 1808,
+          "exec": 139
         },
         {
           "start": 3000,
-          "end": 3034,
-          "exec": 34
+          "end": 3169,
+          "exec": 169
         },
         {
-          "start": 3034,
-          "end": 3330,
-          "exec": 296
+          "start": 3169,
+          "end": 3308,
+          "exec": 139
         },
         {
-          "start": 4000,
-          "end": 4034,
-          "exec": 34
+          "start": 4500,
+          "end": 4669,
+          "exec": 169
         },
         {
-          "start": 4034,
-          "end": 4288,
-          "exec": 254
+          "start": 4669,
+          "end": 4808,
+          "exec": 139
         },
         {
           "start": 5000,
-          "end": 5034,
-          "exec": 34
+          "end": 5287,
+          "exec": 287
+        },
+        {
+          "start": 6000,
+          "end": 6169,
+          "exec": 169
+        },
+        {
+          "start": 6169,
+          "end": 6308,
+          "exec": 139
+        },
+        {
+          "start": 7500,
+          "end": 7669,
+          "exec": 169
+        },
+        {
+          "start": 7669,
+          "end": 7808,
+          "exec": 139
+        },
+        {
+          "start": 9000,
+          "end": 9169,
+          "exec": 169
+        },
+        {
+          "start": 9169,
+          "end": 9308,
+          "exec": 139
+        },
+        {
+          "start": 10000,
+          "end": 10287,
+          "exec": 287
+        },
+        {
+          "start": 10500,
+          "end": 10669,
+          "exec": 169
+        },
+        {
+          "start": 10669,
+          "end": 10808,
+          "exec": 139
+        },
+        {
+          "start": 12000,
+          "end": 12169,
+          "exec": 169
+        },
+        {
+          "start": 12169,
+          "end": 12308,
+          "exec": 139
+        },
+        {
+          "start": 13500,
+          "end": 13669,
+          "exec": 169
+        },
+        {
+          "start": 13669,
+          "end": 13808,
+          "exec": 139
         }
       ]
     },
     {
       "core_id": 15,
-      "sum_util_task": 0.257,
+      "sum_util_task": 0.2554285714285714,
       "tasks": [
-        "{'id': 14, 'execution': 121, 'duration': 121, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}",
-        "{'id': 27, 'execution': 180, 'duration': 180, 'period': 1500, 'deadline': 1500, 'type': 'Hard'}",
-        "{'id': 29, 'execution': 16, 'duration': 16, 'period': 1000, 'deadline': 1000, 'type': 'Hard'}"
+        "{'id': 4, 'execution': 208, 'duration': 208, 'period': 2000, 'deadline': 2000, 'type': 'Hard'}",
+        "{'id': 17, 'execution': 355, 'duration': 355, 'period': 3500, 'deadline': 3500, 'type': 'Hard'}",
+        "{'id': 12, 'execution': 25, 'duration': 25, 'period': 500, 'deadline': 500, 'type': 'Hard'}"
       ],
       "soft_tasks": [],
       "schedule": [
         {
           "start": 0,
-          "end": 121,
-          "exec": 121
+          "end": 25,
+          "exec": 25
         },
         {
-          "start": 121,
-          "end": 137,
-          "exec": 16
+          "start": 25,
+          "end": 233,
+          "exec": 208
         },
         {
-          "start": 137,
-          "end": 317,
-          "exec": 180
+          "start": 233,
+          "end": 500,
+          "exec": 267
+        },
+        {
+          "start": 500,
+          "end": 525,
+          "exec": 25
+        },
+        {
+          "start": 525,
+          "end": 613,
+          "exec": 88
         },
         {
           "start": 1000,
-          "end": 1121,
-          "exec": 121
-        },
-        {
-          "start": 1121,
-          "end": 1137,
-          "exec": 16
+          "end": 1025,
+          "exec": 25
         },
         {
           "start": 1500,
-          "end": 1680,
-          "exec": 180
+          "end": 1525,
+          "exec": 25
         },
         {
           "start": 2000,
-          "end": 2121,
-          "exec": 121
+          "end": 2025,
+          "exec": 25
         },
         {
-          "start": 2121,
-          "end": 2137,
-          "exec": 16
+          "start": 2025,
+          "end": 2233,
+          "exec": 208
+        },
+        {
+          "start": 2500,
+          "end": 2525,
+          "exec": 25
+        },
+        {
+          "start": 3000,
+          "end": 3025,
+          "exec": 25
+        },
+        {
+          "start": 3500,
+          "end": 3525,
+          "exec": 25
+        },
+        {
+          "start": 3525,
+          "end": 3880,
+          "exec": 355
+        },
+        {
+          "start": 4000,
+          "end": 4025,
+          "exec": 25
+        },
+        {
+          "start": 4025,
+          "end": 4233,
+          "exec": 208
+        },
+        {
+          "start": 4500,
+          "end": 4525,
+          "exec": 25
+        },
+        {
+          "start": 5000,
+          "end": 5025,
+          "exec": 25
+        },
+        {
+          "start": 5500,
+          "end": 5525,
+          "exec": 25
+        },
+        {
+          "start": 6000,
+          "end": 6025,
+          "exec": 25
+        },
+        {
+          "start": 6025,
+          "end": 6233,
+          "exec": 208
+        },
+        {
+          "start": 6500,
+          "end": 6525,
+          "exec": 25
+        },
+        {
+          "start": 7000,
+          "end": 7025,
+          "exec": 25
+        },
+        {
+          "start": 7025,
+          "end": 7380,
+          "exec": 355
+        },
+        {
+          "start": 7500,
+          "end": 7525,
+          "exec": 25
+        },
+        {
+          "start": 8000,
+          "end": 8025,
+          "exec": 25
+        },
+        {
+          "start": 8025,
+          "end": 8233,
+          "exec": 208
+        },
+        {
+          "start": 8500,
+          "end": 8525,
+          "exec": 25
+        },
+        {
+          "start": 9000,
+          "end": 9025,
+          "exec": 25
+        },
+        {
+          "start": 9500,
+          "end": 9525,
+          "exec": 25
+        },
+        {
+          "start": 10000,
+          "end": 10025,
+          "exec": 25
+        },
+        {
+          "start": 10025,
+          "end": 10233,
+          "exec": 208
+        },
+        {
+          "start": 10500,
+          "end": 10525,
+          "exec": 25
+        },
+        {
+          "start": 10525,
+          "end": 10880,
+          "exec": 355
+        },
+        {
+          "start": 11000,
+          "end": 11025,
+          "exec": 25
+        },
+        {
+          "start": 11500,
+          "end": 11525,
+          "exec": 25
+        },
+        {
+          "start": 12000,
+          "end": 12025,
+          "exec": 25
+        },
+        {
+          "start": 12025,
+          "end": 12233,
+          "exec": 208
+        },
+        {
+          "start": 12500,
+          "end": 12525,
+          "exec": 25
+        },
+        {
+          "start": 13000,
+          "end": 13025,
+          "exec": 25
+        },
+        {
+          "start": 13500,
+          "end": 13525,
+          "exec": 25
         }
       ]
     }

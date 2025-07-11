@@ -1,14 +1,14 @@
 import json
 from core import core
-# from cuckoo import cuckoo
-# from cuckoo2 import CuckooScheduler
+from cuckoo2 import cuckoo
+
 from task import Task
 from uunifast import generate_tasks
 from mapper import wfd_mapping,sfla
 from sbti import sbti_schedule
 
-ALL_CORES = [8,16]
-EFFICIENCYS = [1]
+ALL_CORES = [8]
+EFFICIENCYS = [1/4]
 
 def runner_generate_task():
 
@@ -97,6 +97,7 @@ def phase2_hardtask():
 
             all_task = data["tasks"]
             for t in all_task:
+                # print(t)
                 if t["type"] == 'soft':
                     task = Task(t["id"],t["execution"], t["period"], t["deadline"], True)
                     soft_tasks.append(task)
@@ -105,6 +106,7 @@ def phase2_hardtask():
                     hard_task.append(task)
             cores = [core() for _ in range(all_core)]
             best_assignment = sfla(hard_task, all_core)
+
             for i,a in enumerate(best_assignment):
                 cores[a].add_task(hard_task[i])
 
@@ -112,13 +114,7 @@ def phase2_hardtask():
                 c.calculate_hyperperiod()
                 c.generate_jobs()
                 c.edf_schedule()
-            # print(cuckoo(cores,soft_tasks))
-            # cuckoo = CuckooScheduler(soft_tasks, cores)
-            # best_soft_assignment = cuckoo.schedule()
 
-            # # تخصیص soft taskها به هسته‌ها
-            # for task_id, core_id in enumerate(best_soft_assignment):
-            #     cores[core_id].add_task(soft_tasks[task_id])
             output = {
                 "soft_task":[t.to_dict() for t in soft_tasks],
                 "sum_util":0,
@@ -130,6 +126,7 @@ def phase2_hardtask():
                 core_info = {
                     "core_id": i,
                     "sum_util_task": sum({t.execution/t.period for t in c.tasks}),
+                    "hyperperiod":c.hyperperiod,
                     "tasks": [t.to_dict() for t in c.tasks],
                     "schedule": c.schedule
 
@@ -140,6 +137,33 @@ def phase2_hardtask():
                 filename = f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json"
                 with open(filename, "w") as f:
                     json.dump(output, f, indent=2)
-# runner_generate_task()
-# phase1()
+
+def phase2_softask():
+    for all_core in ALL_CORES:
+        for efficiency in EFFICIENCYS:
+            print(f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json")
+
+            filename = f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json"
+            with open(filename, "r") as f:
+                data = json.load(f)
+            soft_tasks = data["soft_task"]
+            cores = data["cores"]
+            soft_schedule,drop = cuckoo(cores,soft_tasks)
+            for a in soft_schedule:
+                # print(a)
+                # print(data["cores"])
+                data["cores"][a["core_id"]]["tasks"].append(soft_tasks[a["task_id"]-30])
+                data["cores"][a["core_id"]]["schedule"].append({
+                    "start": a["start"],
+                    "end": a["end"],
+                    "exec": a["end"]-a["start"],
+                    "task_id": a["task_id"]
+                })
+            data["drop"]=drop
+            filename = f"./phase2/scheduling_output_{all_core}cores_{int(efficiency * 100)}.json"
+            with open(filename, "w") as f:
+                json.dump(data, f, indent=2)
+runner_generate_task()
+phase1()
 phase2_hardtask()
+phase2_softask()

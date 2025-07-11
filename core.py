@@ -20,7 +20,7 @@ class core:
 
         periods = [task.period for task in self.tasks]
         exec = [task.execution for task in self.tasks]
-        print(periods)
+        # print(periods)
         self.hyperperiod = reduce(lcm, periods) if periods else 0
 
     def generate_jobs(self):
@@ -119,7 +119,7 @@ class core:
         self.get_slack()
         # فرض: لیستی از jobهای زمان‌بندی شده داریم (jobs)
         for task2 in self.slack:
-            print(task)
+            # print(task)
             if task.execution <= task2['end'] - task2["start"]:
                 return task2["start"]
 
